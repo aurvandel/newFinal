@@ -1,0 +1,9226 @@
+Loading weights from file...
+Loading weights from file...
+Action space: 18
+Observation space: (210, 160, 3)
+train: True
+load: output/run20200414-102544_Pitfall-v4/model_best.h5
+video: False
+debug: False
+eval: False
+environment: Pitfall-v4
+minibatch_size: 32
+replay_memory_size: 200000
+target_network_update_freq: 10000.0
+avg_val_computation_freq: 50000.0
+discount_factor: 0.99
+update_freq: 4
+learning_rate: 0.00025
+epsilon: 0.13
+min_epsilon: 0.1
+epsilon_decrease: 9e-07
+replay_start_size: 50000.0
+initial_random_actions: 30
+dropout: 0.0
+max_episodes: inf
+max_episode_length: inf
+max_frames_number: 50000000.0
+test_freq: 250000
+validation_frames: 135000
+test_states: 30
+Episode 0
+CPU Usage 20.72
+Total Memory 23973
+Used Memory 3612
+Free Memory 7424
+Gathered 100 samples of 200000
+Gathered 200 samples of 200000
+Gathered 300 samples of 200000
+Gathered 400 samples of 200000
+Gathered 500 samples of 200000
+Gathered 600 samples of 200000
+Length: 679; Score: 0
+
+Episode 1
+CPU Usage 20.73
+Total Memory 23973
+Used Memory 4027
+Free Memory 6790
+Gathered 700 samples of 200000
+Gathered 800 samples of 200000
+Gathered 900 samples of 200000
+Gathered 1000 samples of 200000
+Gathered 1100 samples of 200000
+Gathered 1200 samples of 200000
+Gathered 1300 samples of 200000
+Gathered 1400 samples of 200000
+Gathered 1500 samples of 200000
+Gathered 1600 samples of 200000
+Gathered 1700 samples of 200000
+Gathered 1800 samples of 200000
+Gathered 1900 samples of 200000
+Gathered 2000 samples of 200000
+Gathered 2100 samples of 200000
+Gathered 2200 samples of 200000
+Gathered 2300 samples of 200000
+Gathered 2400 samples of 200000
+Gathered 2500 samples of 200000
+Gathered 2600 samples of 200000
+Gathered 2700 samples of 200000
+Gathered 2800 samples of 200000
+Gathered 2900 samples of 200000
+Gathered 3000 samples of 200000
+Gathered 3100 samples of 200000
+Gathered 3200 samples of 200000
+Gathered 3300 samples of 200000
+Gathered 3400 samples of 200000
+Gathered 3500 samples of 200000
+Gathered 3600 samples of 200000
+Gathered 3700 samples of 200000
+Gathered 3800 samples of 200000
+Gathered 3900 samples of 200000
+Gathered 4000 samples of 200000
+Gathered 4100 samples of 200000
+Gathered 4200 samples of 200000
+Gathered 4300 samples of 200000
+Gathered 4400 samples of 200000
+Gathered 4500 samples of 200000
+Gathered 4600 samples of 200000
+Gathered 4700 samples of 200000
+Gathered 4800 samples of 200000
+Gathered 4900 samples of 200000
+Length: 4266; Score: -390
+
+Episode 2
+CPU Usage 20.75
+Total Memory 23973
+Used Memory 4396
+Free Memory 6405
+Gathered 5000 samples of 200000
+Gathered 5100 samples of 200000
+Gathered 5200 samples of 200000
+Gathered 5300 samples of 200000
+Gathered 5400 samples of 200000
+Gathered 5500 samples of 200000
+Gathered 5600 samples of 200000
+Length: 679; Score: -22
+
+Episode 3
+CPU Usage 20.76
+Total Memory 23973
+Used Memory 4444
+Free Memory 6357
+Gathered 5700 samples of 200000
+Gathered 5800 samples of 200000
+Gathered 5900 samples of 200000
+Gathered 6000 samples of 200000
+Gathered 6100 samples of 200000
+Gathered 6200 samples of 200000
+Gathered 6300 samples of 200000
+Gathered 6400 samples of 200000
+Gathered 6500 samples of 200000
+Gathered 6600 samples of 200000
+Gathered 6700 samples of 200000
+Gathered 6800 samples of 200000
+Gathered 6900 samples of 200000
+Gathered 7000 samples of 200000
+Gathered 7100 samples of 200000
+Gathered 7200 samples of 200000
+Gathered 7300 samples of 200000
+Gathered 7400 samples of 200000
+Gathered 7500 samples of 200000
+Gathered 7600 samples of 200000
+Gathered 7700 samples of 200000
+Gathered 7800 samples of 200000
+Gathered 7900 samples of 200000
+Gathered 8000 samples of 200000
+Gathered 8100 samples of 200000
+Gathered 8200 samples of 200000
+Gathered 8300 samples of 200000
+Gathered 8400 samples of 200000
+Gathered 8500 samples of 200000
+Gathered 8600 samples of 200000
+Gathered 8700 samples of 200000
+Gathered 8800 samples of 200000
+Gathered 8900 samples of 200000
+Gathered 9000 samples of 200000
+Gathered 9100 samples of 200000
+Gathered 9200 samples of 200000
+Gathered 9300 samples of 200000
+Gathered 9400 samples of 200000
+Gathered 9500 samples of 200000
+Gathered 9600 samples of 200000
+Gathered 9700 samples of 200000
+Gathered 9800 samples of 200000
+Gathered 9900 samples of 200000
+Gathered 10000 samples of 200000
+Gathered 10100 samples of 200000
+Gathered 10200 samples of 200000
+Gathered 10300 samples of 200000
+Gathered 10400 samples of 200000
+Gathered 10500 samples of 200000
+Gathered 10600 samples of 200000
+Gathered 10700 samples of 200000
+Gathered 10800 samples of 200000
+Gathered 10900 samples of 200000
+Gathered 11000 samples of 200000
+Gathered 11100 samples of 200000
+Gathered 11200 samples of 200000
+Gathered 11300 samples of 200000
+Gathered 11400 samples of 200000
+Gathered 11500 samples of 200000
+Gathered 11600 samples of 200000
+Gathered 11700 samples of 200000
+Gathered 11800 samples of 200000
+Gathered 11900 samples of 200000
+Gathered 12000 samples of 200000
+Gathered 12100 samples of 200000
+Gathered 12200 samples of 200000
+Gathered 12300 samples of 200000
+Gathered 12400 samples of 200000
+Gathered 12500 samples of 200000
+Gathered 12600 samples of 200000
+Gathered 12700 samples of 200000
+Gathered 12800 samples of 200000
+Gathered 12900 samples of 200000
+Gathered 13000 samples of 200000
+Gathered 13100 samples of 200000
+Gathered 13200 samples of 200000
+Gathered 13300 samples of 200000
+Gathered 13400 samples of 200000
+Gathered 13500 samples of 200000
+Gathered 13600 samples of 200000
+Gathered 13700 samples of 200000
+Gathered 13800 samples of 200000
+Gathered 13900 samples of 200000
+Gathered 14000 samples of 200000
+Gathered 14100 samples of 200000
+Gathered 14200 samples of 200000
+Gathered 14300 samples of 200000
+Gathered 14400 samples of 200000
+Gathered 14500 samples of 200000
+Gathered 14600 samples of 200000
+Gathered 14700 samples of 200000
+Gathered 14800 samples of 200000
+Gathered 14900 samples of 200000
+Gathered 15000 samples of 200000
+Gathered 15100 samples of 200000
+Gathered 15200 samples of 200000
+Gathered 15300 samples of 200000
+Gathered 15400 samples of 200000
+Gathered 15500 samples of 200000
+Gathered 15600 samples of 200000
+Gathered 15700 samples of 200000
+Gathered 15800 samples of 200000
+Gathered 15900 samples of 200000
+Gathered 16000 samples of 200000
+Gathered 16100 samples of 200000
+Gathered 16200 samples of 200000
+Gathered 16300 samples of 200000
+Gathered 16400 samples of 200000
+Gathered 16500 samples of 200000
+Gathered 16600 samples of 200000
+Gathered 16700 samples of 200000
+Gathered 16800 samples of 200000
+Gathered 16900 samples of 200000
+Gathered 17000 samples of 200000
+Gathered 17100 samples of 200000
+Gathered 17200 samples of 200000
+Gathered 17300 samples of 200000
+Gathered 17400 samples of 200000
+Gathered 17500 samples of 200000
+Gathered 17600 samples of 200000
+Gathered 17700 samples of 200000
+Gathered 17800 samples of 200000
+Gathered 17900 samples of 200000
+Gathered 18000 samples of 200000
+Gathered 18100 samples of 200000
+Gathered 18200 samples of 200000
+Gathered 18300 samples of 200000
+Gathered 18400 samples of 200000
+Gathered 18500 samples of 200000
+Gathered 18600 samples of 200000
+Gathered 18700 samples of 200000
+Gathered 18800 samples of 200000
+Gathered 18900 samples of 200000
+Gathered 19000 samples of 200000
+Gathered 19100 samples of 200000
+Gathered 19200 samples of 200000
+Gathered 19300 samples of 200000
+Gathered 19400 samples of 200000
+Gathered 19500 samples of 200000
+Gathered 19600 samples of 200000
+Gathered 19700 samples of 200000
+Gathered 19800 samples of 200000
+Gathered 19900 samples of 200000
+Gathered 20000 samples of 200000
+Gathered 20100 samples of 200000
+Length: 14480; Score: -2000
+
+Episode 4
+CPU Usage 20.83
+Total Memory 23973
+Used Memory 5063
+Free Memory 5878
+Gathered 20200 samples of 200000
+Gathered 20300 samples of 200000
+Gathered 20400 samples of 200000
+Gathered 20500 samples of 200000
+Length: 449; Score: 0
+
+Episode 5
+CPU Usage 20.83
+Total Memory 23973
+Used Memory 5096
+Free Memory 5846
+Gathered 20600 samples of 200000
+Gathered 20700 samples of 200000
+Gathered 20800 samples of 200000
+Gathered 20900 samples of 200000
+Gathered 21000 samples of 200000
+Gathered 21100 samples of 200000
+Length: 634; Score: 0
+
+Episode 6
+CPU Usage 20.83
+Total Memory 23973
+Used Memory 5142
+Free Memory 5799
+Gathered 21200 samples of 200000
+Gathered 21300 samples of 200000
+Gathered 21400 samples of 200000
+Gathered 21500 samples of 200000
+Gathered 21600 samples of 200000
+Gathered 21700 samples of 200000
+Gathered 21800 samples of 200000
+Gathered 21900 samples of 200000
+Length: 769; Score: -40
+
+Episode 7
+CPU Usage 20.84
+Total Memory 23973
+Used Memory 5198
+Free Memory 5743
+Gathered 22000 samples of 200000
+Gathered 22100 samples of 200000
+Gathered 22200 samples of 200000
+Gathered 22300 samples of 200000
+Gathered 22400 samples of 200000
+Gathered 22500 samples of 200000
+Gathered 22600 samples of 200000
+Gathered 22700 samples of 200000
+Gathered 22800 samples of 200000
+Gathered 22900 samples of 200000
+Gathered 23000 samples of 200000
+Gathered 23100 samples of 200000
+Gathered 23200 samples of 200000
+Gathered 23300 samples of 200000
+Gathered 23400 samples of 200000
+Gathered 23500 samples of 200000
+Gathered 23600 samples of 200000
+Gathered 23700 samples of 200000
+Gathered 23800 samples of 200000
+Gathered 23900 samples of 200000
+Gathered 24000 samples of 200000
+Gathered 24100 samples of 200000
+Gathered 24200 samples of 200000
+Gathered 24300 samples of 200000
+Gathered 24400 samples of 200000
+Gathered 24500 samples of 200000
+Gathered 24600 samples of 200000
+Gathered 24700 samples of 200000
+Gathered 24800 samples of 200000
+Gathered 24900 samples of 200000
+Gathered 25000 samples of 200000
+Gathered 25100 samples of 200000
+Gathered 25200 samples of 200000
+Gathered 25300 samples of 200000
+Gathered 25400 samples of 200000
+Gathered 25500 samples of 200000
+Gathered 25600 samples of 200000
+Gathered 25700 samples of 200000
+Gathered 25800 samples of 200000
+Gathered 25900 samples of 200000
+Gathered 26000 samples of 200000
+Gathered 26100 samples of 200000
+Gathered 26200 samples of 200000
+Gathered 26300 samples of 200000
+Gathered 26400 samples of 200000
+Gathered 26500 samples of 200000
+Gathered 26600 samples of 200000
+Gathered 26700 samples of 200000
+Gathered 26800 samples of 200000
+Gathered 26900 samples of 200000
+Gathered 27000 samples of 200000
+Gathered 27100 samples of 200000
+Gathered 27200 samples of 200000
+Gathered 27300 samples of 200000
+Gathered 27400 samples of 200000
+Gathered 27500 samples of 200000
+Gathered 27600 samples of 200000
+Gathered 27700 samples of 200000
+Gathered 27800 samples of 200000
+Gathered 27900 samples of 200000
+Gathered 28000 samples of 200000
+Length: 6082; Score: -1025
+
+Episode 8
+CPU Usage 20.87
+Total Memory 23973
+Used Memory 5665
+Free Memory 5274
+Gathered 28100 samples of 200000
+Gathered 28200 samples of 200000
+Gathered 28300 samples of 200000
+Gathered 28400 samples of 200000
+Gathered 28500 samples of 200000
+Length: 476; Score: 0
+
+Episode 9
+CPU Usage 20.87
+Total Memory 23973
+Used Memory 5676
+Free Memory 5268
+Gathered 28600 samples of 200000
+Gathered 28700 samples of 200000
+Gathered 28800 samples of 200000
+Gathered 28900 samples of 200000
+Gathered 29000 samples of 200000
+Gathered 29100 samples of 200000
+Gathered 29200 samples of 200000
+Gathered 29300 samples of 200000
+Gathered 29400 samples of 200000
+Gathered 29500 samples of 200000
+Gathered 29600 samples of 200000
+Gathered 29700 samples of 200000
+Gathered 29800 samples of 200000
+Gathered 29900 samples of 200000
+Gathered 30000 samples of 200000
+Gathered 30100 samples of 200000
+Gathered 30200 samples of 200000
+Gathered 30300 samples of 200000
+Gathered 30400 samples of 200000
+Gathered 30500 samples of 200000
+Gathered 30600 samples of 200000
+Gathered 30700 samples of 200000
+Gathered 30800 samples of 200000
+Gathered 30900 samples of 200000
+Gathered 31000 samples of 200000
+Gathered 31100 samples of 200000
+Gathered 31200 samples of 200000
+Gathered 31300 samples of 200000
+Gathered 31400 samples of 200000
+Gathered 31500 samples of 200000
+Gathered 31600 samples of 200000
+Gathered 31700 samples of 200000
+Gathered 31800 samples of 200000
+Gathered 31900 samples of 200000
+Gathered 32000 samples of 200000
+Gathered 32100 samples of 200000
+Gathered 32200 samples of 200000
+Gathered 32300 samples of 200000
+Gathered 32400 samples of 200000
+Gathered 32500 samples of 200000
+Gathered 32600 samples of 200000
+Gathered 32700 samples of 200000
+Gathered 32800 samples of 200000
+Gathered 32900 samples of 200000
+Gathered 33000 samples of 200000
+Gathered 33100 samples of 200000
+Gathered 33200 samples of 200000
+Gathered 33300 samples of 200000
+Gathered 33400 samples of 200000
+Gathered 33500 samples of 200000
+Gathered 33600 samples of 200000
+Gathered 33700 samples of 200000
+Gathered 33800 samples of 200000
+Gathered 33900 samples of 200000
+Gathered 34000 samples of 200000
+Gathered 34100 samples of 200000
+Gathered 34200 samples of 200000
+Gathered 34300 samples of 200000
+Gathered 34400 samples of 200000
+Gathered 34500 samples of 200000
+Gathered 34600 samples of 200000
+Gathered 34700 samples of 200000
+Gathered 34800 samples of 200000
+Gathered 34900 samples of 200000
+Gathered 35000 samples of 200000
+Gathered 35100 samples of 200000
+Gathered 35200 samples of 200000
+Gathered 35300 samples of 200000
+Gathered 35400 samples of 200000
+Gathered 35500 samples of 200000
+Gathered 35600 samples of 200000
+Gathered 35700 samples of 200000
+Gathered 35800 samples of 200000
+Gathered 35900 samples of 200000
+Gathered 36000 samples of 200000
+Gathered 36100 samples of 200000
+Gathered 36200 samples of 200000
+Gathered 36300 samples of 200000
+Gathered 36400 samples of 200000
+Gathered 36500 samples of 200000
+Gathered 36600 samples of 200000
+Gathered 36700 samples of 200000
+Gathered 36800 samples of 200000
+Gathered 36900 samples of 200000
+Gathered 37000 samples of 200000
+Gathered 37100 samples of 200000
+Gathered 37200 samples of 200000
+Gathered 37300 samples of 200000
+Gathered 37400 samples of 200000
+Gathered 37500 samples of 200000
+Gathered 37600 samples of 200000
+Gathered 37700 samples of 200000
+Gathered 37800 samples of 200000
+Gathered 37900 samples of 200000
+Gathered 38000 samples of 200000
+Gathered 38100 samples of 200000
+Gathered 38200 samples of 200000
+Gathered 38300 samples of 200000
+Gathered 38400 samples of 200000
+Gathered 38500 samples of 200000
+Gathered 38600 samples of 200000
+Gathered 38700 samples of 200000
+Gathered 38800 samples of 200000
+Gathered 38900 samples of 200000
+Gathered 39000 samples of 200000
+Gathered 39100 samples of 200000
+Gathered 39200 samples of 200000
+Gathered 39300 samples of 200000
+Gathered 39400 samples of 200000
+Gathered 39500 samples of 200000
+Gathered 39600 samples of 200000
+Gathered 39700 samples of 200000
+Gathered 39800 samples of 200000
+Gathered 39900 samples of 200000
+Gathered 40000 samples of 200000
+Gathered 40100 samples of 200000
+Gathered 40200 samples of 200000
+Gathered 40300 samples of 200000
+Gathered 40400 samples of 200000
+Gathered 40500 samples of 200000
+Gathered 40600 samples of 200000
+Gathered 40700 samples of 200000
+Gathered 40800 samples of 200000
+Gathered 40900 samples of 200000
+Gathered 41000 samples of 200000
+Gathered 41100 samples of 200000
+Gathered 41200 samples of 200000
+Gathered 41300 samples of 200000
+Gathered 41400 samples of 200000
+Gathered 41500 samples of 200000
+Gathered 41600 samples of 200000
+Gathered 41700 samples of 200000
+Gathered 41800 samples of 200000
+Gathered 41900 samples of 200000
+Gathered 42000 samples of 200000
+Gathered 42100 samples of 200000
+Gathered 42200 samples of 200000
+Gathered 42300 samples of 200000
+Gathered 42400 samples of 200000
+Gathered 42500 samples of 200000
+Gathered 42600 samples of 200000
+Gathered 42700 samples of 200000
+Gathered 42800 samples of 200000
+Gathered 42900 samples of 200000
+Gathered 43000 samples of 200000
+Gathered 43100 samples of 200000
+Gathered 43200 samples of 200000
+Gathered 43300 samples of 200000
+Gathered 43400 samples of 200000
+Gathered 43500 samples of 200000
+Gathered 43600 samples of 200000
+Gathered 43700 samples of 200000
+Gathered 43800 samples of 200000
+Gathered 43900 samples of 200000
+Gathered 44000 samples of 200000
+Gathered 44100 samples of 200000
+Gathered 44200 samples of 200000
+Gathered 44300 samples of 200000
+Gathered 44400 samples of 200000
+Gathered 44500 samples of 200000
+Gathered 44600 samples of 200000
+Gathered 44700 samples of 200000
+Gathered 44800 samples of 200000
+Gathered 44900 samples of 200000
+Gathered 45000 samples of 200000
+Gathered 45100 samples of 200000
+Gathered 45200 samples of 200000
+Gathered 45300 samples of 200000
+Length: 16824; Score: -2000
+
+Episode 10
+CPU Usage 20.96
+Total Memory 23973
+Used Memory 6916
+Free Memory 4022
+Gathered 45400 samples of 200000
+Gathered 45500 samples of 200000
+Gathered 45600 samples of 200000
+Gathered 45700 samples of 200000
+Gathered 45800 samples of 200000
+Gathered 45900 samples of 200000
+Gathered 46000 samples of 200000
+Gathered 46100 samples of 200000
+Gathered 46200 samples of 200000
+Gathered 46300 samples of 200000
+Gathered 46400 samples of 200000
+Gathered 46500 samples of 200000
+Gathered 46600 samples of 200000
+Gathered 46700 samples of 200000
+Gathered 46800 samples of 200000
+Gathered 46900 samples of 200000
+Gathered 47000 samples of 200000
+Gathered 47100 samples of 200000
+Gathered 47200 samples of 200000
+Gathered 47300 samples of 200000
+Gathered 47400 samples of 200000
+Gathered 47500 samples of 200000
+Gathered 47600 samples of 200000
+Gathered 47700 samples of 200000
+Gathered 47800 samples of 200000
+Gathered 47900 samples of 200000
+Gathered 48000 samples of 200000
+Gathered 48100 samples of 200000
+Gathered 48200 samples of 200000
+Length: 2891; Score: -120
+
+Episode 11
+CPU Usage 20.97
+Total Memory 23973
+Used Memory 7106
+Free Memory 3837
+Gathered 48300 samples of 200000
+Gathered 48400 samples of 200000
+Gathered 48500 samples of 200000
+Gathered 48600 samples of 200000
+Gathered 48700 samples of 200000
+Length: 501; Score: -42
+
+Episode 12
+CPU Usage 20.97
+Total Memory 23973
+Used Memory 7142
+Free Memory 3800
+Gathered 48800 samples of 200000
+Gathered 48900 samples of 200000
+Gathered 49000 samples of 200000
+Gathered 49100 samples of 200000
+Gathered 49200 samples of 200000
+Gathered 49300 samples of 200000
+Gathered 49400 samples of 200000
+Gathered 49500 samples of 200000
+Gathered 49600 samples of 200000
+Gathered 49700 samples of 200000
+Gathered 49800 samples of 200000
+Gathered 49900 samples of 200000
+Gathered 50000 samples of 200000
+Gathered 50100 samples of 200000
+Gathered 50200 samples of 200000
+Gathered 50300 samples of 200000
+Gathered 50400 samples of 200000
+Gathered 50500 samples of 200000
+Gathered 50600 samples of 200000
+Gathered 50700 samples of 200000
+Gathered 50800 samples of 200000
+Gathered 50900 samples of 200000
+Gathered 51000 samples of 200000
+Gathered 51100 samples of 200000
+Gathered 51200 samples of 200000
+Gathered 51300 samples of 200000
+Gathered 51400 samples of 200000
+Gathered 51500 samples of 200000
+Gathered 51600 samples of 200000
+Gathered 51700 samples of 200000
+Gathered 51800 samples of 200000
+Gathered 51900 samples of 200000
+Gathered 52000 samples of 200000
+Gathered 52100 samples of 200000
+Gathered 52200 samples of 200000
+Gathered 52300 samples of 200000
+Gathered 52400 samples of 200000
+Gathered 52500 samples of 200000
+Gathered 52600 samples of 200000
+Gathered 52700 samples of 200000
+Gathered 52800 samples of 200000
+Gathered 52900 samples of 200000
+Gathered 53000 samples of 200000
+Gathered 53100 samples of 200000
+Gathered 53200 samples of 200000
+Gathered 53300 samples of 200000
+Gathered 53400 samples of 200000
+Gathered 53500 samples of 200000
+Gathered 53600 samples of 200000
+Gathered 53700 samples of 200000
+Gathered 53800 samples of 200000
+Gathered 53900 samples of 200000
+Gathered 54000 samples of 200000
+Gathered 54100 samples of 200000
+Gathered 54200 samples of 200000
+Gathered 54300 samples of 200000
+Gathered 54400 samples of 200000
+Gathered 54500 samples of 200000
+Gathered 54600 samples of 200000
+Gathered 54700 samples of 200000
+Gathered 54800 samples of 200000
+Gathered 54900 samples of 200000
+Gathered 55000 samples of 200000
+Gathered 55100 samples of 200000
+Gathered 55200 samples of 200000
+Gathered 55300 samples of 200000
+Gathered 55400 samples of 200000
+Gathered 55500 samples of 200000
+Gathered 55600 samples of 200000
+Gathered 55700 samples of 200000
+Gathered 55800 samples of 200000
+Gathered 55900 samples of 200000
+Gathered 56000 samples of 200000
+Gathered 56100 samples of 200000
+Gathered 56200 samples of 200000
+Gathered 56300 samples of 200000
+Gathered 56400 samples of 200000
+Gathered 56500 samples of 200000
+Gathered 56600 samples of 200000
+Gathered 56700 samples of 200000
+Gathered 56800 samples of 200000
+Gathered 56900 samples of 200000
+Gathered 57000 samples of 200000
+Gathered 57100 samples of 200000
+Gathered 57200 samples of 200000
+Gathered 57300 samples of 200000
+Gathered 57400 samples of 200000
+Gathered 57500 samples of 200000
+Gathered 57600 samples of 200000
+Gathered 57700 samples of 200000
+Gathered 57800 samples of 200000
+Gathered 57900 samples of 200000
+Gathered 58000 samples of 200000
+Gathered 58100 samples of 200000
+Gathered 58200 samples of 200000
+Gathered 58300 samples of 200000
+Gathered 58400 samples of 200000
+Length: 9704; Score: -975
+
+Episode 13
+CPU Usage 21.04
+Total Memory 23973
+Used Memory 7955
+Free Memory 2983
+Gathered 58500 samples of 200000
+Gathered 58600 samples of 200000
+Gathered 58700 samples of 200000
+Gathered 58800 samples of 200000
+Gathered 58900 samples of 200000
+Gathered 59000 samples of 200000
+Gathered 59100 samples of 200000
+Gathered 59200 samples of 200000
+Gathered 59300 samples of 200000
+Gathered 59400 samples of 200000
+Gathered 59500 samples of 200000
+Gathered 59600 samples of 200000
+Gathered 59700 samples of 200000
+Gathered 59800 samples of 200000
+Gathered 59900 samples of 200000
+Gathered 60000 samples of 200000
+Gathered 60100 samples of 200000
+Length: 1693; Score: -436
+
+Episode 14
+CPU Usage 21.05
+Total Memory 23973
+Used Memory 8066
+Free Memory 2877
+Gathered 60200 samples of 200000
+Gathered 60300 samples of 200000
+Gathered 60400 samples of 200000
+Gathered 60500 samples of 200000
+Gathered 60600 samples of 200000
+Gathered 60700 samples of 200000
+Gathered 60800 samples of 200000
+Length: 746; Score: 0
+
+Episode 15
+CPU Usage 21.06
+Total Memory 23973
+Used Memory 8123
+Free Memory 2819
+Gathered 60900 samples of 200000
+Gathered 61000 samples of 200000
+Gathered 61100 samples of 200000
+Gathered 61200 samples of 200000
+Gathered 61300 samples of 200000
+Length: 500; Score: 0
+
+Episode 16
+CPU Usage 21.06
+Total Memory 23973
+Used Memory 8160
+Free Memory 2783
+Gathered 61400 samples of 200000
+Gathered 61500 samples of 200000
+Gathered 61600 samples of 200000
+Gathered 61700 samples of 200000
+Gathered 61800 samples of 200000
+Gathered 61900 samples of 200000
+Gathered 62000 samples of 200000
+Gathered 62100 samples of 200000
+Gathered 62200 samples of 200000
+Gathered 62300 samples of 200000
+Gathered 62400 samples of 200000
+Gathered 62500 samples of 200000
+Gathered 62600 samples of 200000
+Gathered 62700 samples of 200000
+Gathered 62800 samples of 200000
+Gathered 62900 samples of 200000
+Gathered 63000 samples of 200000
+Gathered 63100 samples of 200000
+Gathered 63200 samples of 200000
+Gathered 63300 samples of 200000
+Gathered 63400 samples of 200000
+Gathered 63500 samples of 200000
+Gathered 63600 samples of 200000
+Gathered 63700 samples of 200000
+Gathered 63800 samples of 200000
+Length: 2499; Score: -324
+
+Episode 17
+CPU Usage 21.08
+Total Memory 23973
+Used Memory 8349
+Free Memory 2593
+Gathered 63900 samples of 200000
+Gathered 64000 samples of 200000
+Gathered 64100 samples of 200000
+Gathered 64200 samples of 200000
+Gathered 64300 samples of 200000
+Gathered 64400 samples of 200000
+Gathered 64500 samples of 200000
+Gathered 64600 samples of 200000
+Gathered 64700 samples of 200000
+Length: 920; Score: 0
+
+Episode 18
+CPU Usage 21.09
+Total Memory 23973
+Used Memory 8414
+Free Memory 2528
+Gathered 64800 samples of 200000
+Gathered 64900 samples of 200000
+Gathered 65000 samples of 200000
+Gathered 65100 samples of 200000
+Gathered 65200 samples of 200000
+Gathered 65300 samples of 200000
+Gathered 65400 samples of 200000
+Gathered 65500 samples of 200000
+Gathered 65600 samples of 200000
+Gathered 65700 samples of 200000
+Length: 920; Score: -100
+
+Episode 19
+CPU Usage 21.09
+Total Memory 23973
+Used Memory 8487
+Free Memory 2454
+Gathered 65800 samples of 200000
+Gathered 65900 samples of 200000
+Gathered 66000 samples of 200000
+Length: 334; Score: -22
+
+Episode 20
+CPU Usage 21.1
+Total Memory 23973
+Used Memory 8509
+Free Memory 2433
+Gathered 66100 samples of 200000
+Gathered 66200 samples of 200000
+Gathered 66300 samples of 200000
+Gathered 66400 samples of 200000
+Gathered 66500 samples of 200000
+Gathered 66600 samples of 200000
+Gathered 66700 samples of 200000
+Length: 681; Score: -83
+
+Episode 21
+CPU Usage 21.1
+Total Memory 23973
+Used Memory 8567
+Free Memory 2375
+Gathered 66800 samples of 200000
+Gathered 66900 samples of 200000
+Gathered 67000 samples of 200000
+Gathered 67100 samples of 200000
+Gathered 67200 samples of 200000
+Gathered 67300 samples of 200000
+Gathered 67400 samples of 200000
+Gathered 67500 samples of 200000
+Gathered 67600 samples of 200000
+Length: 919; Score: 0
+
+Episode 22
+CPU Usage 21.11
+Total Memory 23973
+Used Memory 8636
+Free Memory 2305
+Gathered 67700 samples of 200000
+Gathered 67800 samples of 200000
+Gathered 67900 samples of 200000
+Gathered 68000 samples of 200000
+Gathered 68100 samples of 200000
+Gathered 68200 samples of 200000
+Gathered 68300 samples of 200000
+Gathered 68400 samples of 200000
+Gathered 68500 samples of 200000
+Gathered 68600 samples of 200000
+Gathered 68700 samples of 200000
+Gathered 68800 samples of 200000
+Gathered 68900 samples of 200000
+Gathered 69000 samples of 200000
+Gathered 69100 samples of 200000
+Gathered 69200 samples of 200000
+Gathered 69300 samples of 200000
+Gathered 69400 samples of 200000
+Length: 1789; Score: -336
+
+Episode 23
+CPU Usage 21.12
+Total Memory 23973
+Used Memory 8760
+Free Memory 2181
+Gathered 69500 samples of 200000
+Gathered 69600 samples of 200000
+Gathered 69700 samples of 200000
+Gathered 69800 samples of 200000
+Gathered 69900 samples of 200000
+Gathered 70000 samples of 200000
+Gathered 70100 samples of 200000
+Gathered 70200 samples of 200000
+Gathered 70300 samples of 200000
+Gathered 70400 samples of 200000
+Gathered 70500 samples of 200000
+Gathered 70600 samples of 200000
+Gathered 70700 samples of 200000
+Gathered 70800 samples of 200000
+Length: 1370; Score: -137
+
+Episode 24
+CPU Usage 21.13
+Total Memory 23973
+Used Memory 8861
+Free Memory 2080
+Gathered 70900 samples of 200000
+Gathered 71000 samples of 200000
+Length: 262; Score: 0
+
+Episode 25
+CPU Usage 21.13
+Total Memory 23973
+Used Memory 8884
+Free Memory 2056
+Gathered 71100 samples of 200000
+Gathered 71200 samples of 200000
+Gathered 71300 samples of 200000
+Gathered 71400 samples of 200000
+Gathered 71500 samples of 200000
+Gathered 71600 samples of 200000
+Gathered 71700 samples of 200000
+Gathered 71800 samples of 200000
+Gathered 71900 samples of 200000
+Gathered 72000 samples of 200000
+Gathered 72100 samples of 200000
+Gathered 72200 samples of 200000
+Gathered 72300 samples of 200000
+Gathered 72400 samples of 200000
+Gathered 72500 samples of 200000
+Length: 1529; Score: -241
+
+Episode 26
+CPU Usage 21.14
+Total Memory 23973
+Used Memory 9018
+Free Memory 1918
+Gathered 72600 samples of 200000
+Gathered 72700 samples of 200000
+Gathered 72800 samples of 200000
+Gathered 72900 samples of 200000
+Gathered 73000 samples of 200000
+Gathered 73100 samples of 200000
+Gathered 73200 samples of 200000
+Gathered 73300 samples of 200000
+Gathered 73400 samples of 200000
+Gathered 73500 samples of 200000
+Gathered 73600 samples of 200000
+Gathered 73700 samples of 200000
+Gathered 73800 samples of 200000
+Gathered 73900 samples of 200000
+Gathered 74000 samples of 200000
+Gathered 74100 samples of 200000
+Gathered 74200 samples of 200000
+Gathered 74300 samples of 200000
+Gathered 74400 samples of 200000
+Gathered 74500 samples of 200000
+Gathered 74600 samples of 200000
+Gathered 74700 samples of 200000
+Gathered 74800 samples of 200000
+Length: 2217; Score: -252
+
+Episode 27
+CPU Usage 21.16
+Total Memory 23973
+Used Memory 9168
+Free Memory 1773
+Gathered 74900 samples of 200000
+Gathered 75000 samples of 200000
+Gathered 75100 samples of 200000
+Gathered 75200 samples of 200000
+Gathered 75300 samples of 200000
+Gathered 75400 samples of 200000
+Gathered 75500 samples of 200000
+Length: 754; Score: 0
+
+Episode 28
+CPU Usage 21.16
+Total Memory 23973
+Used Memory 9228
+Free Memory 1712
+Gathered 75600 samples of 200000
+Gathered 75700 samples of 200000
+Gathered 75800 samples of 200000
+Length: 322; Score: 0
+
+Episode 29
+CPU Usage 21.17
+Total Memory 23973
+Used Memory 9251
+Free Memory 1689
+Gathered 75900 samples of 200000
+Gathered 76000 samples of 200000
+Gathered 76100 samples of 200000
+Gathered 76200 samples of 200000
+Gathered 76300 samples of 200000
+Length: 492; Score: -20
+
+Episode 30
+CPU Usage 21.17
+Total Memory 23973
+Used Memory 9294
+Free Memory 1646
+Gathered 76400 samples of 200000
+Gathered 76500 samples of 200000
+Gathered 76600 samples of 200000
+Gathered 76700 samples of 200000
+Gathered 76800 samples of 200000
+Length: 425; Score: -5
+
+Episode 31
+CPU Usage 21.17
+Total Memory 23973
+Used Memory 9323
+Free Memory 1617
+Gathered 76900 samples of 200000
+Gathered 77000 samples of 200000
+Gathered 77100 samples of 200000
+Gathered 77200 samples of 200000
+Gathered 77300 samples of 200000
+Gathered 77400 samples of 200000
+Gathered 77500 samples of 200000
+Gathered 77600 samples of 200000
+Length: 839; Score: -6
+
+Episode 32
+CPU Usage 21.18
+Total Memory 23973
+Used Memory 9385
+Free Memory 1555
+Gathered 77700 samples of 200000
+Gathered 77800 samples of 200000
+Gathered 77900 samples of 200000
+Gathered 78000 samples of 200000
+Gathered 78100 samples of 200000
+Length: 485; Score: 0
+
+Episode 33
+CPU Usage 21.18
+Total Memory 23973
+Used Memory 9421
+Free Memory 1518
+Gathered 78200 samples of 200000
+Gathered 78300 samples of 200000
+Gathered 78400 samples of 200000
+Gathered 78500 samples of 200000
+Gathered 78600 samples of 200000
+Length: 503; Score: -165
+
+Episode 34
+CPU Usage 21.18
+Total Memory 23973
+Used Memory 9460
+Free Memory 1479
+Gathered 78700 samples of 200000
+Gathered 78800 samples of 200000
+Gathered 78900 samples of 200000
+Gathered 79000 samples of 200000
+Gathered 79100 samples of 200000
+Gathered 79200 samples of 200000
+Gathered 79300 samples of 200000
+Gathered 79400 samples of 200000
+Gathered 79500 samples of 200000
+Length: 939; Score: -266
+
+Episode 35
+CPU Usage 21.19
+Total Memory 23973
+Used Memory 9529
+Free Memory 1409
+Gathered 79600 samples of 200000
+Gathered 79700 samples of 200000
+Gathered 79800 samples of 200000
+Gathered 79900 samples of 200000
+Length: 408; Score: 0
+
+Episode 36
+CPU Usage 21.19
+Total Memory 23973
+Used Memory 9561
+Free Memory 1378
+Gathered 80000 samples of 200000
+Gathered 80100 samples of 200000
+Gathered 80200 samples of 200000
+Gathered 80300 samples of 200000
+Gathered 80400 samples of 200000
+Gathered 80500 samples of 200000
+Gathered 80600 samples of 200000
+Gathered 80700 samples of 200000
+Length: 762; Score: -30
+
+Episode 37
+CPU Usage 21.2
+Total Memory 23973
+Used Memory 9617
+Free Memory 1322
+Gathered 80800 samples of 200000
+Gathered 80900 samples of 200000
+Gathered 81000 samples of 200000
+Gathered 81100 samples of 200000
+Length: 424; Score: 0
+
+Episode 38
+CPU Usage 21.2
+Total Memory 23973
+Used Memory 9652
+Free Memory 1286
+Gathered 81200 samples of 200000
+Gathered 81300 samples of 200000
+Gathered 81400 samples of 200000
+Gathered 81500 samples of 200000
+Gathered 81600 samples of 200000
+Gathered 81700 samples of 200000
+Gathered 81800 samples of 200000
+Gathered 81900 samples of 200000
+Gathered 82000 samples of 200000
+Gathered 82100 samples of 200000
+Gathered 82200 samples of 200000
+Gathered 82300 samples of 200000
+Gathered 82400 samples of 200000
+Gathered 82500 samples of 200000
+Gathered 82600 samples of 200000
+Gathered 82700 samples of 200000
+Gathered 82800 samples of 200000
+Gathered 82900 samples of 200000
+Gathered 83000 samples of 200000
+Gathered 83100 samples of 200000
+Gathered 83200 samples of 200000
+Gathered 83300 samples of 200000
+Gathered 83400 samples of 200000
+Gathered 83500 samples of 200000
+Gathered 83600 samples of 200000
+Length: 2481; Score: -431
+
+Episode 39
+CPU Usage 21.22
+Total Memory 23973
+Used Memory 9843
+Free Memory 1096
+Gathered 83700 samples of 200000
+Gathered 83800 samples of 200000
+Gathered 83900 samples of 200000
+Gathered 84000 samples of 200000
+Gathered 84100 samples of 200000
+Gathered 84200 samples of 200000
+Gathered 84300 samples of 200000
+Gathered 84400 samples of 200000
+Length: 839; Score: 0
+
+Episode 40
+CPU Usage 21.22
+Total Memory 23973
+Used Memory 9905
+Free Memory 1033
+Gathered 84500 samples of 200000
+Gathered 84600 samples of 200000
+Gathered 84700 samples of 200000
+Gathered 84800 samples of 200000
+Gathered 84900 samples of 200000
+Length: 486; Score: -25
+
+Episode 41
+CPU Usage 21.23
+Total Memory 23973
+Used Memory 9940
+Free Memory 0998
+Gathered 85000 samples of 200000
+Gathered 85100 samples of 200000
+Gathered 85200 samples of 200000
+Gathered 85300 samples of 200000
+Gathered 85400 samples of 200000
+Length: 507; Score: -13
+
+Episode 42
+CPU Usage 21.23
+Total Memory 23973
+Used Memory 9979
+Free Memory 0959
+Gathered 85500 samples of 200000
+Gathered 85600 samples of 200000
+Gathered 85700 samples of 200000
+Length: 246; Score: 0
+
+Episode 43
+CPU Usage 21.23
+Total Memory 23973
+Used Memory 9998
+Free Memory 0940
+Gathered 85800 samples of 200000
+Gathered 85900 samples of 200000
+Gathered 86000 samples of 200000
+Gathered 86100 samples of 200000
+Gathered 86200 samples of 200000
+Gathered 86300 samples of 200000
+Length: 590; Score: -200
+
+Episode 44
+CPU Usage 21.24
+Total Memory 23973
+Used Memory 0048
+Free Memory 0890
+Gathered 86400 samples of 200000
+Gathered 86500 samples of 200000
+Gathered 86600 samples of 200000
+Gathered 86700 samples of 200000
+Length: 427; Score: 0
+
+Episode 45
+CPU Usage 21.24
+Total Memory 23973
+Used Memory 0170
+Free Memory 0753
+Gathered 86800 samples of 200000
+Gathered 86900 samples of 200000
+Gathered 87000 samples of 200000
+Gathered 87100 samples of 200000
+Gathered 87200 samples of 200000
+Gathered 87300 samples of 200000
+Gathered 87400 samples of 200000
+Length: 696; Score: 0
+
+Episode 46
+CPU Usage 21.25
+Total Memory 23973
+Used Memory 0144
+Free Memory 0782
+Gathered 87500 samples of 200000
+Gathered 87600 samples of 200000
+Gathered 87700 samples of 200000
+Gathered 87800 samples of 200000
+Gathered 87900 samples of 200000
+Gathered 88000 samples of 200000
+Gathered 88100 samples of 200000
+Gathered 88200 samples of 200000
+Gathered 88300 samples of 200000
+Gathered 88400 samples of 200000
+Length: 1038; Score: 0
+
+Episode 47
+CPU Usage 21.25
+Total Memory 23973
+Used Memory 0222
+Free Memory 0704
+Gathered 88500 samples of 200000
+Gathered 88600 samples of 200000
+Gathered 88700 samples of 200000
+Gathered 88800 samples of 200000
+Gathered 88900 samples of 200000
+Gathered 89000 samples of 200000
+Gathered 89100 samples of 200000
+Gathered 89200 samples of 200000
+Gathered 89300 samples of 200000
+Gathered 89400 samples of 200000
+Gathered 89500 samples of 200000
+Gathered 89600 samples of 200000
+Gathered 89700 samples of 200000
+Gathered 89800 samples of 200000
+Gathered 89900 samples of 200000
+Length: 1465; Score: -232
+
+Episode 48
+CPU Usage 21.26
+Total Memory 23973
+Used Memory 0331
+Free Memory 0595
+Updating target network...
+Gathered 90000 samples of 200000
+Gathered 90100 samples of 200000
+Gathered 90200 samples of 200000
+Gathered 90300 samples of 200000
+Length: 412; Score: 0
+
+Episode 49
+CPU Usage 21.27
+Total Memory 23973
+Used Memory 0360
+Free Memory 0566
+Gathered 90400 samples of 200000
+Gathered 90500 samples of 200000
+Gathered 90600 samples of 200000
+Gathered 90700 samples of 200000
+Gathered 90800 samples of 200000
+Gathered 90900 samples of 200000
+Gathered 91000 samples of 200000
+Gathered 91100 samples of 200000
+Gathered 91200 samples of 200000
+Gathered 91300 samples of 200000
+Length: 1024; Score: -21
+
+Episode 50
+CPU Usage 21.27
+Total Memory 23973
+Used Memory 0438
+Free Memory 0487
+Gathered 91400 samples of 200000
+Gathered 91500 samples of 200000
+Gathered 91600 samples of 200000
+Gathered 91700 samples of 200000
+Gathered 91800 samples of 200000
+Gathered 91900 samples of 200000
+Length: 598; Score: -8
+
+Episode 51
+CPU Usage 21.28
+Total Memory 23973
+Used Memory 0490
+Free Memory 0436
+Gathered 92000 samples of 200000
+Gathered 92100 samples of 200000
+Gathered 92200 samples of 200000
+Gathered 92300 samples of 200000
+Gathered 92400 samples of 200000
+Gathered 92500 samples of 200000
+Length: 585; Score: 0
+
+Episode 52
+CPU Usage 21.28
+Total Memory 23973
+Used Memory 0605
+Free Memory 0298
+Gathered 92600 samples of 200000
+Gathered 92700 samples of 200000
+Gathered 92800 samples of 200000
+Gathered 92900 samples of 200000
+Gathered 93000 samples of 200000
+Gathered 93100 samples of 200000
+Length: 613; Score: -40
+
+Episode 53
+CPU Usage 21.29
+Total Memory 23973
+Used Memory 0535
+Free Memory 0373
+Gathered 93200 samples of 200000
+Gathered 93300 samples of 200000
+Gathered 93400 samples of 200000
+Length: 316; Score: 0
+
+Episode 54
+CPU Usage 21.29
+Total Memory 23973
+Used Memory 0561
+Free Memory 0346
+Gathered 93500 samples of 200000
+Gathered 93600 samples of 200000
+Gathered 93700 samples of 200000
+Gathered 93800 samples of 200000
+Length: 328; Score: 0
+
+Episode 55
+CPU Usage 21.29
+Total Memory 23973
+Used Memory 0588
+Free Memory 0320
+Gathered 93900 samples of 200000
+Gathered 94000 samples of 200000
+Gathered 94100 samples of 200000
+Gathered 94200 samples of 200000
+Gathered 94300 samples of 200000
+Length: 514; Score: -100
+
+Episode 56
+CPU Usage 21.29
+Total Memory 23973
+Used Memory 0627
+Free Memory 0280
+Gathered 94400 samples of 200000
+Gathered 94500 samples of 200000
+Gathered 94600 samples of 200000
+Gathered 94700 samples of 200000
+Gathered 94800 samples of 200000
+Gathered 94900 samples of 200000
+Gathered 95000 samples of 200000
+Gathered 95100 samples of 200000
+Gathered 95200 samples of 200000
+Gathered 95300 samples of 200000
+Gathered 95400 samples of 200000
+Gathered 95500 samples of 200000
+Gathered 95600 samples of 200000
+Gathered 95700 samples of 200000
+Gathered 95800 samples of 200000
+Gathered 95900 samples of 200000
+Gathered 96000 samples of 200000
+Gathered 96100 samples of 200000
+Gathered 96200 samples of 200000
+Gathered 96300 samples of 200000
+Gathered 96400 samples of 200000
+Gathered 96500 samples of 200000
+Gathered 96600 samples of 200000
+Gathered 96700 samples of 200000
+Gathered 96800 samples of 200000
+Gathered 96900 samples of 200000
+Gathered 97000 samples of 200000
+Gathered 97100 samples of 200000
+Gathered 97200 samples of 200000
+Gathered 97300 samples of 200000
+Length: 3050; Score: 0
+
+Episode 57
+CPU Usage 21.31
+Total Memory 23973
+Used Memory 0857
+Free Memory 0050
+Gathered 97400 samples of 200000
+Gathered 97500 samples of 200000
+Gathered 97600 samples of 200000
+Gathered 97700 samples of 200000
+Gathered 97800 samples of 200000
+Gathered 97900 samples of 200000
+Gathered 98000 samples of 200000
+Gathered 98100 samples of 200000
+Gathered 98200 samples of 200000
+Gathered 98300 samples of 200000
+Gathered 98400 samples of 200000
+Gathered 98500 samples of 200000
+Gathered 98600 samples of 200000
+Gathered 98700 samples of 200000
+Gathered 98800 samples of 200000
+Gathered 98900 samples of 200000
+Gathered 99000 samples of 200000
+Gathered 99100 samples of 200000
+Gathered 99200 samples of 200000
+Gathered 99300 samples of 200000
+Gathered 99400 samples of 200000
+Gathered 99500 samples of 200000
+Gathered 99600 samples of 200000
+Gathered 99700 samples of 200000
+Length: 2345; Score: -100
+
+Episode 58
+CPU Usage 21.33
+Total Memory 23973
+Used Memory 1039
+Free Memory 9867
+Gathered 99800 samples of 200000
+Gathered 99900 samples of 200000
+Gathered 100000 samples of 200000
+Gathered 100100 samples of 200000
+Gathered 100200 samples of 200000
+Gathered 100300 samples of 200000
+Gathered 100400 samples of 200000
+Gathered 100500 samples of 200000
+Gathered 100600 samples of 200000
+Gathered 100700 samples of 200000
+Gathered 100800 samples of 200000
+Length: 1172; Score: -88
+
+Episode 59
+CPU Usage 21.34
+Total Memory 23973
+Used Memory 1150
+Free Memory 9752
+Gathered 100900 samples of 200000
+Gathered 101000 samples of 200000
+Gathered 101100 samples of 200000
+Gathered 101200 samples of 200000
+Length: 339; Score: 0
+
+Episode 60
+CPU Usage 21.34
+Total Memory 23973
+Used Memory 1152
+Free Memory 9754
+Gathered 101300 samples of 200000
+Gathered 101400 samples of 200000
+Gathered 101500 samples of 200000
+Gathered 101600 samples of 200000
+Gathered 101700 samples of 200000
+Gathered 101800 samples of 200000
+Gathered 101900 samples of 200000
+Length: 756; Score: 0
+
+Episode 61
+CPU Usage 21.34
+Total Memory 23973
+Used Memory 1210
+Free Memory 9696
+Gathered 102000 samples of 200000
+Gathered 102100 samples of 200000
+Gathered 102200 samples of 200000
+Gathered 102300 samples of 200000
+Gathered 102400 samples of 200000
+Gathered 102500 samples of 200000
+Gathered 102600 samples of 200000
+Gathered 102700 samples of 200000
+Gathered 102800 samples of 200000
+Gathered 102900 samples of 200000
+Gathered 103000 samples of 200000
+Gathered 103100 samples of 200000
+Gathered 103200 samples of 200000
+Gathered 103300 samples of 200000
+Gathered 103400 samples of 200000
+Gathered 103500 samples of 200000
+Gathered 103600 samples of 200000
+Gathered 103700 samples of 200000
+Length: 1763; Score: -420
+
+Episode 62
+CPU Usage 21.36
+Total Memory 23973
+Used Memory 1364
+Free Memory 9537
+Gathered 103800 samples of 200000
+Gathered 103900 samples of 200000
+Gathered 104000 samples of 200000
+Gathered 104100 samples of 200000
+Length: 415; Score: -19
+
+Episode 63
+CPU Usage 21.36
+Total Memory 23973
+Used Memory 1373
+Free Memory 9533
+Gathered 104200 samples of 200000
+Gathered 104300 samples of 200000
+Gathered 104400 samples of 200000
+Gathered 104500 samples of 200000
+Gathered 104600 samples of 200000
+Gathered 104700 samples of 200000
+Gathered 104800 samples of 200000
+Gathered 104900 samples of 200000
+Gathered 105000 samples of 200000
+Gathered 105100 samples of 200000
+Gathered 105200 samples of 200000
+Gathered 105300 samples of 200000
+Gathered 105400 samples of 200000
+Gathered 105500 samples of 200000
+Gathered 105600 samples of 200000
+Gathered 105700 samples of 200000
+Gathered 105800 samples of 200000
+Gathered 105900 samples of 200000
+Gathered 106000 samples of 200000
+Gathered 106100 samples of 200000
+Gathered 106200 samples of 200000
+Gathered 106300 samples of 200000
+Gathered 106400 samples of 200000
+Length: 2277; Score: -325
+
+Episode 64
+CPU Usage 21.37
+Total Memory 23973
+Used Memory 1548
+Free Memory 9357
+Gathered 106500 samples of 200000
+Gathered 106600 samples of 200000
+Gathered 106700 samples of 200000
+Gathered 106800 samples of 200000
+Gathered 106900 samples of 200000
+Gathered 107000 samples of 200000
+Gathered 107100 samples of 200000
+Gathered 107200 samples of 200000
+Gathered 107300 samples of 200000
+Gathered 107400 samples of 200000
+Gathered 107500 samples of 200000
+Gathered 107600 samples of 200000
+Gathered 107700 samples of 200000
+Gathered 107800 samples of 200000
+Gathered 107900 samples of 200000
+Gathered 108000 samples of 200000
+Gathered 108100 samples of 200000
+Gathered 108200 samples of 200000
+Gathered 108300 samples of 200000
+Gathered 108400 samples of 200000
+Gathered 108500 samples of 200000
+Gathered 108600 samples of 200000
+Gathered 108700 samples of 200000
+Gathered 108800 samples of 200000
+Gathered 108900 samples of 200000
+Gathered 109000 samples of 200000
+Gathered 109100 samples of 200000
+Gathered 109200 samples of 200000
+Gathered 109300 samples of 200000
+Gathered 109400 samples of 200000
+Gathered 109500 samples of 200000
+Gathered 109600 samples of 200000
+Length: 3191; Score: -100
+
+Episode 65
+CPU Usage 21.4
+Total Memory 23973
+Used Memory 1794
+Free Memory 9113
+Gathered 109700 samples of 200000
+Gathered 109800 samples of 200000
+Gathered 109900 samples of 200000
+Length: 342; Score: 0
+
+Episode 66
+CPU Usage 21.4
+Total Memory 23973
+Used Memory 1817
+Free Memory 9090
+Gathered 110000 samples of 200000
+Gathered 110100 samples of 200000
+Gathered 110200 samples of 200000
+Gathered 110300 samples of 200000
+Length: 416; Score: -21
+
+Episode 67
+CPU Usage 21.4
+Total Memory 23973
+Used Memory 1850
+Free Memory 9057
+Gathered 110400 samples of 200000
+Gathered 110500 samples of 200000
+Gathered 110600 samples of 200000
+Length: 250; Score: 0
+
+Episode 68
+CPU Usage 21.4
+Total Memory 23973
+Used Memory 1864
+Free Memory 9043
+Gathered 110700 samples of 200000
+Gathered 110800 samples of 200000
+Gathered 110900 samples of 200000
+Gathered 111000 samples of 200000
+Gathered 111100 samples of 200000
+Gathered 111200 samples of 200000
+Gathered 111300 samples of 200000
+Gathered 111400 samples of 200000
+Gathered 111500 samples of 200000
+Gathered 111600 samples of 200000
+Gathered 111700 samples of 200000
+Gathered 111800 samples of 200000
+Gathered 111900 samples of 200000
+Gathered 112000 samples of 200000
+Gathered 112100 samples of 200000
+Gathered 112200 samples of 200000
+Gathered 112300 samples of 200000
+Gathered 112400 samples of 200000
+Gathered 112500 samples of 200000
+Gathered 112600 samples of 200000
+Gathered 112700 samples of 200000
+Gathered 112800 samples of 200000
+Gathered 112900 samples of 200000
+Gathered 113000 samples of 200000
+Gathered 113100 samples of 200000
+Length: 2515; Score: 0
+
+Episode 69
+CPU Usage 21.42
+Total Memory 23973
+Used Memory 2058
+Free Memory 8848
+Gathered 113200 samples of 200000
+Gathered 113300 samples of 200000
+Gathered 113400 samples of 200000
+Gathered 113500 samples of 200000
+Gathered 113600 samples of 200000
+Gathered 113700 samples of 200000
+Gathered 113800 samples of 200000
+Gathered 113900 samples of 200000
+Gathered 114000 samples of 200000
+Gathered 114100 samples of 200000
+Gathered 114200 samples of 200000
+Gathered 114300 samples of 200000
+Gathered 114400 samples of 200000
+Gathered 114500 samples of 200000
+Gathered 114600 samples of 200000
+Gathered 114700 samples of 200000
+Gathered 114800 samples of 200000
+Gathered 114900 samples of 200000
+Gathered 115000 samples of 200000
+Gathered 115100 samples of 200000
+Gathered 115200 samples of 200000
+Length: 2116; Score: -281
+
+Episode 70
+CPU Usage 21.43
+Total Memory 23973
+Used Memory 2219
+Free Memory 8688
+Gathered 115300 samples of 200000
+Gathered 115400 samples of 200000
+Gathered 115500 samples of 200000
+Gathered 115600 samples of 200000
+Gathered 115700 samples of 200000
+Gathered 115800 samples of 200000
+Gathered 115900 samples of 200000
+Gathered 116000 samples of 200000
+Gathered 116100 samples of 200000
+Gathered 116200 samples of 200000
+Gathered 116300 samples of 200000
+Gathered 116400 samples of 200000
+Gathered 116500 samples of 200000
+Gathered 116600 samples of 200000
+Gathered 116700 samples of 200000
+Gathered 116800 samples of 200000
+Gathered 116900 samples of 200000
+Length: 1664; Score: 0
+
+Episode 71
+CPU Usage 21.44
+Total Memory 23973
+Used Memory 2347
+Free Memory 8560
+Gathered 117000 samples of 200000
+Gathered 117100 samples of 200000
+Gathered 117200 samples of 200000
+Gathered 117300 samples of 200000
+Gathered 117400 samples of 200000
+Length: 508; Score: 0
+
+Episode 72
+CPU Usage 21.45
+Total Memory 23973
+Used Memory 2385
+Free Memory 8522
+Gathered 117500 samples of 200000
+Gathered 117600 samples of 200000
+Gathered 117700 samples of 200000
+Gathered 117800 samples of 200000
+Length: 434; Score: -29
+
+Episode 73
+CPU Usage 21.45
+Total Memory 23973
+Used Memory 2435
+Free Memory 8467
+Gathered 117900 samples of 200000
+Gathered 118000 samples of 200000
+Gathered 118100 samples of 200000
+Gathered 118200 samples of 200000
+Gathered 118300 samples of 200000
+Gathered 118400 samples of 200000
+Gathered 118500 samples of 200000
+Gathered 118600 samples of 200000
+Gathered 118700 samples of 200000
+Gathered 118800 samples of 200000
+Gathered 118900 samples of 200000
+Gathered 119000 samples of 200000
+Gathered 119100 samples of 200000
+Gathered 119200 samples of 200000
+Gathered 119300 samples of 200000
+Gathered 119400 samples of 200000
+Gathered 119500 samples of 200000
+Gathered 119600 samples of 200000
+Gathered 119700 samples of 200000
+Gathered 119800 samples of 200000
+Gathered 119900 samples of 200000
+Gathered 120000 samples of 200000
+Gathered 120100 samples of 200000
+Gathered 120200 samples of 200000
+Gathered 120300 samples of 200000
+Gathered 120400 samples of 200000
+Gathered 120500 samples of 200000
+Gathered 120600 samples of 200000
+Gathered 120700 samples of 200000
+Gathered 120800 samples of 200000
+Gathered 120900 samples of 200000
+Length: 3079; Score: -400
+
+Episode 74
+CPU Usage 21.47
+Total Memory 23973
+Used Memory 2662
+Free Memory 8253
+Gathered 121000 samples of 200000
+Gathered 121100 samples of 200000
+Gathered 121200 samples of 200000
+Gathered 121300 samples of 200000
+Gathered 121400 samples of 200000
+Gathered 121500 samples of 200000
+Gathered 121600 samples of 200000
+Gathered 121700 samples of 200000
+Gathered 121800 samples of 200000
+Gathered 121900 samples of 200000
+Gathered 122000 samples of 200000
+Gathered 122100 samples of 200000
+Gathered 122200 samples of 200000
+Gathered 122300 samples of 200000
+Gathered 122400 samples of 200000
+Gathered 122500 samples of 200000
+Gathered 122600 samples of 200000
+Gathered 122700 samples of 200000
+Gathered 122800 samples of 200000
+Gathered 122900 samples of 200000
+Gathered 123000 samples of 200000
+Length: 2125; Score: -111
+
+Episode 75
+CPU Usage 21.48
+Total Memory 23973
+Used Memory 2828
+Free Memory 8088
+Gathered 123100 samples of 200000
+Gathered 123200 samples of 200000
+Gathered 123300 samples of 200000
+Gathered 123400 samples of 200000
+Gathered 123500 samples of 200000
+Gathered 123600 samples of 200000
+Gathered 123700 samples of 200000
+Gathered 123800 samples of 200000
+Gathered 123900 samples of 200000
+Gathered 124000 samples of 200000
+Gathered 124100 samples of 200000
+Gathered 124200 samples of 200000
+Gathered 124300 samples of 200000
+Gathered 124400 samples of 200000
+Gathered 124500 samples of 200000
+Gathered 124600 samples of 200000
+Gathered 124700 samples of 200000
+Gathered 124800 samples of 200000
+Gathered 124900 samples of 200000
+Length: 1815; Score: -248
+
+Episode 76
+CPU Usage 21.5
+Total Memory 23973
+Used Memory 2965
+Free Memory 7951
+Gathered 125000 samples of 200000
+Gathered 125100 samples of 200000
+Gathered 125200 samples of 200000
+Gathered 125300 samples of 200000
+Gathered 125400 samples of 200000
+Gathered 125500 samples of 200000
+Gathered 125600 samples of 200000
+Gathered 125700 samples of 200000
+Gathered 125800 samples of 200000
+Gathered 125900 samples of 200000
+Gathered 126000 samples of 200000
+Length: 1193; Score: -100
+
+Episode 77
+CPU Usage 21.5
+Total Memory 23973
+Used Memory 3054
+Free Memory 7861
+Gathered 126100 samples of 200000
+Gathered 126200 samples of 200000
+Gathered 126300 samples of 200000
+Gathered 126400 samples of 200000
+Gathered 126500 samples of 200000
+Gathered 126600 samples of 200000
+Gathered 126700 samples of 200000
+Length: 644; Score: -116
+
+Episode 78
+CPU Usage 21.51
+Total Memory 23973
+Used Memory 3104
+Free Memory 7811
+Gathered 126800 samples of 200000
+Gathered 126900 samples of 200000
+Gathered 127000 samples of 200000
+Gathered 127100 samples of 200000
+Gathered 127200 samples of 200000
+Gathered 127300 samples of 200000
+Gathered 127400 samples of 200000
+Length: 755; Score: -46
+
+Episode 79
+CPU Usage 21.51
+Total Memory 23973
+Used Memory 3160
+Free Memory 7754
+Gathered 127500 samples of 200000
+Gathered 127600 samples of 200000
+Gathered 127700 samples of 200000
+Gathered 127800 samples of 200000
+Gathered 127900 samples of 200000
+Gathered 128000 samples of 200000
+Gathered 128100 samples of 200000
+Gathered 128200 samples of 200000
+Gathered 128300 samples of 200000
+Gathered 128400 samples of 200000
+Length: 920; Score: -48
+
+Episode 80
+CPU Usage 21.52
+Total Memory 23973
+Used Memory 3223
+Free Memory 7697
+Gathered 128500 samples of 200000
+Gathered 128600 samples of 200000
+Gathered 128700 samples of 200000
+Gathered 128800 samples of 200000
+Length: 423; Score: 0
+
+Episode 81
+CPU Usage 21.52
+Total Memory 23973
+Used Memory 3261
+Free Memory 7659
+Gathered 128900 samples of 200000
+Gathered 129000 samples of 200000
+Gathered 129100 samples of 200000
+Gathered 129200 samples of 200000
+Gathered 129300 samples of 200000
+Length: 542; Score: 0
+
+Episode 82
+CPU Usage 21.52
+Total Memory 23973
+Used Memory 3299
+Free Memory 7620
+Gathered 129400 samples of 200000
+Gathered 129500 samples of 200000
+Gathered 129600 samples of 200000
+Gathered 129700 samples of 200000
+Gathered 129800 samples of 200000
+Gathered 129900 samples of 200000
+Updating target network...
+Gathered 130000 samples of 200000
+Length: 668; Score: -28
+
+Episode 83
+CPU Usage 21.53
+Total Memory 23973
+Used Memory 3372
+Free Memory 7551
+Gathered 130100 samples of 200000
+Gathered 130200 samples of 200000
+Gathered 130300 samples of 200000
+Gathered 130400 samples of 200000
+Gathered 130500 samples of 200000
+Gathered 130600 samples of 200000
+Gathered 130700 samples of 200000
+Gathered 130800 samples of 200000
+Length: 807; Score: -144
+
+Episode 84
+CPU Usage 21.53
+Total Memory 23973
+Used Memory 3414
+Free Memory 7509
+Gathered 130900 samples of 200000
+Gathered 131000 samples of 200000
+Gathered 131100 samples of 200000
+Gathered 131200 samples of 200000
+Gathered 131300 samples of 200000
+Gathered 131400 samples of 200000
+Gathered 131500 samples of 200000
+Gathered 131600 samples of 200000
+Gathered 131700 samples of 200000
+Length: 937; Score: -144
+
+Episode 85
+CPU Usage 21.54
+Total Memory 23973
+Used Memory 3485
+Free Memory 7438
+Gathered 131800 samples of 200000
+Gathered 131900 samples of 200000
+Gathered 132000 samples of 200000
+Gathered 132100 samples of 200000
+Gathered 132200 samples of 200000
+Gathered 132300 samples of 200000
+Length: 588; Score: -57
+
+Episode 86
+CPU Usage 21.54
+Total Memory 23973
+Used Memory 3527
+Free Memory 7395
+Gathered 132400 samples of 200000
+Gathered 132500 samples of 200000
+Gathered 132600 samples of 200000
+Gathered 132700 samples of 200000
+Gathered 132800 samples of 200000
+Gathered 132900 samples of 200000
+Gathered 133000 samples of 200000
+Gathered 133100 samples of 200000
+Length: 758; Score: -100
+
+Episode 87
+CPU Usage 21.55
+Total Memory 23973
+Used Memory 3584
+Free Memory 7338
+Gathered 133200 samples of 200000
+Gathered 133300 samples of 200000
+Gathered 133400 samples of 200000
+Gathered 133500 samples of 200000
+Gathered 133600 samples of 200000
+Length: 493; Score: 0
+
+Episode 88
+CPU Usage 21.55
+Total Memory 23973
+Used Memory 3622
+Free Memory 7300
+Gathered 133700 samples of 200000
+Gathered 133800 samples of 200000
+Gathered 133900 samples of 200000
+Gathered 134000 samples of 200000
+Gathered 134100 samples of 200000
+Length: 490; Score: -63
+
+Episode 89
+CPU Usage 21.56
+Total Memory 23973
+Used Memory 3660
+Free Memory 7262
+Gathered 134200 samples of 200000
+Gathered 134300 samples of 200000
+Gathered 134400 samples of 200000
+Gathered 134500 samples of 200000
+Gathered 134600 samples of 200000
+Gathered 134700 samples of 200000
+Gathered 134800 samples of 200000
+Gathered 134900 samples of 200000
+Gathered 135000 samples of 200000
+Gathered 135100 samples of 200000
+Gathered 135200 samples of 200000
+Gathered 135300 samples of 200000
+Gathered 135400 samples of 200000
+Length: 1287; Score: -200
+
+Episode 90
+CPU Usage 21.56
+Total Memory 23973
+Used Memory 3757
+Free Memory 7162
+Gathered 135500 samples of 200000
+Gathered 135600 samples of 200000
+Gathered 135700 samples of 200000
+Gathered 135800 samples of 200000
+Gathered 135900 samples of 200000
+Gathered 136000 samples of 200000
+Gathered 136100 samples of 200000
+Gathered 136200 samples of 200000
+Gathered 136300 samples of 200000
+Gathered 136400 samples of 200000
+Gathered 136500 samples of 200000
+Gathered 136600 samples of 200000
+Gathered 136700 samples of 200000
+Gathered 136800 samples of 200000
+Gathered 136900 samples of 200000
+Gathered 137000 samples of 200000
+Gathered 137100 samples of 200000
+Gathered 137200 samples of 200000
+Gathered 137300 samples of 200000
+Length: 1990; Score: -215
+
+Episode 91
+CPU Usage 21.58
+Total Memory 23973
+Used Memory 3910
+Free Memory 7010
+Gathered 137400 samples of 200000
+Gathered 137500 samples of 200000
+Gathered 137600 samples of 200000
+Gathered 137700 samples of 200000
+Gathered 137800 samples of 200000
+Gathered 137900 samples of 200000
+Gathered 138000 samples of 200000
+Gathered 138100 samples of 200000
+Gathered 138200 samples of 200000
+Gathered 138300 samples of 200000
+Gathered 138400 samples of 200000
+Gathered 138500 samples of 200000
+Gathered 138600 samples of 200000
+Gathered 138700 samples of 200000
+Gathered 138800 samples of 200000
+Length: 1433; Score: -302
+
+Episode 92
+CPU Usage 21.58
+Total Memory 23973
+Used Memory 4018
+Free Memory 7000
+Gathered 138900 samples of 200000
+Gathered 139000 samples of 200000
+Gathered 139100 samples of 200000
+Gathered 139200 samples of 200000
+Length: 436; Score: -48
+
+Episode 93
+CPU Usage 21.59
+Total Memory 23973
+Used Memory 4047
+Free Memory 7002
+Gathered 139300 samples of 200000
+Gathered 139400 samples of 200000
+Gathered 139500 samples of 200000
+Gathered 139600 samples of 200000
+Gathered 139700 samples of 200000
+Gathered 139800 samples of 200000
+Gathered 139900 samples of 200000
+Gathered 140000 samples of 200000
+Gathered 140100 samples of 200000
+Gathered 140200 samples of 200000
+Gathered 140300 samples of 200000
+Gathered 140400 samples of 200000
+Gathered 140500 samples of 200000
+Gathered 140600 samples of 200000
+Length: 1364; Score: -36
+
+Episode 94
+CPU Usage 21.6
+Total Memory 23973
+Used Memory 4143
+Free Memory 7003
+Gathered 140700 samples of 200000
+Gathered 140800 samples of 200000
+Gathered 140900 samples of 200000
+Gathered 141000 samples of 200000
+Gathered 141100 samples of 200000
+Gathered 141200 samples of 200000
+Gathered 141300 samples of 200000
+Length: 676; Score: -20
+
+Episode 95
+CPU Usage 21.6
+Total Memory 23973
+Used Memory 4187
+Free Memory 7011
+Gathered 141400 samples of 200000
+Gathered 141500 samples of 200000
+Gathered 141600 samples of 200000
+Gathered 141700 samples of 200000
+Length: 406; Score: -13
+
+Episode 96
+CPU Usage 21.6
+Total Memory 23973
+Used Memory 4220
+Free Memory 7011
+Gathered 141800 samples of 200000
+Gathered 141900 samples of 200000
+Gathered 142000 samples of 200000
+Gathered 142100 samples of 200000
+Gathered 142200 samples of 200000
+Gathered 142300 samples of 200000
+Gathered 142400 samples of 200000
+Gathered 142500 samples of 200000
+Gathered 142600 samples of 200000
+Gathered 142700 samples of 200000
+Gathered 142800 samples of 200000
+Length: 1110; Score: -34
+
+Episode 97
+CPU Usage 21.61
+Total Memory 23973
+Used Memory 4298
+Free Memory 7012
+Gathered 142900 samples of 200000
+Gathered 143000 samples of 200000
+Gathered 143100 samples of 200000
+Gathered 143200 samples of 200000
+Gathered 143300 samples of 200000
+Gathered 143400 samples of 200000
+Length: 672; Score: -78
+
+Episode 98
+CPU Usage 21.62
+Total Memory 23973
+Used Memory 4344
+Free Memory 7031
+Gathered 143500 samples of 200000
+Gathered 143600 samples of 200000
+Gathered 143700 samples of 200000
+Gathered 143800 samples of 200000
+Gathered 143900 samples of 200000
+Gathered 144000 samples of 200000
+Length: 600; Score: 0
+
+Episode 99
+CPU Usage 21.62
+Total Memory 23973
+Used Memory 4408
+Free Memory 7010
+Gathered 144100 samples of 200000
+Gathered 144200 samples of 200000
+Gathered 144300 samples of 200000
+Length: 249; Score: 0
+
+Episode 100
+CPU Usage 21.62
+Total Memory 23973
+Used Memory 4409
+Free Memory 7015
+Gathered 144400 samples of 200000
+Gathered 144500 samples of 200000
+Gathered 144600 samples of 200000
+Gathered 144700 samples of 200000
+Gathered 144800 samples of 200000
+Gathered 144900 samples of 200000
+Length: 590; Score: 0
+
+Episode 101
+CPU Usage 21.62
+Total Memory 23973
+Used Memory 4454
+Free Memory 7020
+Gathered 145000 samples of 200000
+Gathered 145100 samples of 200000
+Gathered 145200 samples of 200000
+Gathered 145300 samples of 200000
+Length: 436; Score: 0
+
+Episode 102
+CPU Usage 21.63
+Total Memory 23973
+Used Memory 4487
+Free Memory 6988
+Gathered 145400 samples of 200000
+Gathered 145500 samples of 200000
+Gathered 145600 samples of 200000
+Gathered 145700 samples of 200000
+Gathered 145800 samples of 200000
+Gathered 145900 samples of 200000
+Gathered 146000 samples of 200000
+Gathered 146100 samples of 200000
+Gathered 146200 samples of 200000
+Gathered 146300 samples of 200000
+Length: 954; Score: -101
+
+Episode 103
+CPU Usage 21.63
+Total Memory 23973
+Used Memory 4558
+Free Memory 7011
+Gathered 146400 samples of 200000
+Gathered 146500 samples of 200000
+Gathered 146600 samples of 200000
+Gathered 146700 samples of 200000
+Length: 421; Score: 0
+
+Episode 104
+CPU Usage 21.64
+Total Memory 23973
+Used Memory 4591
+Free Memory 7020
+Gathered 146800 samples of 200000
+Gathered 146900 samples of 200000
+Gathered 147000 samples of 200000
+Length: 334; Score: -22
+
+Episode 105
+CPU Usage 21.64
+Total Memory 23973
+Used Memory 4685
+Free Memory 7023
+Gathered 147100 samples of 200000
+Gathered 147200 samples of 200000
+Gathered 147300 samples of 200000
+Gathered 147400 samples of 200000
+Gathered 147500 samples of 200000
+Gathered 147600 samples of 200000
+Gathered 147700 samples of 200000
+Gathered 147800 samples of 200000
+Gathered 147900 samples of 200000
+Gathered 148000 samples of 200000
+Length: 1006; Score: 0
+
+Episode 106
+CPU Usage 21.65
+Total Memory 23973
+Used Memory 4688
+Free Memory 7177
+Gathered 148100 samples of 200000
+Gathered 148200 samples of 200000
+Gathered 148300 samples of 200000
+Gathered 148400 samples of 200000
+Gathered 148500 samples of 200000
+Length: 424; Score: 0
+
+Episode 107
+CPU Usage 21.65
+Total Memory 23973
+Used Memory 4720
+Free Memory 7148
+Gathered 148600 samples of 200000
+Gathered 148700 samples of 200000
+Gathered 148800 samples of 200000
+Gathered 148900 samples of 200000
+Gathered 149000 samples of 200000
+Length: 496; Score: 0
+
+Episode 108
+CPU Usage 21.66
+Total Memory 23973
+Used Memory 4779
+Free Memory 7084
+Gathered 149100 samples of 200000
+Gathered 149200 samples of 200000
+Gathered 149300 samples of 200000
+Gathered 149400 samples of 200000
+Gathered 149500 samples of 200000
+Gathered 149600 samples of 200000
+Gathered 149700 samples of 200000
+Gathered 149800 samples of 200000
+Length: 842; Score: 0
+
+Episode 109
+CPU Usage 21.66
+Total Memory 23973
+Used Memory 4824
+Free Memory 7043
+Gathered 149900 samples of 200000
+Gathered 150000 samples of 200000
+Gathered 150100 samples of 200000
+Gathered 150200 samples of 200000
+Gathered 150300 samples of 200000
+Gathered 150400 samples of 200000
+Gathered 150500 samples of 200000
+Gathered 150600 samples of 200000
+Length: 831; Score: -476
+
+Episode 110
+CPU Usage 21.67
+Total Memory 23973
+Used Memory 4886
+Free Memory 7023
+Gathered 150700 samples of 200000
+Gathered 150800 samples of 200000
+Gathered 150900 samples of 200000
+Gathered 151000 samples of 200000
+Length: 335; Score: 0
+
+Episode 111
+CPU Usage 21.67
+Total Memory 23973
+Used Memory 4909
+Free Memory 7001
+Gathered 151100 samples of 200000
+Gathered 151200 samples of 200000
+Gathered 151300 samples of 200000
+Gathered 151400 samples of 200000
+Gathered 151500 samples of 200000
+Gathered 151600 samples of 200000
+Gathered 151700 samples of 200000
+Length: 715; Score: 0
+
+Episode 112
+CPU Usage 21.67
+Total Memory 23973
+Used Memory 4989
+Free Memory 6986
+Gathered 151800 samples of 200000
+Gathered 151900 samples of 200000
+Gathered 152000 samples of 200000
+Gathered 152100 samples of 200000
+Gathered 152200 samples of 200000
+Gathered 152300 samples of 200000
+Gathered 152400 samples of 200000
+Gathered 152500 samples of 200000
+Gathered 152600 samples of 200000
+Gathered 152700 samples of 200000
+Gathered 152800 samples of 200000
+Gathered 152900 samples of 200000
+Gathered 153000 samples of 200000
+Gathered 153100 samples of 200000
+Gathered 153200 samples of 200000
+Gathered 153300 samples of 200000
+Gathered 153400 samples of 200000
+Gathered 153500 samples of 200000
+Gathered 153600 samples of 200000
+Gathered 153700 samples of 200000
+Gathered 153800 samples of 200000
+Gathered 153900 samples of 200000
+Gathered 154000 samples of 200000
+Gathered 154100 samples of 200000
+Gathered 154200 samples of 200000
+Gathered 154300 samples of 200000
+Gathered 154400 samples of 200000
+Gathered 154500 samples of 200000
+Gathered 154600 samples of 200000
+Gathered 154700 samples of 200000
+Gathered 154800 samples of 200000
+Gathered 154900 samples of 200000
+Gathered 155000 samples of 200000
+Gathered 155100 samples of 200000
+Gathered 155200 samples of 200000
+Gathered 155300 samples of 200000
+Gathered 155400 samples of 200000
+Gathered 155500 samples of 200000
+Gathered 155600 samples of 200000
+Gathered 155700 samples of 200000
+Gathered 155800 samples of 200000
+Gathered 155900 samples of 200000
+Gathered 156000 samples of 200000
+Gathered 156100 samples of 200000
+Gathered 156200 samples of 200000
+Gathered 156300 samples of 200000
+Gathered 156400 samples of 200000
+Gathered 156500 samples of 200000
+Gathered 156600 samples of 200000
+Gathered 156700 samples of 200000
+Gathered 156800 samples of 200000
+Gathered 156900 samples of 200000
+Gathered 157000 samples of 200000
+Gathered 157100 samples of 200000
+Gathered 157200 samples of 200000
+Gathered 157300 samples of 200000
+Gathered 157400 samples of 200000
+Gathered 157500 samples of 200000
+Gathered 157600 samples of 200000
+Gathered 157700 samples of 200000
+Gathered 157800 samples of 200000
+Gathered 157900 samples of 200000
+Length: 6268; Score: -124
+
+Episode 113
+CPU Usage 21.71
+Total Memory 23973
+Used Memory 5457
+Free Memory 6980
+Gathered 158000 samples of 200000
+Gathered 158100 samples of 200000
+Gathered 158200 samples of 200000
+Gathered 158300 samples of 200000
+Gathered 158400 samples of 200000
+Gathered 158500 samples of 200000
+Length: 577; Score: -10
+
+Episode 114
+CPU Usage 21.71
+Total Memory 23973
+Used Memory 5500
+Free Memory 6999
+Gathered 158600 samples of 200000
+Gathered 158700 samples of 200000
+Gathered 158800 samples of 200000
+Gathered 158900 samples of 200000
+Gathered 159000 samples of 200000
+Gathered 159100 samples of 200000
+Gathered 159200 samples of 200000
+Gathered 159300 samples of 200000
+Gathered 159400 samples of 200000
+Gathered 159500 samples of 200000
+Gathered 159600 samples of 200000
+Gathered 159700 samples of 200000
+Gathered 159800 samples of 200000
+Gathered 159900 samples of 200000
+Gathered 160000 samples of 200000
+Length: 1495; Score: -161
+
+Episode 115
+CPU Usage 21.72
+Total Memory 23973
+Used Memory 5612
+Free Memory 7002
+Gathered 160100 samples of 200000
+Gathered 160200 samples of 200000
+Gathered 160300 samples of 200000
+Gathered 160400 samples of 200000
+Gathered 160500 samples of 200000
+Gathered 160600 samples of 200000
+Gathered 160700 samples of 200000
+Gathered 160800 samples of 200000
+Gathered 160900 samples of 200000
+Gathered 161000 samples of 200000
+Gathered 161100 samples of 200000
+Gathered 161200 samples of 200000
+Gathered 161300 samples of 200000
+Length: 1327; Score: -120
+
+Episode 116
+CPU Usage 21.73
+Total Memory 23973
+Used Memory 5710
+Free Memory 6990
+Gathered 161400 samples of 200000
+Gathered 161500 samples of 200000
+Gathered 161600 samples of 200000
+Gathered 161700 samples of 200000
+Gathered 161800 samples of 200000
+Gathered 161900 samples of 200000
+Gathered 162000 samples of 200000
+Gathered 162100 samples of 200000
+Gathered 162200 samples of 200000
+Gathered 162300 samples of 200000
+Gathered 162400 samples of 200000
+Gathered 162500 samples of 200000
+Length: 1123; Score: -84
+
+Episode 117
+CPU Usage 21.74
+Total Memory 23973
+Used Memory 5798
+Free Memory 6996
+Gathered 162600 samples of 200000
+Gathered 162700 samples of 200000
+Gathered 162800 samples of 200000
+Gathered 162900 samples of 200000
+Gathered 163000 samples of 200000
+Length: 499; Score: 0
+
+Episode 118
+CPU Usage 21.74
+Total Memory 23973
+Used Memory 5836
+Free Memory 6994
+Gathered 163100 samples of 200000
+Gathered 163200 samples of 200000
+Gathered 163300 samples of 200000
+Length: 321; Score: 0
+
+Episode 119
+CPU Usage 21.74
+Total Memory 23973
+Used Memory 5861
+Free Memory 6997
+Gathered 163400 samples of 200000
+Gathered 163500 samples of 200000
+Gathered 163600 samples of 200000
+Gathered 163700 samples of 200000
+Length: 414; Score: 0
+
+Episode 120
+CPU Usage 21.75
+Total Memory 23973
+Used Memory 5895
+Free Memory 7027
+Gathered 163800 samples of 200000
+Gathered 163900 samples of 200000
+Gathered 164000 samples of 200000
+Gathered 164100 samples of 200000
+Gathered 164200 samples of 200000
+Gathered 164300 samples of 200000
+Gathered 164400 samples of 200000
+Gathered 164500 samples of 200000
+Gathered 164600 samples of 200000
+Gathered 164700 samples of 200000
+Length: 1010; Score: -65
+
+Episode 121
+CPU Usage 21.75
+Total Memory 23973
+Used Memory 5970
+Free Memory 6995
+Gathered 164800 samples of 200000
+Gathered 164900 samples of 200000
+Gathered 165000 samples of 200000
+Gathered 165100 samples of 200000
+Gathered 165200 samples of 200000
+Length: 499; Score: 0
+
+Episode 122
+CPU Usage 21.75
+Total Memory 23973
+Used Memory 6007
+Free Memory 6994
+Gathered 165300 samples of 200000
+Gathered 165400 samples of 200000
+Gathered 165500 samples of 200000
+Gathered 165600 samples of 200000
+Gathered 165700 samples of 200000
+Gathered 165800 samples of 200000
+Gathered 165900 samples of 200000
+Length: 695; Score: 0
+
+Episode 123
+CPU Usage 21.76
+Total Memory 23973
+Used Memory 6088
+Free Memory 6998
+Gathered 166000 samples of 200000
+Gathered 166100 samples of 200000
+Gathered 166200 samples of 200000
+Gathered 166300 samples of 200000
+Gathered 166400 samples of 200000
+Gathered 166500 samples of 200000
+Length: 574; Score: 0
+
+Episode 124
+CPU Usage 21.76
+Total Memory 23973
+Used Memory 6098
+Free Memory 6993
+Gathered 166600 samples of 200000
+Gathered 166700 samples of 200000
+Gathered 166800 samples of 200000
+Gathered 166900 samples of 200000
+Gathered 167000 samples of 200000
+Length: 501; Score: 0
+
+Episode 125
+CPU Usage 21.77
+Total Memory 23973
+Used Memory 6136
+Free Memory 7004
+Gathered 167100 samples of 200000
+Gathered 167200 samples of 200000
+Gathered 167300 samples of 200000
+Gathered 167400 samples of 200000
+Length: 410; Score: 0
+
+Episode 126
+CPU Usage 21.77
+Total Memory 23973
+Used Memory 6170
+Free Memory 6992
+Gathered 167500 samples of 200000
+Gathered 167600 samples of 200000
+Gathered 167700 samples of 200000
+Gathered 167800 samples of 200000
+Gathered 167900 samples of 200000
+Length: 500; Score: -26
+
+Episode 127
+CPU Usage 21.77
+Total Memory 23973
+Used Memory 6203
+Free Memory 7017
+Gathered 168000 samples of 200000
+Gathered 168100 samples of 200000
+Gathered 168200 samples of 200000
+Gathered 168300 samples of 200000
+Length: 412; Score: 0
+
+Episode 128
+CPU Usage 21.77
+Total Memory 23973
+Used Memory 6240
+Free Memory 6979
+Gathered 168400 samples of 200000
+Gathered 168500 samples of 200000
+Gathered 168600 samples of 200000
+Length: 325; Score: 0
+
+Episode 129
+CPU Usage 21.78
+Total Memory 23973
+Used Memory 6264
+Free Memory 6993
+Gathered 168700 samples of 200000
+Gathered 168800 samples of 200000
+Gathered 168900 samples of 200000
+Gathered 169000 samples of 200000
+Length: 323; Score: 0
+
+Episode 130
+CPU Usage 21.78
+Total Memory 23973
+Used Memory 6287
+Free Memory 7028
+Gathered 169100 samples of 200000
+Gathered 169200 samples of 200000
+Gathered 169300 samples of 200000
+Gathered 169400 samples of 200000
+Length: 432; Score: 0
+
+Episode 131
+CPU Usage 21.78
+Total Memory 23973
+Used Memory 6320
+Free Memory 6995
+Gathered 169500 samples of 200000
+Gathered 169600 samples of 200000
+Gathered 169700 samples of 200000
+Gathered 169800 samples of 200000
+Updating target network...
+Length: 430; Score: -19
+
+Episode 132
+CPU Usage 21.78
+Total Memory 23973
+Used Memory 6382
+Free Memory 6987
+Gathered 169900 samples of 200000
+Gathered 170000 samples of 200000
+Gathered 170100 samples of 200000
+Gathered 170200 samples of 200000
+Gathered 170300 samples of 200000
+Gathered 170400 samples of 200000
+Gathered 170500 samples of 200000
+Gathered 170600 samples of 200000
+Gathered 170700 samples of 200000
+Gathered 170800 samples of 200000
+Gathered 170900 samples of 200000
+Gathered 171000 samples of 200000
+Gathered 171100 samples of 200000
+Length: 1335; Score: -140
+
+Episode 133
+CPU Usage 21.79
+Total Memory 23973
+Used Memory 6451
+Free Memory 6989
+Gathered 171200 samples of 200000
+Gathered 171300 samples of 200000
+Gathered 171400 samples of 200000
+Gathered 171500 samples of 200000
+Gathered 171600 samples of 200000
+Length: 414; Score: 0
+
+Episode 134
+CPU Usage 21.79
+Total Memory 23973
+Used Memory 6496
+Free Memory 7014
+Gathered 171700 samples of 200000
+Gathered 171800 samples of 200000
+Gathered 171900 samples of 200000
+Gathered 172000 samples of 200000
+Gathered 172100 samples of 200000
+Gathered 172200 samples of 200000
+Length: 591; Score: -33
+
+Episode 135
+CPU Usage 21.8
+Total Memory 23973
+Used Memory 6524
+Free Memory 7013
+Gathered 172300 samples of 200000
+Gathered 172400 samples of 200000
+Gathered 172500 samples of 200000
+Length: 345; Score: 0
+
+Episode 136
+CPU Usage 21.8
+Total Memory 23973
+Used Memory 6549
+Free Memory 7007
+Gathered 172600 samples of 200000
+Gathered 172700 samples of 200000
+Gathered 172800 samples of 200000
+Length: 323; Score: 0
+
+Episode 137
+CPU Usage 21.8
+Total Memory 23973
+Used Memory 6573
+Free Memory 7016
+Gathered 172900 samples of 200000
+Gathered 173000 samples of 200000
+Gathered 173100 samples of 200000
+Gathered 173200 samples of 200000
+Gathered 173300 samples of 200000
+Length: 431; Score: -43
+
+Episode 138
+CPU Usage 21.8
+Total Memory 23973
+Used Memory 6606
+Free Memory 6983
+Gathered 173400 samples of 200000
+Gathered 173500 samples of 200000
+Gathered 173600 samples of 200000
+Length: 323; Score: 0
+
+Episode 139
+CPU Usage 21.81
+Total Memory 23973
+Used Memory 6631
+Free Memory 6971
+Gathered 173700 samples of 200000
+Gathered 173800 samples of 200000
+Gathered 173900 samples of 200000
+Length: 330; Score: 0
+
+Episode 140
+CPU Usage 21.81
+Total Memory 23973
+Used Memory 6613
+Free Memory 7033
+Gathered 174000 samples of 200000
+Gathered 174100 samples of 200000
+Gathered 174200 samples of 200000
+Gathered 174300 samples of 200000
+Length: 409; Score: -2
+
+Episode 141
+CPU Usage 21.81
+Total Memory 23973
+Used Memory 6695
+Free Memory 6932
+Gathered 174400 samples of 200000
+Gathered 174500 samples of 200000
+Gathered 174600 samples of 200000
+Gathered 174700 samples of 200000
+Gathered 174800 samples of 200000
+Gathered 174900 samples of 200000
+Length: 597; Score: -48
+
+Episode 142
+CPU Usage 21.82
+Total Memory 23973
+Used Memory 6680
+Free Memory 6922
+Gathered 175000 samples of 200000
+Gathered 175100 samples of 200000
+Gathered 175200 samples of 200000
+Gathered 175300 samples of 200000
+Gathered 175400 samples of 200000
+Gathered 175500 samples of 200000
+Gathered 175600 samples of 200000
+Length: 665; Score: -40
+
+Episode 143
+CPU Usage 21.82
+Total Memory 23973
+Used Memory 6727
+Free Memory 6922
+Gathered 175700 samples of 200000
+Gathered 175800 samples of 200000
+Gathered 175900 samples of 200000
+Gathered 176000 samples of 200000
+Length: 434; Score: -7
+
+Episode 144
+CPU Usage 21.82
+Total Memory 23973
+Used Memory 6759
+Free Memory 6938
+Gathered 176100 samples of 200000
+Gathered 176200 samples of 200000
+Gathered 176300 samples of 200000
+Gathered 176400 samples of 200000
+Gathered 176500 samples of 200000
+Gathered 176600 samples of 200000
+Length: 574; Score: -61
+
+Episode 145
+CPU Usage 21.82
+Total Memory 23973
+Used Memory 6803
+Free Memory 6927
+Gathered 176700 samples of 200000
+Gathered 176800 samples of 200000
+Gathered 176900 samples of 200000
+Gathered 177000 samples of 200000
+Gathered 177100 samples of 200000
+Gathered 177200 samples of 200000
+Gathered 177300 samples of 200000
+Gathered 177400 samples of 200000
+Gathered 177500 samples of 200000
+Gathered 177600 samples of 200000
+Length: 1043; Score: 0
+
+Episode 146
+CPU Usage 21.83
+Total Memory 23973
+Used Memory 6950
+Free Memory 6772
+Gathered 177700 samples of 200000
+Gathered 177800 samples of 200000
+Gathered 177900 samples of 200000
+Gathered 178000 samples of 200000
+Gathered 178100 samples of 200000
+Gathered 178200 samples of 200000
+Gathered 178300 samples of 200000
+Gathered 178400 samples of 200000
+Gathered 178500 samples of 200000
+Length: 831; Score: -54
+
+Episode 147
+CPU Usage 21.84
+Total Memory 23973
+Used Memory 6946
+Free Memory 6786
+Gathered 178600 samples of 200000
+Gathered 178700 samples of 200000
+Gathered 178800 samples of 200000
+Gathered 178900 samples of 200000
+Gathered 179000 samples of 200000
+Gathered 179100 samples of 200000
+Gathered 179200 samples of 200000
+Length: 760; Score: 0
+
+Episode 148
+CPU Usage 21.84
+Total Memory 23973
+Used Memory 7008
+Free Memory 6730
+Gathered 179300 samples of 200000
+Gathered 179400 samples of 200000
+Gathered 179500 samples of 200000
+Gathered 179600 samples of 200000
+Gathered 179700 samples of 200000
+Gathered 179800 samples of 200000
+Length: 588; Score: 0
+
+Episode 149
+CPU Usage 21.84
+Total Memory 23973
+Used Memory 7032
+Free Memory 6718
+Gathered 179900 samples of 200000
+Gathered 180000 samples of 200000
+Gathered 180100 samples of 200000
+Gathered 180200 samples of 200000
+Gathered 180300 samples of 200000
+Gathered 180400 samples of 200000
+Length: 576; Score: 0
+
+Episode 150
+CPU Usage 21.85
+Total Memory 23973
+Used Memory 7107
+Free Memory 6644
+Gathered 180500 samples of 200000
+Gathered 180600 samples of 200000
+Gathered 180700 samples of 200000
+Gathered 180800 samples of 200000
+Gathered 180900 samples of 200000
+Gathered 181000 samples of 200000
+Length: 666; Score: -32
+
+Episode 151
+CPU Usage 21.85
+Total Memory 23973
+Used Memory 7145
+Free Memory 6613
+Gathered 181100 samples of 200000
+Gathered 181200 samples of 200000
+Gathered 181300 samples of 200000
+Gathered 181400 samples of 200000
+Gathered 181500 samples of 200000
+Gathered 181600 samples of 200000
+Gathered 181700 samples of 200000
+Length: 639; Score: -5
+
+Episode 152
+CPU Usage 21.86
+Total Memory 23973
+Used Memory 7179
+Free Memory 6588
+Gathered 181800 samples of 200000
+Gathered 181900 samples of 200000
+Gathered 182000 samples of 200000
+Gathered 182100 samples of 200000
+Gathered 182200 samples of 200000
+Gathered 182300 samples of 200000
+Gathered 182400 samples of 200000
+Gathered 182500 samples of 200000
+Length: 861; Score: -70
+
+Episode 153
+CPU Usage 21.86
+Total Memory 23973
+Used Memory 7261
+Free Memory 6495
+Gathered 182600 samples of 200000
+Gathered 182700 samples of 200000
+Gathered 182800 samples of 200000
+Gathered 182900 samples of 200000
+Gathered 183000 samples of 200000
+Gathered 183100 samples of 200000
+Length: 503; Score: 0
+
+Episode 154
+CPU Usage 21.86
+Total Memory 23973
+Used Memory 7296
+Free Memory 6423
+Gathered 183200 samples of 200000
+Gathered 183300 samples of 200000
+Gathered 183400 samples of 200000
+Gathered 183500 samples of 200000
+Length: 406; Score: 0
+
+Episode 155
+CPU Usage 21.87
+Total Memory 23973
+Used Memory 7379
+Free Memory 6350
+Gathered 183600 samples of 200000
+Gathered 183700 samples of 200000
+Gathered 183800 samples of 200000
+Gathered 183900 samples of 200000
+Gathered 184000 samples of 200000
+Length: 586; Score: -63
+
+Episode 156
+CPU Usage 21.87
+Total Memory 23973
+Used Memory 7374
+Free Memory 6360
+Gathered 184100 samples of 200000
+Gathered 184200 samples of 200000
+Gathered 184300 samples of 200000
+Gathered 184400 samples of 200000
+Gathered 184500 samples of 200000
+Length: 497; Score: -23
+
+Episode 157
+CPU Usage 21.87
+Total Memory 23973
+Used Memory 7407
+Free Memory 6325
+Gathered 184600 samples of 200000
+Gathered 184700 samples of 200000
+Gathered 184800 samples of 200000
+Gathered 184900 samples of 200000
+Length: 408; Score: 0
+
+Episode 158
+CPU Usage 21.87
+Total Memory 23973
+Used Memory 7449
+Free Memory 6292
+Gathered 185000 samples of 200000
+Gathered 185100 samples of 200000
+Gathered 185200 samples of 200000
+Gathered 185300 samples of 200000
+Gathered 185400 samples of 200000
+Gathered 185500 samples of 200000
+Gathered 185600 samples of 200000
+Gathered 185700 samples of 200000
+Gathered 185800 samples of 200000
+Length: 839; Score: -35
+
+Episode 159
+CPU Usage 21.88
+Total Memory 23973
+Used Memory 7562
+Free Memory 6194
+Gathered 185900 samples of 200000
+Gathered 186000 samples of 200000
+Gathered 186100 samples of 200000
+Gathered 186200 samples of 200000
+Gathered 186300 samples of 200000
+Gathered 186400 samples of 200000
+Gathered 186500 samples of 200000
+Gathered 186600 samples of 200000
+Gathered 186700 samples of 200000
+Length: 890; Score: -185
+
+Episode 160
+CPU Usage 21.88
+Total Memory 23973
+Used Memory 7570
+Free Memory 6170
+Gathered 186800 samples of 200000
+Gathered 186900 samples of 200000
+Gathered 187000 samples of 200000
+Gathered 187100 samples of 200000
+Gathered 187200 samples of 200000
+Gathered 187300 samples of 200000
+Length: 666; Score: -33
+
+Episode 161
+CPU Usage 21.89
+Total Memory 23973
+Used Memory 7678
+Free Memory 6079
+Gathered 187400 samples of 200000
+Gathered 187500 samples of 200000
+Gathered 187600 samples of 200000
+Gathered 187700 samples of 200000
+Gathered 187800 samples of 200000
+Gathered 187900 samples of 200000
+Gathered 188000 samples of 200000
+Length: 676; Score: 0
+
+Episode 162
+CPU Usage 21.89
+Total Memory 23973
+Used Memory 7676
+Free Memory 6084
+Gathered 188100 samples of 200000
+Gathered 188200 samples of 200000
+Gathered 188300 samples of 200000
+Gathered 188400 samples of 200000
+Length: 374; Score: 0
+
+Episode 163
+CPU Usage 21.9
+Total Memory 23973
+Used Memory 7772
+Free Memory 5959
+Gathered 188500 samples of 200000
+Gathered 188600 samples of 200000
+Gathered 188700 samples of 200000
+Gathered 188800 samples of 200000
+Gathered 188900 samples of 200000
+Gathered 189000 samples of 200000
+Gathered 189100 samples of 200000
+Gathered 189200 samples of 200000
+Gathered 189300 samples of 200000
+Gathered 189400 samples of 200000
+Gathered 189500 samples of 200000
+Gathered 189600 samples of 200000
+Gathered 189700 samples of 200000
+Gathered 189800 samples of 200000
+Gathered 189900 samples of 200000
+Gathered 190000 samples of 200000
+Gathered 190100 samples of 200000
+Gathered 190200 samples of 200000
+Gathered 190300 samples of 200000
+Gathered 190400 samples of 200000
+Gathered 190500 samples of 200000
+Gathered 190600 samples of 200000
+Gathered 190700 samples of 200000
+Gathered 190800 samples of 200000
+Gathered 190900 samples of 200000
+Gathered 191000 samples of 200000
+Gathered 191100 samples of 200000
+Gathered 191200 samples of 200000
+Gathered 191300 samples of 200000
+Gathered 191400 samples of 200000
+Gathered 191500 samples of 200000
+Gathered 191600 samples of 200000
+Gathered 191700 samples of 200000
+Gathered 191800 samples of 200000
+Gathered 191900 samples of 200000
+Gathered 192000 samples of 200000
+Gathered 192100 samples of 200000
+Gathered 192200 samples of 200000
+Gathered 192300 samples of 200000
+Gathered 192400 samples of 200000
+Gathered 192500 samples of 200000
+Gathered 192600 samples of 200000
+Gathered 192700 samples of 200000
+Gathered 192800 samples of 200000
+Gathered 192900 samples of 200000
+Gathered 193000 samples of 200000
+Gathered 193100 samples of 200000
+Gathered 193200 samples of 200000
+Gathered 193300 samples of 200000
+Gathered 193400 samples of 200000
+Gathered 193500 samples of 200000
+Gathered 193600 samples of 200000
+Gathered 193700 samples of 200000
+Gathered 193800 samples of 200000
+Gathered 193900 samples of 200000
+Gathered 194000 samples of 200000
+Gathered 194100 samples of 200000
+Gathered 194200 samples of 200000
+Gathered 194300 samples of 200000
+Gathered 194400 samples of 200000
+Gathered 194500 samples of 200000
+Gathered 194600 samples of 200000
+Gathered 194700 samples of 200000
+Gathered 194800 samples of 200000
+Gathered 194900 samples of 200000
+Gathered 195000 samples of 200000
+Gathered 195100 samples of 200000
+Gathered 195200 samples of 200000
+Gathered 195300 samples of 200000
+Gathered 195400 samples of 200000
+Gathered 195500 samples of 200000
+Gathered 195600 samples of 200000
+Gathered 195700 samples of 200000
+Gathered 195800 samples of 200000
+Gathered 195900 samples of 200000
+Gathered 196000 samples of 200000
+Gathered 196100 samples of 200000
+Gathered 196200 samples of 200000
+Gathered 196300 samples of 200000
+Gathered 196400 samples of 200000
+Gathered 196500 samples of 200000
+Gathered 196600 samples of 200000
+Gathered 196700 samples of 200000
+Gathered 196800 samples of 200000
+Gathered 196900 samples of 200000
+Gathered 197000 samples of 200000
+Gathered 197100 samples of 200000
+Gathered 197200 samples of 200000
+Gathered 197300 samples of 200000
+Gathered 197400 samples of 200000
+Gathered 197500 samples of 200000
+Gathered 197600 samples of 200000
+Gathered 197700 samples of 200000
+Gathered 197800 samples of 200000
+Gathered 197900 samples of 200000
+Gathered 198000 samples of 200000
+Gathered 198100 samples of 200000
+Gathered 198200 samples of 200000
+Gathered 198300 samples of 200000
+Gathered 198400 samples of 200000
+Gathered 198500 samples of 200000
+Gathered 198600 samples of 200000
+Gathered 198700 samples of 200000
+Gathered 198800 samples of 200000
+Gathered 198900 samples of 200000
+Gathered 199000 samples of 200000
+Gathered 199100 samples of 200000
+Gathered 199200 samples of 200000
+Gathered 199300 samples of 200000
+Gathered 199400 samples of 200000
+Gathered 199500 samples of 200000
+Gathered 199600 samples of 200000
+Gathered 199700 samples of 200000
+Gathered 199800 samples of 200000
+Gathered 199900 samples of 200000
+Length: 13991; Score: -534
+
+Episode 164
+CPU Usage 22.03
+Total Memory 23973
+Used Memory 8808
+Free Memory 4919
+Length: 602; Score: 0
+
+Episode 165
+CPU Usage 22.04
+Total Memory 23973
+Used Memory 8806
+Free Memory 4928
+Length: 774; Score: -222
+
+Episode 166
+CPU Usage 22.05
+Total Memory 23973
+Used Memory 8830
+Free Memory 4844
+Length: 679; Score: 0
+
+Episode 167
+CPU Usage 22.06
+Total Memory 23973
+Used Memory 8842
+Free Memory 4720
+Length: 367; Score: 0
+
+Episode 168
+CPU Usage 22.06
+Total Memory 23973
+Used Memory 8857
+Free Memory 4706
+Length: 751; Score: -34
+
+Episode 169
+CPU Usage 22.07
+Total Memory 23973
+Used Memory 8883
+Free Memory 4724
+Length: 825; Score: -100
+
+Episode 170
+CPU Usage 22.08
+Total Memory 23973
+Used Memory 8903
+Free Memory 4741
+Length: 492; Score: 0
+
+Episode 171
+CPU Usage 22.09
+Total Memory 23973
+Used Memory 8934
+Free Memory 4727
+Updating target network...
+Length: 3050; Score: 0
+
+Episode 172
+CPU Usage 22.13
+Total Memory 23973
+Used Memory 9008
+Free Memory 4570
+Length: 582; Score: -86
+
+Episode 173
+CPU Usage 22.14
+Total Memory 23973
+Used Memory 9007
+Free Memory 4592
+Length: 674; Score: -57
+
+Episode 174
+CPU Usage 22.15
+Total Memory 23973
+Used Memory 9027
+Free Memory 4613
+Length: 409; Score: 0
+
+Episode 175
+CPU Usage 22.15
+Total Memory 23973
+Used Memory 9060
+Free Memory 4598
+Length: 489; Score: -28
+
+Episode 176
+CPU Usage 22.16
+Total Memory 23973
+Used Memory 9062
+Free Memory 4592
+Length: 663; Score: -57
+
+Episode 177
+CPU Usage 22.17
+Total Memory 23973
+Used Memory 9067
+Free Memory 4611
+Length: 508; Score: 0
+
+Episode 178
+CPU Usage 22.18
+Total Memory 23973
+Used Memory 9160
+Free Memory 4568
+Length: 419; Score: 0
+
+Episode 179
+CPU Usage 22.18
+Total Memory 23973
+Used Memory 9104
+Free Memory 4625
+Length: 597; Score: 0
+
+Episode 180
+CPU Usage 22.19
+Total Memory 23973
+Used Memory 9101
+Free Memory 4626
+Length: 496; Score: -45
+
+Episode 181
+CPU Usage 22.2
+Total Memory 23973
+Used Memory 9112
+Free Memory 4604
+Length: 425; Score: 0
+
+Episode 182
+CPU Usage 22.2
+Total Memory 23973
+Used Memory 9119
+Free Memory 4597
+Length: 1587; Score: -200
+
+Episode 183
+CPU Usage 22.22
+Total Memory 23973
+Used Memory 9138
+Free Memory 4605
+Length: 588; Score: -37
+
+Episode 184
+CPU Usage 22.23
+Total Memory 23973
+Used Memory 9184
+Free Memory 4564
+Length: 578; Score: 0
+
+Episode 185
+CPU Usage 22.24
+Total Memory 23973
+Used Memory 9160
+Free Memory 4590
+Length: 522; Score: -19
+
+Episode 186
+CPU Usage 22.24
+Total Memory 23973
+Used Memory 9148
+Free Memory 4603
+Length: 321; Score: 0
+
+Episode 187
+CPU Usage 22.25
+Total Memory 23973
+Used Memory 9163
+Free Memory 4593
+Length: 495; Score: -22
+
+Episode 188
+CPU Usage 22.25
+Total Memory 23973
+Used Memory 9145
+Free Memory 4608
+Length: 662; Score: -54
+
+Episode 189
+CPU Usage 22.26
+Total Memory 23973
+Used Memory 9155
+Free Memory 4601
+Length: 4546; Score: -109
+
+Episode 190
+CPU Usage 22.32
+Total Memory 23973
+Used Memory 9123
+Free Memory 4619
+Length: 2028; Score: -124
+
+Episode 191
+CPU Usage 22.34
+Total Memory 23973
+Used Memory 9149
+Free Memory 4546
+Length: 6540; Score: -380
+
+Episode 192
+CPU Usage 22.42
+Total Memory 23973
+Used Memory 9170
+Free Memory 4548
+Length: 950; Score: -60
+
+Episode 193
+CPU Usage 22.43
+Total Memory 23973
+Used Memory 9200
+Free Memory 4539
+Length: 677; Score: -6
+
+Episode 194
+CPU Usage 22.44
+Total Memory 23973
+Used Memory 9186
+Free Memory 4553
+Length: 1500; Score: 0
+
+Episode 195
+CPU Usage 22.46
+Total Memory 23973
+Used Memory 9216
+Free Memory 4518
+Length: 289; Score: 0
+
+Episode 196
+CPU Usage 22.46
+Total Memory 23973
+Used Memory 9196
+Free Memory 4518
+Length: 1479; Score: -404
+
+Episode 197
+CPU Usage 22.48
+Total Memory 23973
+Used Memory 9192
+Free Memory 4514
+Length: 2884; Score: -207
+
+Episode 198
+CPU Usage 22.51
+Total Memory 23973
+Used Memory 9222
+Free Memory 4501
+Length: 516; Score: 0
+
+Episode 199
+CPU Usage 22.52
+Total Memory 23973
+Used Memory 9228
+Free Memory 4495
+Length: 573; Score: -36
+
+Episode 200
+CPU Usage 22.53
+Total Memory 23973
+Used Memory 9258
+Free Memory 4461
+Length: 412; Score: 0
+
+Episode 201
+CPU Usage 22.53
+Total Memory 23973
+Used Memory 9234
+Free Memory 4484
+Length: 490; Score: -24
+
+Episode 202
+CPU Usage 22.54
+Total Memory 23973
+Used Memory 9214
+Free Memory 4505
+Length: 527; Score: -22
+
+Episode 203
+CPU Usage 22.54
+Total Memory 23973
+Used Memory 9249
+Free Memory 4463
+Length: 921; Score: -133
+
+Episode 204
+CPU Usage 22.55
+Total Memory 23973
+Used Memory 9253
+Free Memory 4463
+Length: 1202; Score: -120
+
+Episode 205
+CPU Usage 22.57
+Total Memory 23973
+Used Memory 9241
+Free Memory 4485
+Length: 592; Score: 0
+
+Episode 206
+CPU Usage 22.57
+Total Memory 23973
+Used Memory 9244
+Free Memory 4482
+Length: 747; Score: -42
+
+Episode 207
+CPU Usage 22.58
+Total Memory 23973
+Used Memory 9253
+Free Memory 4480
+Length: 334; Score: 0
+
+Episode 208
+CPU Usage 22.59
+Total Memory 23973
+Used Memory 9258
+Free Memory 4483
+Length: 927; Score: -100
+
+Episode 209
+CPU Usage 22.6
+Total Memory 23973
+Used Memory 9254
+Free Memory 4491
+Length: 755; Score: -46
+
+Episode 210
+CPU Usage 22.61
+Total Memory 23973
+Used Memory 9321
+Free Memory 4445
+Length: 325; Score: 0
+
+Episode 211
+CPU Usage 22.61
+Total Memory 23973
+Used Memory 9325
+Free Memory 4438
+Length: 419; Score: 0
+
+Episode 212
+CPU Usage 22.62
+Total Memory 23973
+Used Memory 9285
+Free Memory 4281
+Updating target network...
+Saving model as model_best.h5
+Length: 489; Score: 0
+
+Episode 213
+CPU Usage 22.64
+Total Memory 23973
+Used Memory 9265
+Free Memory 4262
+Length: 412; Score: 0
+
+Episode 214
+CPU Usage 22.64
+Total Memory 23973
+Used Memory 9283
+Free Memory 4255
+Length: 512; Score: 0
+
+Episode 215
+CPU Usage 22.65
+Total Memory 23973
+Used Memory 9251
+Free Memory 4290
+Length: 2625; Score: -100
+
+Episode 216
+CPU Usage 22.68
+Total Memory 23973
+Used Memory 9297
+Free Memory 4219
+Length: 599; Score: -14
+
+Episode 217
+CPU Usage 22.68
+Total Memory 23973
+Used Memory 9312
+Free Memory 4216
+Length: 328; Score: 0
+
+Episode 218
+CPU Usage 22.69
+Total Memory 23973
+Used Memory 9312
+Free Memory 4218
+Length: 488; Score: -39
+
+Episode 219
+CPU Usage 22.69
+Total Memory 23973
+Used Memory 9333
+Free Memory 4210
+Length: 595; Score: -10
+
+Episode 220
+CPU Usage 22.7
+Total Memory 23973
+Used Memory 9352
+Free Memory 4204
+Length: 406; Score: -10
+
+Episode 221
+CPU Usage 22.7
+Total Memory 23973
+Used Memory 9349
+Free Memory 4327
+Length: 416; Score: -47
+
+Episode 222
+CPU Usage 22.71
+Total Memory 23973
+Used Memory 9343
+Free Memory 4331
+Length: 588; Score: 0
+
+Episode 223
+CPU Usage 22.71
+Total Memory 23973
+Used Memory 9349
+Free Memory 4326
+Length: 511; Score: 0
+
+Episode 224
+CPU Usage 22.72
+Total Memory 23973
+Used Memory 9370
+Free Memory 4308
+Length: 342; Score: 0
+
+Episode 225
+CPU Usage 22.72
+Total Memory 23973
+Used Memory 9383
+Free Memory 4299
+Length: 1089; Score: -82
+
+Episode 226
+CPU Usage 22.73
+Total Memory 23973
+Used Memory 9419
+Free Memory 4266
+Length: 810; Score: -56
+
+Episode 227
+CPU Usage 22.74
+Total Memory 23973
+Used Memory 9443
+Free Memory 4223
+Length: 618; Score: -22
+
+Episode 228
+CPU Usage 22.75
+Total Memory 23973
+Used Memory 9460
+Free Memory 4208
+Length: 684; Score: -44
+
+Episode 229
+CPU Usage 22.76
+Total Memory 23973
+Used Memory 9481
+Free Memory 4198
+Length: 496; Score: -9
+
+Episode 230
+CPU Usage 22.76
+Total Memory 23973
+Used Memory 9488
+Free Memory 4212
+Length: 760; Score: -56
+
+Episode 231
+CPU Usage 22.77
+Total Memory 23973
+Used Memory 9489
+Free Memory 4212
+Length: 434; Score: 0
+
+Episode 232
+CPU Usage 22.77
+Total Memory 23973
+Used Memory 9403
+Free Memory 4301
+Length: 345; Score: 0
+
+Episode 233
+CPU Usage 22.78
+Total Memory 23973
+Used Memory 9402
+Free Memory 4304
+Length: 406; Score: -20
+
+Episode 234
+CPU Usage 22.78
+Total Memory 23973
+Used Memory 9401
+Free Memory 4239
+Length: 1049; Score: -23
+
+Episode 235
+CPU Usage 22.79
+Total Memory 23973
+Used Memory 9434
+Free Memory 4110
+Length: 674; Score: 0
+
+Episode 236
+CPU Usage 22.8
+Total Memory 23973
+Used Memory 9412
+Free Memory 4058
+Length: 504; Score: 0
+
+Episode 237
+CPU Usage 22.81
+Total Memory 23973
+Used Memory 9298
+Free Memory 4027
+Length: 844; Score: -26
+
+Episode 238
+CPU Usage 22.82
+Total Memory 23973
+Used Memory 9279
+Free Memory 4045
+Length: 4511; Score: -100
+
+Episode 239
+CPU Usage 22.87
+Total Memory 23973
+Used Memory 9244
+Free Memory 4198
+Length: 498; Score: -20
+
+Episode 240
+CPU Usage 22.87
+Total Memory 23973
+Used Memory 9245
+Free Memory 4205
+Length: 322; Score: -21
+
+Episode 241
+CPU Usage 22.88
+Total Memory 23973
+Used Memory 9240
+Free Memory 4212
+Length: 335; Score: 0
+
+Episode 242
+CPU Usage 22.88
+Total Memory 23973
+Used Memory 9239
+Free Memory 4213
+Length: 496; Score: 0
+
+Episode 243
+CPU Usage 22.89
+Total Memory 23973
+Used Memory 9260
+Free Memory 4213
+Length: 376; Score: 0
+
+Episode 244
+CPU Usage 22.89
+Total Memory 23973
+Used Memory 9271
+Free Memory 4210
+Length: 1510; Score: -11
+
+Episode 245
+CPU Usage 22.91
+Total Memory 23973
+Used Memory 9311
+Free Memory 4225
+Length: 578; Score: -20
+
+Episode 246
+CPU Usage 22.91
+Total Memory 23973
+Used Memory 9336
+Free Memory 4218
+Length: 424; Score: -20
+
+Episode 247
+CPU Usage 22.92
+Total Memory 23973
+Used Memory 9353
+Free Memory 4213
+Length: 1070; Score: -152
+
+Episode 248
+CPU Usage 22.93
+Total Memory 23973
+Used Memory 9385
+Free Memory 4206
+Length: 327; Score: -17
+
+Episode 249
+CPU Usage 22.93
+Total Memory 23973
+Used Memory 9385
+Free Memory 4205
+Length: 411; Score: 0
+
+Episode 250
+CPU Usage 22.94
+Total Memory 23973
+Used Memory 9388
+Free Memory 4202
+Length: 499; Score: 0
+
+Episode 251
+CPU Usage 22.94
+Total Memory 23973
+Used Memory 9428
+Free Memory 4196
+Length: 757; Score: -20
+
+Episode 252
+CPU Usage 22.95
+Total Memory 23973
+Used Memory 9405
+Free Memory 4223
+Length: 679; Score: 0
+
+Episode 253
+CPU Usage 22.96
+Total Memory 23973
+Used Memory 9428
+Free Memory 4207
+Length: 502; Score: -9
+
+Episode 254
+CPU Usage 22.96
+Total Memory 23973
+Used Memory 9529
+Free Memory 4132
+Length: 584; Score: -20
+
+Episode 255
+CPU Usage 22.97
+Total Memory 23973
+Used Memory 9560
+Free Memory 4024
+Length: 420; Score: 0
+
+Episode 256
+CPU Usage 22.98
+Total Memory 23973
+Used Memory 9433
+Free Memory 4170
+Length: 667; Score: -27
+
+Episode 257
+CPU Usage 22.98
+Total Memory 23973
+Used Memory 9449
+Free Memory 3780
+Length: 671; Score: 0
+
+Episode 258
+CPU Usage 22.99
+Total Memory 23973
+Used Memory 9831
+Free Memory 3399
+Length: 916; Score: 0
+
+Episode 259
+CPU Usage 23.01
+Total Memory 23973
+Used Memory 0027
+Free Memory 3616
+Length: 330; Score: 0
+
+Episode 260
+CPU Usage 23.01
+Total Memory 23973
+Used Memory 9999
+Free Memory 3614
+Length: 827; Score: -37
+
+Episode 261
+CPU Usage 23.02
+Total Memory 23973
+Used Memory 0047
+Free Memory 3524
+Length: 501; Score: -83
+
+Episode 262
+CPU Usage 23.03
+Total Memory 23973
+Used Memory 0258
+Free Memory 3296
+Length: 688; Score: 0
+
+Episode 263
+CPU Usage 23.05
+Total Memory 23973
+Used Memory 0811
+Free Memory 2778
+Length: 584; Score: 0
+
+Episode 264
+CPU Usage 23.05
+Total Memory 23973
+Used Memory 0759
+Free Memory 2772
+Length: 570; Score: 0
+
+Episode 265
+CPU Usage 23.06
+Total Memory 23973
+Used Memory 8914
+Free Memory 4533
+Length: 1255; Score: 0
+
+Episode 266
+CPU Usage 23.07
+Total Memory 23973
+Used Memory 8922
+Free Memory 4503
+Length: 835; Score: 0
+
+Episode 267
+CPU Usage 23.08
+Total Memory 23973
+Used Memory 8927
+Free Memory 4497
+Length: 841; Score: -20
+
+Episode 268
+CPU Usage 23.09
+Total Memory 23973
+Used Memory 8935
+Free Memory 4487
+Updating target network...
+Length: 522; Score: -29
+
+Episode 269
+CPU Usage 23.09
+Total Memory 23973
+Used Memory 8939
+Free Memory 4479
+Length: 667; Score: -41
+
+Episode 270
+CPU Usage 23.1
+Total Memory 23973
+Used Memory 8942
+Free Memory 4475
+Length: 676; Score: -40
+
+Episode 271
+CPU Usage 23.11
+Total Memory 23973
+Used Memory 8946
+Free Memory 4471
+Length: 665; Score: 0
+
+Episode 272
+CPU Usage 23.12
+Total Memory 23973
+Used Memory 8949
+Free Memory 4467
+Length: 6956; Score: 0
+
+Episode 273
+CPU Usage 23.19
+Total Memory 23973
+Used Memory 8980
+Free Memory 4157
+Length: 328; Score: 0
+
+Episode 274
+CPU Usage 23.2
+Total Memory 23973
+Used Memory 8980
+Free Memory 4152
+Length: 379; Score: 0
+
+Episode 275
+CPU Usage 23.2
+Total Memory 23973
+Used Memory 8983
+Free Memory 4150
+Length: 513; Score: 0
+
+Episode 276
+CPU Usage 23.2
+Total Memory 23973
+Used Memory 8986
+Free Memory 4145
+Length: 500; Score: -26
+
+Episode 277
+CPU Usage 23.21
+Total Memory 23973
+Used Memory 8986
+Free Memory 4145
+Length: 404; Score: 0
+
+Episode 278
+CPU Usage 23.22
+Total Memory 23973
+Used Memory 9831
+Free Memory 3967
+Length: 505; Score: 0
+
+Episode 279
+CPU Usage 23.22
+Total Memory 23973
+Used Memory 8804
+Free Memory 4866
+Length: 594; Score: 0
+
+Episode 280
+CPU Usage 23.23
+Total Memory 23973
+Used Memory 8795
+Free Memory 4793
+Length: 591; Score: -22
+
+Episode 281
+CPU Usage 23.24
+Total Memory 23973
+Used Memory 8767
+Free Memory 4815
+Length: 431; Score: -21
+
+Episode 282
+CPU Usage 23.24
+Total Memory 23973
+Used Memory 8773
+Free Memory 4807
+Length: 464; Score: 0
+
+Episode 283
+CPU Usage 23.25
+Total Memory 23973
+Used Memory 8772
+Free Memory 4768
+Length: 652; Score: 0
+
+Episode 284
+CPU Usage 23.25
+Total Memory 23973
+Used Memory 8820
+Free Memory 4700
+Length: 775; Score: -18
+
+Episode 285
+CPU Usage 23.26
+Total Memory 23973
+Used Memory 8870
+Free Memory 4645
+Length: 587; Score: 0
+
+Episode 286
+CPU Usage 23.27
+Total Memory 23973
+Used Memory 8906
+Free Memory 4612
+Length: 890; Score: -30
+
+Episode 287
+CPU Usage 23.28
+Total Memory 23973
+Used Memory 8934
+Free Memory 4571
+Length: 514; Score: -24
+
+Episode 288
+CPU Usage 23.28
+Total Memory 23973
+Used Memory 8959
+Free Memory 4542
+Length: 579; Score: -20
+
+Episode 289
+CPU Usage 23.29
+Total Memory 23973
+Used Memory 9017
+Free Memory 4478
+Length: 1008; Score: -139
+
+Episode 290
+CPU Usage 23.3
+Total Memory 23973
+Used Memory 9035
+Free Memory 4258
+Length: 603; Score: -22
+
+Episode 291
+CPU Usage 23.31
+Total Memory 23973
+Used Memory 9060
+Free Memory 4264
+Length: 680; Score: -24
+
+Episode 292
+CPU Usage 23.32
+Total Memory 23973
+Used Memory 9093
+Free Memory 4301
+Length: 749; Score: 0
+
+Episode 293
+CPU Usage 23.32
+Total Memory 23973
+Used Memory 9132
+Free Memory 4282
+Length: 425; Score: 0
+
+Episode 294
+CPU Usage 23.33
+Total Memory 23973
+Used Memory 9149
+Free Memory 4323
+Length: 750; Score: -31
+
+Episode 295
+CPU Usage 23.34
+Total Memory 23973
+Used Memory 9183
+Free Memory 4332
+Length: 2283; Score: -42
+
+Episode 296
+CPU Usage 23.36
+Total Memory 23973
+Used Memory 9256
+Free Memory 4320
+Length: 500; Score: 0
+
+Episode 297
+CPU Usage 23.36
+Total Memory 23973
+Used Memory 9273
+Free Memory 4325
+Length: 528; Score: -18
+
+Episode 298
+CPU Usage 23.37
+Total Memory 23973
+Used Memory 9301
+Free Memory 4317
+Length: 423; Score: 0
+
+Episode 299
+CPU Usage 23.37
+Total Memory 23973
+Used Memory 9316
+Free Memory 4329
+Length: 923; Score: -114
+
+Episode 300
+CPU Usage 23.38
+Total Memory 23973
+Used Memory 9414
+Free Memory 4222
+Length: 1026; Score: -82
+
+Episode 301
+CPU Usage 23.39
+Total Memory 23973
+Used Memory 9233
+Free Memory 4416
+Length: 1005; Score: -20
+
+Episode 302
+CPU Usage 23.41
+Total Memory 23973
+Used Memory 9183
+Free Memory 4249
+Length: 502; Score: 0
+
+Episode 303
+CPU Usage 23.41
+Total Memory 23973
+Used Memory 9209
+Free Memory 4224
+Length: 755; Score: -30
+
+Episode 304
+CPU Usage 23.42
+Total Memory 23973
+Used Memory 9261
+Free Memory 4177
+Length: 848; Score: -24
+
+Episode 305
+CPU Usage 23.43
+Total Memory 23973
+Used Memory 9275
+Free Memory 4179
+Length: 686; Score: -5
+
+Episode 306
+CPU Usage 23.43
+Total Memory 23973
+Used Memory 9258
+Free Memory 4200
+Length: 867; Score: 0
+
+Episode 307
+CPU Usage 23.44
+Total Memory 23973
+Used Memory 9286
+Free Memory 4208
+Length: 1186; Score: -18
+
+Episode 308
+CPU Usage 23.45
+Total Memory 23973
+Used Memory 9331
+Free Memory 4205
+Length: 416; Score: 0
+
+Episode 309
+CPU Usage 23.46
+Total Memory 23973
+Used Memory 9314
+Free Memory 4211
+Length: 576; Score: 0
+
+Episode 310
+CPU Usage 23.47
+Total Memory 23973
+Used Memory 9407
+Free Memory 4148
+Length: 420; Score: -26
+
+Episode 311
+CPU Usage 23.47
+Total Memory 23973
+Used Memory 9400
+Free Memory 4149
+Length: 496; Score: 0
+
+Episode 312
+CPU Usage 23.48
+Total Memory 23973
+Used Memory 9405
+Free Memory 4093
+Length: 945; Score: -22
+
+Episode 313
+CPU Usage 23.49
+Total Memory 23973
+Used Memory 9343
+Free Memory 4174
+Length: 772; Score: 0
+
+Episode 314
+CPU Usage 23.49
+Total Memory 23973
+Used Memory 9308
+Free Memory 4178
+Length: 508; Score: 0
+
+Episode 315
+CPU Usage 23.5
+Total Memory 23973
+Used Memory 9308
+Free Memory 4180
+Length: 422; Score: 0
+
+Episode 316
+CPU Usage 23.5
+Total Memory 23973
+Used Memory 9293
+Free Memory 4212
+Length: 924; Score: 0
+
+Episode 317
+CPU Usage 23.52
+Total Memory 23973
+Used Memory 9293
+Free Memory 4271
+Length: 412; Score: 0
+
+Episode 318
+CPU Usage 23.52
+Total Memory 23973
+Used Memory 9292
+Free Memory 4274
+Updating target network...
+Length: 579; Score: 0
+
+Episode 319
+CPU Usage 23.52
+Total Memory 23973
+Used Memory 9300
+Free Memory 4265
+Length: 576; Score: -11
+
+Episode 320
+CPU Usage 23.53
+Total Memory 23973
+Used Memory 9332
+Free Memory 4232
+Length: 590; Score: 0
+
+Episode 321
+CPU Usage 23.53
+Total Memory 23973
+Used Memory 9341
+Free Memory 4193
+Length: 508; Score: 0
+
+Episode 322
+CPU Usage 23.54
+Total Memory 23973
+Used Memory 9345
+Free Memory 4199
+Length: 765; Score: -19
+
+Episode 323
+CPU Usage 23.55
+Total Memory 23973
+Used Memory 9338
+Free Memory 4209
+Length: 778; Score: -22
+
+Episode 324
+CPU Usage 23.55
+Total Memory 23973
+Used Memory 9358
+Free Memory 4208
+Length: 423; Score: 0
+
+Episode 325
+CPU Usage 23.56
+Total Memory 23973
+Used Memory 8874
+Free Memory 4841
+Length: 502; Score: 0
+
+Episode 326
+CPU Usage 23.56
+Total Memory 23973
+Used Memory 8404
+Free Memory 5265
+Length: 641; Score: -37
+
+Episode 327
+CPU Usage 23.57
+Total Memory 23973
+Used Memory 8407
+Free Memory 5261
+Length: 2078; Score: -200
+
+Episode 328
+CPU Usage 23.59
+Total Memory 23973
+Used Memory 8487
+Free Memory 5157
+Length: 497; Score: -24
+
+Episode 329
+CPU Usage 23.59
+Total Memory 23973
+Used Memory 8506
+Free Memory 5137
+Length: 494; Score: 0
+
+Episode 330
+CPU Usage 23.6
+Total Memory 23973
+Used Memory 8521
+Free Memory 5122
+Length: 517; Score: 0
+
+Episode 331
+CPU Usage 23.6
+Total Memory 23973
+Used Memory 8537
+Free Memory 5107
+Length: 565; Score: 0
+
+Episode 332
+CPU Usage 23.61
+Total Memory 23973
+Used Memory 8551
+Free Memory 5093
+Length: 530; Score: 0
+
+Episode 333
+CPU Usage 23.61
+Total Memory 23973
+Used Memory 8567
+Free Memory 5075
+Length: 1277; Score: 0
+
+Episode 334
+CPU Usage 23.62
+Total Memory 23973
+Used Memory 8608
+Free Memory 5035
+Length: 755; Score: 0
+
+Episode 335
+CPU Usage 23.63
+Total Memory 23973
+Used Memory 8630
+Free Memory 5006
+Length: 921; Score: -20
+
+Episode 336
+CPU Usage 23.64
+Total Memory 23973
+Used Memory 8663
+Free Memory 4693
+Length: 588; Score: 0
+
+Episode 337
+CPU Usage 23.65
+Total Memory 23973
+Used Memory 8675
+Free Memory 4682
+Length: 676; Score: -16
+
+Episode 338
+CPU Usage 23.65
+Total Memory 23973
+Used Memory 8690
+Free Memory 4666
+Length: 673; Score: 0
+
+Episode 339
+CPU Usage 23.66
+Total Memory 23973
+Used Memory 8704
+Free Memory 4642
+Length: 813; Score: -28
+
+Episode 340
+CPU Usage 23.66
+Total Memory 23973
+Used Memory 8723
+Free Memory 4642
+Length: 509; Score: -1
+
+Episode 341
+CPU Usage 23.67
+Total Memory 23973
+Used Memory 8727
+Free Memory 4664
+Length: 430; Score: 0
+
+Episode 342
+CPU Usage 23.67
+Total Memory 23973
+Used Memory 8736
+Free Memory 4655
+Length: 582; Score: -24
+
+Episode 343
+CPU Usage 23.68
+Total Memory 23973
+Used Memory 8753
+Free Memory 4669
+Length: 859; Score: -41
+
+Episode 344
+CPU Usage 23.69
+Total Memory 23973
+Used Memory 8760
+Free Memory 4661
+Length: 858; Score: 0
+
+Episode 345
+CPU Usage 23.7
+Total Memory 23973
+Used Memory 8780
+Free Memory 4640
+Length: 334; Score: -2
+
+Episode 346
+CPU Usage 23.7
+Total Memory 23973
+Used Memory 8788
+Free Memory 4632
+Length: 326; Score: 0
+
+Episode 347
+CPU Usage 23.7
+Total Memory 23973
+Used Memory 8793
+Free Memory 4627
+Length: 682; Score: 0
+
+Episode 348
+CPU Usage 23.71
+Total Memory 23973
+Used Memory 8805
+Free Memory 4614
+Length: 506; Score: -34
+
+Episode 349
+CPU Usage 23.71
+Total Memory 23973
+Used Memory 8820
+Free Memory 4631
+Length: 408; Score: 0
+
+Episode 350
+CPU Usage 23.72
+Total Memory 23973
+Used Memory 8828
+Free Memory 4623
+Length: 520; Score: 0
+
+Episode 351
+CPU Usage 23.72
+Total Memory 23973
+Used Memory 8836
+Free Memory 4643
+Length: 1004; Score: -135
+
+Episode 352
+CPU Usage 23.73
+Total Memory 23973
+Used Memory 8850
+Free Memory 4657
+Length: 581; Score: 0
+
+Episode 353
+CPU Usage 23.74
+Total Memory 23973
+Used Memory 8858
+Free Memory 4648
+Length: 604; Score: 0
+
+Episode 354
+CPU Usage 23.74
+Total Memory 23973
+Used Memory 8863
+Free Memory 4676
+Length: 498; Score: -6
+
+Episode 355
+CPU Usage 23.74
+Total Memory 23973
+Used Memory 8869
+Free Memory 4671
+Length: 1013; Score: -94
+
+Episode 356
+CPU Usage 23.75
+Total Memory 23973
+Used Memory 8879
+Free Memory 4693
+Length: 614; Score: 0
+
+Episode 357
+CPU Usage 23.76
+Total Memory 23973
+Used Memory 8885
+Free Memory 4722
+Length: 501; Score: 0
+
+Episode 358
+CPU Usage 23.76
+Total Memory 23973
+Used Memory 8892
+Free Memory 4716
+Length: 350; Score: 0
+
+Episode 359
+CPU Usage 23.77
+Total Memory 23973
+Used Memory 8894
+Free Memory 4713
+Length: 322; Score: 0
+
+Episode 360
+CPU Usage 23.77
+Total Memory 23973
+Used Memory 8897
+Free Memory 4710
+Length: 504; Score: 0
+
+Episode 361
+CPU Usage 23.77
+Total Memory 23973
+Used Memory 8902
+Free Memory 4733
+Length: 781; Score: 0
+
+Episode 362
+CPU Usage 23.78
+Total Memory 23973
+Used Memory 8905
+Free Memory 4741
+Length: 499; Score: 0
+
+Episode 363
+CPU Usage 23.78
+Total Memory 23973
+Used Memory 8908
+Free Memory 4737
+Length: 1283; Score: -174
+
+Episode 364
+CPU Usage 23.8
+Total Memory 23973
+Used Memory 8908
+Free Memory 4764
+Length: 591; Score: 0
+
+Episode 365
+CPU Usage 23.8
+Total Memory 23973
+Used Memory 8908
+Free Memory 4763
+Length: 1188; Score: -32
+
+Episode 366
+CPU Usage 23.81
+Total Memory 23973
+Used Memory 8908
+Free Memory 4800
+Length: 1356; Score: -26
+
+Episode 367
+CPU Usage 23.82
+Total Memory 23973
+Used Memory 8908
+Free Memory 4829
+Length: 486; Score: 0
+
+Episode 368
+CPU Usage 23.83
+Total Memory 23973
+Used Memory 8906
+Free Memory 4850
+Length: 1691; Score: -14
+
+Episode 369
+CPU Usage 23.84
+Total Memory 23973
+Used Memory 8879
+Free Memory 4867
+Length: 494; Score: 0
+
+Episode 370
+CPU Usage 23.85
+Total Memory 23973
+Used Memory 8889
+Free Memory 4845
+Length: 1099; Score: 0
+
+Episode 371
+CPU Usage 23.86
+Total Memory 23973
+Used Memory 8888
+Free Memory 4862
+Length: 1265; Score: -42
+
+Episode 372
+CPU Usage 23.87
+Total Memory 23973
+Used Memory 8882
+Free Memory 4884
+Length: 423; Score: 0
+
+Episode 373
+CPU Usage 23.87
+Total Memory 23973
+Used Memory 8881
+Free Memory 4903
+Length: 837; Score: -83
+
+Episode 374
+CPU Usage 23.88
+Total Memory 23973
+Used Memory 8879
+Free Memory 4927
+Updating target network...
+Length: 2147; Score: -64
+
+Episode 375
+CPU Usage 23.89
+Total Memory 23973
+Used Memory 8854
+Free Memory 4947
+Length: 831; Score: 0
+
+Episode 376
+CPU Usage 23.9
+Total Memory 23973
+Used Memory 8847
+Free Memory 4954
+Length: 277; Score: 0
+
+Episode 377
+CPU Usage 23.9
+Total Memory 23973
+Used Memory 8868
+Free Memory 4953
+Length: 762; Score: -15
+
+Episode 378
+CPU Usage 23.91
+Total Memory 23973
+Used Memory 8860
+Free Memory 4962
+Length: 1861; Score: -249
+
+Episode 379
+CPU Usage 23.92
+Total Memory 23973
+Used Memory 8827
+Free Memory 5003
+Length: 1268; Score: -15
+
+Episode 380
+CPU Usage 23.93
+Total Memory 23973
+Used Memory 8814
+Free Memory 5019
+Length: 1261; Score: -7
+
+Episode 381
+CPU Usage 23.94
+Total Memory 23973
+Used Memory 8789
+Free Memory 5055
+Length: 1005; Score: -13
+
+Episode 382
+CPU Usage 23.95
+Total Memory 23973
+Used Memory 8821
+Free Memory 5009
+Length: 752; Score: -36
+
+Episode 383
+CPU Usage 23.96
+Total Memory 23973
+Used Memory 8795
+Free Memory 5031
+Length: 427; Score: 0
+
+Episode 384
+CPU Usage 23.96
+Total Memory 23973
+Used Memory 8782
+Free Memory 5033
+Length: 421; Score: -1
+
+Episode 385
+CPU Usage 23.96
+Total Memory 23973
+Used Memory 8753
+Free Memory 5064
+Length: 577; Score: -50
+
+Episode 386
+CPU Usage 23.97
+Total Memory 23973
+Used Memory 8747
+Free Memory 5069
+Length: 1093; Score: -7
+
+Episode 387
+CPU Usage 23.98
+Total Memory 23973
+Used Memory 8741
+Free Memory 5075
+Length: 937; Score: -26
+
+Episode 388
+CPU Usage 23.98
+Total Memory 23973
+Used Memory 8801
+Free Memory 5036
+Length: 1522; Score: -104
+
+Episode 389
+CPU Usage 24.0
+Total Memory 23973
+Used Memory 8768
+Free Memory 5036
+Length: 1691; Score: -60
+
+Episode 390
+CPU Usage 24.01
+Total Memory 23973
+Used Memory 8746
+Free Memory 5062
+Length: 337; Score: 0
+
+Episode 391
+CPU Usage 24.01
+Total Memory 23973
+Used Memory 8740
+Free Memory 5068
+Length: 519; Score: -53
+
+Episode 392
+CPU Usage 24.02
+Total Memory 23973
+Used Memory 8727
+Free Memory 5076
+Length: 563; Score: 0
+
+Episode 393
+CPU Usage 24.02
+Total Memory 23973
+Used Memory 8718
+Free Memory 5087
+Length: 402; Score: -16
+
+Episode 394
+CPU Usage 24.03
+Total Memory 23973
+Used Memory 8740
+Free Memory 5079
+Length: 337; Score: 0
+
+Episode 395
+CPU Usage 24.03
+Total Memory 23973
+Used Memory 8744
+Free Memory 5076
+Length: 1444; Score: -68
+
+Episode 396
+CPU Usage 24.04
+Total Memory 23973
+Used Memory 8698
+Free Memory 5028
+Length: 492; Score: -21
+
+Episode 397
+CPU Usage 24.05
+Total Memory 23973
+Used Memory 8714
+Free Memory 5035
+Length: 555; Score: -28
+
+Episode 398
+CPU Usage 24.05
+Total Memory 23973
+Used Memory 8708
+Free Memory 5041
+Length: 353; Score: 0
+
+Episode 399
+CPU Usage 24.05
+Total Memory 23973
+Used Memory 8701
+Free Memory 5038
+Length: 2603; Score: -50
+
+Episode 400
+CPU Usage 24.07
+Total Memory 23973
+Used Memory 8685
+Free Memory 5090
+Length: 769; Score: -19
+
+Episode 401
+CPU Usage 24.08
+Total Memory 23973
+Used Memory 8679
+Free Memory 5092
+Length: 587; Score: -36
+
+Episode 402
+CPU Usage 24.08
+Total Memory 23973
+Used Memory 8681
+Free Memory 5053
+Length: 759; Score: -20
+
+Episode 403
+CPU Usage 24.09
+Total Memory 23973
+Used Memory 8680
+Free Memory 4992
+Length: 1518; Score: 0
+
+Episode 404
+CPU Usage 24.1
+Total Memory 23973
+Used Memory 8696
+Free Memory 4992
+Length: 1103; Score: -73
+
+Episode 405
+CPU Usage 24.11
+Total Memory 23973
+Used Memory 8701
+Free Memory 4999
+Length: 1099; Score: -72
+
+Episode 406
+CPU Usage 24.12
+Total Memory 23973
+Used Memory 8705
+Free Memory 5008
+Length: 1173; Score: -37
+
+Episode 407
+CPU Usage 24.13
+Total Memory 23973
+Used Memory 8697
+Free Memory 5036
+Length: 1020; Score: -60
+
+Episode 408
+CPU Usage 24.14
+Total Memory 23973
+Used Memory 8694
+Free Memory 5058
+Length: 941; Score: 0
+
+Episode 409
+CPU Usage 24.14
+Total Memory 23973
+Used Memory 8687
+Free Memory 5085
+Length: 1364; Score: -43
+
+Episode 410
+CPU Usage 24.15
+Total Memory 23973
+Used Memory 8670
+Free Memory 5114
+Length: 1272; Score: -16
+
+Episode 411
+CPU Usage 24.16
+Total Memory 23973
+Used Memory 8676
+Free Memory 5137
+Length: 600; Score: -16
+
+Episode 412
+CPU Usage 24.17
+Total Memory 23973
+Used Memory 8671
+Free Memory 5142
+Length: 519; Score: -13
+
+Episode 413
+CPU Usage 24.17
+Total Memory 23973
+Used Memory 8663
+Free Memory 5151
+Length: 670; Score: -27
+
+Episode 414
+CPU Usage 24.17
+Total Memory 23973
+Used Memory 8632
+Free Memory 5198
+Length: 498; Score: 0
+
+Episode 415
+CPU Usage 24.18
+Total Memory 23973
+Used Memory 8648
+Free Memory 5171
+Length: 1595; Score: -22
+
+Episode 416
+CPU Usage 24.19
+Total Memory 23973
+Used Memory 8626
+Free Memory 5188
+Updating target network...
+Length: 666; Score: -40
+
+Episode 417
+CPU Usage 24.19
+Total Memory 23973
+Used Memory 8633
+Free Memory 5181
+Length: 589; Score: -44
+
+Episode 418
+CPU Usage 24.2
+Total Memory 23973
+Used Memory 8607
+Free Memory 5210
+Length: 941; Score: -50
+
+Episode 419
+CPU Usage 24.2
+Total Memory 23973
+Used Memory 8605
+Free Memory 5214
+Length: 11012; Score: -421
+
+Episode 420
+CPU Usage 24.28
+Total Memory 23973
+Used Memory 8527
+Free Memory 5268
+Length: 763; Score: -41
+
+Episode 421
+CPU Usage 24.28
+Total Memory 23973
+Used Memory 8490
+Free Memory 5313
+Length: 1201; Score: -56
+
+Episode 422
+CPU Usage 24.29
+Total Memory 23973
+Used Memory 8479
+Free Memory 5324
+Length: 1198; Score: -106
+
+Episode 423
+CPU Usage 24.3
+Total Memory 23973
+Used Memory 8485
+Free Memory 5325
+Length: 1023; Score: -25
+
+Episode 424
+CPU Usage 24.3
+Total Memory 23973
+Used Memory 8469
+Free Memory 5344
+Length: 568; Score: 0
+
+Episode 425
+CPU Usage 24.31
+Total Memory 23973
+Used Memory 8450
+Free Memory 5362
+Length: 849; Score: 0
+
+Episode 426
+CPU Usage 24.31
+Total Memory 23973
+Used Memory 8446
+Free Memory 5371
+Length: 492; Score: -24
+
+Episode 427
+CPU Usage 24.32
+Total Memory 23973
+Used Memory 8426
+Free Memory 5393
+Length: 499; Score: 0
+
+Episode 428
+CPU Usage 24.32
+Total Memory 23973
+Used Memory 8415
+Free Memory 5405
+Length: 777; Score: 0
+
+Episode 429
+CPU Usage 24.33
+Total Memory 23973
+Used Memory 8436
+Free Memory 5397
+Length: 506; Score: -22
+
+Episode 430
+CPU Usage 24.33
+Total Memory 23973
+Used Memory 8420
+Free Memory 5407
+Length: 1014; Score: -22
+
+Episode 431
+CPU Usage 24.34
+Total Memory 23973
+Used Memory 8394
+Free Memory 5428
+Length: 12715; Score: -300
+
+Episode 432
+CPU Usage 24.42
+Total Memory 23973
+Used Memory 8240
+Free Memory 5503
+Length: 434; Score: -44
+
+Episode 433
+CPU Usage 24.42
+Total Memory 23973
+Used Memory 8233
+Free Memory 5515
+Length: 325; Score: -18
+
+Episode 434
+CPU Usage 24.42
+Total Memory 23973
+Used Memory 8237
+Free Memory 5523
+Length: 853; Score: 0
+
+Episode 435
+CPU Usage 24.43
+Total Memory 23973
+Used Memory 8228
+Free Memory 5537
+Length: 413; Score: -15
+
+Episode 436
+CPU Usage 24.43
+Total Memory 23973
+Used Memory 8222
+Free Memory 5571
+Length: 486; Score: 0
+
+Episode 437
+CPU Usage 24.43
+Total Memory 23973
+Used Memory 8212
+Free Memory 5574
+Length: 831; Score: 0
+
+Episode 438
+CPU Usage 24.44
+Total Memory 23973
+Used Memory 8177
+Free Memory 5480
+Length: 331; Score: -4
+
+Episode 439
+CPU Usage 24.44
+Total Memory 23973
+Used Memory 8178
+Free Memory 5482
+Length: 925; Score: -47
+
+Episode 440
+CPU Usage 24.45
+Total Memory 23973
+Used Memory 8173
+Free Memory 5490
+Length: 417; Score: 0
+
+Episode 441
+CPU Usage 24.45
+Total Memory 23973
+Used Memory 8171
+Free Memory 5492
+Updating target network...
+Length: 598; Score: -59
+
+Episode 442
+CPU Usage 24.45
+Total Memory 23973
+Used Memory 8170
+Free Memory 5500
+Length: 666; Score: 0
+
+Episode 443
+CPU Usage 24.46
+Total Memory 23973
+Used Memory 8190
+Free Memory 5498
+Length: 436; Score: 0
+
+Episode 444
+CPU Usage 24.46
+Total Memory 23973
+Used Memory 8187
+Free Memory 5502
+Length: 497; Score: 0
+
+Episode 445
+CPU Usage 24.46
+Total Memory 23973
+Used Memory 8189
+Free Memory 5537
+Length: 645; Score: -50
+
+Episode 446
+CPU Usage 24.47
+Total Memory 23973
+Used Memory 8194
+Free Memory 5534
+Length: 502; Score: -32
+
+Episode 447
+CPU Usage 24.47
+Total Memory 23973
+Used Memory 8203
+Free Memory 5527
+Length: 324; Score: 0
+
+Episode 448
+CPU Usage 24.47
+Total Memory 23973
+Used Memory 8208
+Free Memory 5523
+Length: 436; Score: 0
+
+Episode 449
+CPU Usage 24.48
+Total Memory 23973
+Used Memory 8215
+Free Memory 5532
+Length: 417; Score: 0
+
+Episode 450
+CPU Usage 24.48
+Total Memory 23973
+Used Memory 8222
+Free Memory 5535
+Length: 3989; Score: -746
+
+Episode 451
+CPU Usage 24.5
+Total Memory 23973
+Used Memory 8280
+Free Memory 5508
+Length: 2512; Score: -499
+
+Episode 452
+CPU Usage 24.52
+Total Memory 23973
+Used Memory 8307
+Free Memory 5480
+Length: 390; Score: 0
+
+Episode 453
+CPU Usage 24.52
+Total Memory 23973
+Used Memory 8312
+Free Memory 5477
+Length: 1944; Score: 0
+
+Episode 454
+CPU Usage 24.53
+Total Memory 23973
+Used Memory 8329
+Free Memory 5468
+Length: 680; Score: 0
+
+Episode 455
+CPU Usage 24.54
+Total Memory 23973
+Used Memory 8337
+Free Memory 5470
+Length: 768; Score: 0
+
+Episode 456
+CPU Usage 24.54
+Total Memory 23973
+Used Memory 8341
+Free Memory 5466
+Length: 505; Score: -83
+
+Episode 457
+CPU Usage 24.54
+Total Memory 23973
+Used Memory 8347
+Free Memory 5463
+Length: 1614; Score: -673
+
+Episode 458
+CPU Usage 24.55
+Total Memory 23973
+Used Memory 8359
+Free Memory 5454
+Length: 1030; Score: 0
+
+Episode 459
+CPU Usage 24.56
+Total Memory 23973
+Used Memory 8368
+Free Memory 5457
+Length: 432; Score: -7
+
+Episode 460
+CPU Usage 24.56
+Total Memory 23973
+Used Memory 8358
+Free Memory 5362
+Length: 3470; Score: -200
+
+Episode 461
+CPU Usage 24.58
+Total Memory 23973
+Used Memory 8381
+Free Memory 5361
+Length: 533; Score: 0
+
+Episode 462
+CPU Usage 24.59
+Total Memory 23973
+Used Memory 8387
+Free Memory 5356
+Length: 1266; Score: -23
+
+Episode 463
+CPU Usage 24.59
+Total Memory 23973
+Used Memory 8398
+Free Memory 5374
+Length: 666; Score: -9
+
+Episode 464
+CPU Usage 24.6
+Total Memory 23973
+Used Memory 8403
+Free Memory 5356
+Length: 555; Score: -46
+
+Episode 465
+CPU Usage 24.6
+Total Memory 23973
+Used Memory 8358
+Free Memory 5187
+Length: 411; Score: 0
+
+Episode 466
+CPU Usage 24.6
+Total Memory 23973
+Used Memory 8352
+Free Memory 5014
+Length: 593; Score: 0
+
+Episode 467
+CPU Usage 24.61
+Total Memory 23973
+Used Memory 8365
+Free Memory 5001
+Length: 925; Score: -26
+
+Episode 468
+CPU Usage 24.61
+Total Memory 23973
+Used Memory 8387
+Free Memory 5033
+Length: 404; Score: -13
+
+Episode 469
+CPU Usage 24.62
+Total Memory 23973
+Used Memory 8395
+Free Memory 5035
+Length: 404; Score: 0
+
+Episode 470
+CPU Usage 24.62
+Total Memory 23973
+Used Memory 8405
+Free Memory 5038
+Length: 520; Score: 0
+
+Episode 471
+CPU Usage 24.62
+Total Memory 23973
+Used Memory 8417
+Free Memory 5052
+Length: 655; Score: -7
+
+Episode 472
+CPU Usage 24.63
+Total Memory 23973
+Used Memory 8431
+Free Memory 5053
+Length: 480; Score: 0
+
+Episode 473
+CPU Usage 24.63
+Total Memory 23973
+Used Memory 8439
+Free Memory 5058
+Length: 675; Score: 0
+
+Episode 474
+CPU Usage 24.63
+Total Memory 23973
+Used Memory 8455
+Free Memory 5041
+Length: 644; Score: -50
+
+Episode 475
+CPU Usage 24.64
+Total Memory 23973
+Used Memory 8466
+Free Memory 5057
+Length: 852; Score: -26
+
+Episode 476
+CPU Usage 24.64
+Total Memory 23973
+Used Memory 8481
+Free Memory 5049
+Length: 1480; Score: -120
+
+Episode 477
+CPU Usage 24.65
+Total Memory 23973
+Used Memory 8503
+Free Memory 5080
+Length: 591; Score: 0
+
+Episode 478
+CPU Usage 24.65
+Total Memory 23973
+Used Memory 8513
+Free Memory 5072
+Length: 2128; Score: 0
+
+Episode 479
+CPU Usage 24.67
+Total Memory 23973
+Used Memory 8546
+Free Memory 5062
+Length: 771; Score: -44
+
+Episode 480
+CPU Usage 24.67
+Total Memory 23973
+Used Memory 8554
+Free Memory 5049
+Length: 491; Score: 0
+
+Episode 481
+CPU Usage 24.68
+Total Memory 23973
+Used Memory 8560
+Free Memory 5049
+Length: 529; Score: 0
+
+Episode 482
+CPU Usage 24.68
+Total Memory 23973
+Used Memory 8569
+Free Memory 5034
+Length: 503; Score: 0
+
+Episode 483
+CPU Usage 24.68
+Total Memory 23973
+Used Memory 8571
+Free Memory 5032
+Length: 665; Score: 0
+
+Episode 484
+CPU Usage 24.69
+Total Memory 23973
+Used Memory 8586
+Free Memory 5026
+Length: 488; Score: -17
+
+Episode 485
+CPU Usage 24.69
+Total Memory 23973
+Used Memory 8588
+Free Memory 5026
+Updating target network...
+Length: 1448; Score: -36
+
+Episode 486
+CPU Usage 24.7
+Total Memory 23973
+Used Memory 8607
+Free Memory 5054
+Length: 740; Score: 0
+
+Episode 487
+CPU Usage 24.7
+Total Memory 23973
+Used Memory 8613
+Free Memory 5049
+Length: 1169; Score: -77
+
+Episode 488
+CPU Usage 24.71
+Total Memory 23973
+Used Memory 8624
+Free Memory 5035
+Length: 325; Score: 0
+
+Episode 489
+CPU Usage 24.71
+Total Memory 23973
+Used Memory 8628
+Free Memory 5031
+Length: 405; Score: 0
+
+Episode 490
+CPU Usage 24.71
+Total Memory 23973
+Used Memory 8630
+Free Memory 5036
+Length: 495; Score: -5
+
+Episode 491
+CPU Usage 24.72
+Total Memory 23973
+Used Memory 8636
+Free Memory 5035
+Length: 498; Score: -48
+
+Episode 492
+CPU Usage 24.72
+Total Memory 23973
+Used Memory 8602
+Free Memory 5010
+Length: 327; Score: -17
+
+Episode 493
+CPU Usage 24.72
+Total Memory 23973
+Used Memory 8627
+Free Memory 4969
+Length: 426; Score: -40
+
+Episode 494
+CPU Usage 24.72
+Total Memory 23973
+Used Memory 8631
+Free Memory 4961
+Length: 408; Score: 0
+
+Episode 495
+CPU Usage 24.73
+Total Memory 23973
+Used Memory 8637
+Free Memory 4955
+Length: 694; Score: -42
+
+Episode 496
+CPU Usage 24.73
+Total Memory 23973
+Used Memory 8641
+Free Memory 4961
+Length: 507; Score: 0
+
+Episode 497
+CPU Usage 24.73
+Total Memory 23973
+Used Memory 8646
+Free Memory 4948
+Length: 580; Score: -22
+
+Episode 498
+CPU Usage 24.74
+Total Memory 23973
+Used Memory 8651
+Free Memory 4946
+Length: 497; Score: 0
+
+Episode 499
+CPU Usage 24.74
+Total Memory 23973
+Used Memory 8655
+Free Memory 4951
+Length: 330; Score: -21
+
+Episode 500
+CPU Usage 24.74
+Total Memory 23973
+Used Memory 8658
+Free Memory 4948
+Length: 690; Score: -94
+
+Episode 501
+CPU Usage 24.75
+Total Memory 23973
+Used Memory 8662
+Free Memory 4942
+Length: 420; Score: 0
+
+Episode 502
+CPU Usage 24.75
+Total Memory 23973
+Used Memory 8664
+Free Memory 4942
+Length: 416; Score: 0
+
+Episode 503
+CPU Usage 24.75
+Total Memory 23973
+Used Memory 8666
+Free Memory 4940
+Length: 676; Score: 0
+
+Episode 504
+CPU Usage 24.75
+Total Memory 23973
+Used Memory 8679
+Free Memory 4995
+Saving model as model_best.h5
+Length: 776; Score: -10
+
+Episode 505
+CPU Usage 24.77
+Total Memory 23973
+Used Memory 8681
+Free Memory 4958
+Length: 924; Score: 0
+
+Episode 506
+CPU Usage 24.78
+Total Memory 23973
+Used Memory 8681
+Free Memory 4957
+Length: 1027; Score: 0
+
+Episode 507
+CPU Usage 24.78
+Total Memory 23973
+Used Memory 8679
+Free Memory 4945
+Length: 1173; Score: 0
+
+Episode 508
+CPU Usage 24.79
+Total Memory 23973
+Used Memory 8675
+Free Memory 4948
+Length: 361; Score: -11
+
+Episode 509
+CPU Usage 24.79
+Total Memory 23973
+Used Memory 8673
+Free Memory 4951
+Length: 500; Score: -20
+
+Episode 510
+CPU Usage 24.8
+Total Memory 23973
+Used Memory 8672
+Free Memory 4951
+Length: 423; Score: 0
+
+Episode 511
+CPU Usage 24.8
+Total Memory 23973
+Used Memory 8672
+Free Memory 4951
+Length: 583; Score: 0
+
+Episode 512
+CPU Usage 24.8
+Total Memory 23973
+Used Memory 8671
+Free Memory 4978
+Length: 589; Score: 0
+
+Episode 513
+CPU Usage 24.81
+Total Memory 23973
+Used Memory 8660
+Free Memory 4996
+Length: 681; Score: -46
+
+Episode 514
+CPU Usage 24.81
+Total Memory 23973
+Used Memory 8650
+Free Memory 5008
+Length: 334; Score: 0
+
+Episode 515
+CPU Usage 24.81
+Total Memory 23973
+Used Memory 8647
+Free Memory 5010
+Length: 342; Score: -24
+
+Episode 516
+CPU Usage 24.81
+Total Memory 23973
+Used Memory 8643
+Free Memory 5068
+Length: 669; Score: -76
+
+Episode 517
+CPU Usage 24.82
+Total Memory 23973
+Used Memory 8632
+Free Memory 5078
+Length: 539; Score: -32
+
+Episode 518
+CPU Usage 24.82
+Total Memory 23973
+Used Memory 8627
+Free Memory 5083
+Length: 510; Score: 0
+
+Episode 519
+CPU Usage 24.82
+Total Memory 23973
+Used Memory 8621
+Free Memory 5090
+Length: 515; Score: -37
+
+Episode 520
+CPU Usage 24.83
+Total Memory 23973
+Used Memory 8613
+Free Memory 5097
+Length: 8267; Score: -200
+
+Episode 521
+CPU Usage 24.88
+Total Memory 23973
+Used Memory 8529
+Free Memory 5197
+Length: 976; Score: -156
+
+Episode 522
+CPU Usage 24.88
+Total Memory 23973
+Used Memory 8510
+Free Memory 5213
+Length: 433; Score: -30
+
+Episode 523
+CPU Usage 24.89
+Total Memory 23973
+Used Memory 8506
+Free Memory 5217
+Length: 332; Score: 0
+
+Episode 524
+CPU Usage 24.89
+Total Memory 23973
+Used Memory 8502
+Free Memory 5224
+Length: 1047; Score: 0
+
+Episode 525
+CPU Usage 24.89
+Total Memory 23973
+Used Memory 8492
+Free Memory 5233
+Length: 435; Score: -10
+
+Episode 526
+CPU Usage 24.9
+Total Memory 23973
+Used Memory 8488
+Free Memory 5275
+Length: 493; Score: 0
+
+Episode 527
+CPU Usage 24.9
+Total Memory 23973
+Used Memory 8483
+Free Memory 5287
+Length: 811; Score: -256
+
+Episode 528
+CPU Usage 24.9
+Total Memory 23973
+Used Memory 8474
+Free Memory 5296
+Length: 922; Score: -381
+
+Episode 529
+CPU Usage 24.91
+Total Memory 23973
+Used Memory 8467
+Free Memory 5293
+Length: 340; Score: 0
+
+Episode 530
+CPU Usage 24.91
+Total Memory 23973
+Used Memory 8460
+Free Memory 5300
+Length: 939; Score: 0
+
+Episode 531
+CPU Usage 24.92
+Total Memory 23973
+Used Memory 8454
+Free Memory 5346
+Length: 574; Score: -19
+
+Episode 532
+CPU Usage 24.92
+Total Memory 23973
+Used Memory 8447
+Free Memory 5355
+Length: 745; Score: -126
+
+Episode 533
+CPU Usage 24.93
+Total Memory 23973
+Used Memory 8439
+Free Memory 5369
+Length: 496; Score: -22
+
+Episode 534
+CPU Usage 24.93
+Total Memory 23973
+Used Memory 8436
+Free Memory 5372
+Length: 328; Score: 0
+
+Episode 535
+CPU Usage 24.93
+Total Memory 23973
+Used Memory 8432
+Free Memory 5376
+Length: 341; Score: 0
+
+Episode 536
+CPU Usage 24.93
+Total Memory 23973
+Used Memory 8426
+Free Memory 5382
+Length: 495; Score: -40
+
+Episode 537
+CPU Usage 24.94
+Total Memory 23973
+Used Memory 8419
+Free Memory 5385
+Length: 339; Score: 0
+
+Episode 538
+CPU Usage 24.94
+Total Memory 23973
+Used Memory 8417
+Free Memory 5393
+Length: 1570; Score: 0
+
+Episode 539
+CPU Usage 24.95
+Total Memory 23973
+Used Memory 8401
+Free Memory 5448
+Length: 321; Score: 0
+
+Episode 540
+CPU Usage 24.95
+Total Memory 23973
+Used Memory 8391
+Free Memory 5458
+Updating target network...
+Length: 494; Score: 0
+
+Episode 541
+CPU Usage 24.95
+Total Memory 23973
+Used Memory 8377
+Free Memory 5471
+Length: 580; Score: -3
+
+Episode 542
+CPU Usage 24.95
+Total Memory 23973
+Used Memory 8371
+Free Memory 5478
+Length: 314; Score: 0
+
+Episode 543
+CPU Usage 24.95
+Total Memory 23973
+Used Memory 8370
+Free Memory 5478
+Length: 426; Score: -48
+
+Episode 544
+CPU Usage 24.96
+Total Memory 23973
+Used Memory 8386
+Free Memory 5439
+Length: 668; Score: 0
+
+Episode 545
+CPU Usage 24.96
+Total Memory 23973
+Used Memory 8366
+Free Memory 5457
+Length: 367; Score: 0
+
+Episode 546
+CPU Usage 24.96
+Total Memory 23973
+Used Memory 8351
+Free Memory 5472
+Length: 582; Score: 0
+
+Episode 547
+CPU Usage 24.97
+Total Memory 23973
+Used Memory 8335
+Free Memory 5488
+Length: 523; Score: 0
+
+Episode 548
+CPU Usage 24.97
+Total Memory 23973
+Used Memory 8326
+Free Memory 5497
+Length: 422; Score: -6
+
+Episode 549
+CPU Usage 24.97
+Total Memory 23973
+Used Memory 8317
+Free Memory 5505
+Length: 807; Score: -50
+
+Episode 550
+CPU Usage 24.97
+Total Memory 23973
+Used Memory 8301
+Free Memory 5521
+Length: 500; Score: 0
+
+Episode 551
+CPU Usage 24.98
+Total Memory 23973
+Used Memory 8295
+Free Memory 5527
+Length: 582; Score: -45
+
+Episode 552
+CPU Usage 24.98
+Total Memory 23973
+Used Memory 8287
+Free Memory 5546
+Length: 570; Score: -16
+
+Episode 553
+CPU Usage 24.98
+Total Memory 23973
+Used Memory 8278
+Free Memory 5558
+Length: 735; Score: 0
+
+Episode 554
+CPU Usage 24.99
+Total Memory 23973
+Used Memory 8273
+Free Memory 5565
+Length: 1021; Score: -48
+
+Episode 555
+CPU Usage 24.99
+Total Memory 23973
+Used Memory 8239
+Free Memory 5526
+Length: 354; Score: 0
+
+Episode 556
+CPU Usage 25.0
+Total Memory 23973
+Used Memory 8310
+Free Memory 5436
+Length: 409; Score: 0
+
+Episode 557
+CPU Usage 25.0
+Total Memory 23973
+Used Memory 8307
+Free Memory 5430
+Length: 422; Score: 0
+
+Episode 558
+CPU Usage 25.0
+Total Memory 23973
+Used Memory 8304
+Free Memory 5433
+Length: 500; Score: -24
+
+Episode 559
+CPU Usage 25.0
+Total Memory 23973
+Used Memory 8303
+Free Memory 5450
+Length: 1191; Score: -88
+
+Episode 560
+CPU Usage 25.01
+Total Memory 23973
+Used Memory 8296
+Free Memory 5469
+Length: 409; Score: 0
+
+Episode 561
+CPU Usage 25.01
+Total Memory 23973
+Used Memory 8291
+Free Memory 5481
+Length: 520; Score: -80
+
+Episode 562
+CPU Usage 25.02
+Total Memory 23973
+Used Memory 8285
+Free Memory 5486
+Length: 333; Score: 0
+
+Episode 563
+CPU Usage 25.02
+Total Memory 23973
+Used Memory 8283
+Free Memory 5488
+Length: 319; Score: 0
+
+Episode 564
+CPU Usage 25.02
+Total Memory 23973
+Used Memory 8282
+Free Memory 5493
+Length: 497; Score: -10
+
+Episode 565
+CPU Usage 25.02
+Total Memory 23973
+Used Memory 8282
+Free Memory 5519
+Length: 514; Score: -30
+
+Episode 566
+CPU Usage 25.03
+Total Memory 23973
+Used Memory 8276
+Free Memory 5527
+Length: 674; Score: -22
+
+Episode 567
+CPU Usage 25.03
+Total Memory 23973
+Used Memory 8255
+Free Memory 5434
+Length: 412; Score: 0
+
+Episode 568
+CPU Usage 25.03
+Total Memory 23973
+Used Memory 8254
+Free Memory 5432
+Length: 495; Score: -42
+
+Episode 569
+CPU Usage 25.04
+Total Memory 23973
+Used Memory 8256
+Free Memory 5429
+Length: 605; Score: -13
+
+Episode 570
+CPU Usage 25.04
+Total Memory 23973
+Used Memory 8258
+Free Memory 5434
+Length: 422; Score: 0
+
+Episode 571
+CPU Usage 25.04
+Total Memory 23973
+Used Memory 8257
+Free Memory 5434
+Length: 673; Score: -44
+
+Episode 572
+CPU Usage 25.05
+Total Memory 23973
+Used Memory 8254
+Free Memory 5438
+Length: 424; Score: 0
+
+Episode 573
+CPU Usage 25.05
+Total Memory 23973
+Used Memory 8254
+Free Memory 5446
+Length: 934; Score: 0
+
+Episode 574
+CPU Usage 25.05
+Total Memory 23973
+Used Memory 8229
+Free Memory 5535
+Length: 751; Score: -127
+
+Episode 575
+CPU Usage 25.06
+Total Memory 23973
+Used Memory 8247
+Free Memory 5515
+Length: 576; Score: -32
+
+Episode 576
+CPU Usage 25.06
+Total Memory 23973
+Used Memory 8251
+Free Memory 5511
+Length: 345; Score: 0
+
+Episode 577
+CPU Usage 25.06
+Total Memory 23973
+Used Memory 8253
+Free Memory 5509
+Length: 501; Score: 0
+
+Episode 578
+CPU Usage 25.07
+Total Memory 23973
+Used Memory 8256
+Free Memory 5501
+Length: 606; Score: 0
+
+Episode 579
+CPU Usage 25.07
+Total Memory 23973
+Used Memory 8257
+Free Memory 5499
+Length: 331; Score: 0
+
+Episode 580
+CPU Usage 25.07
+Total Memory 23973
+Used Memory 8258
+Free Memory 5499
+Length: 587; Score: -26
+
+Episode 581
+CPU Usage 25.08
+Total Memory 23973
+Used Memory 8267
+Free Memory 5501
+Length: 509; Score: 0
+
+Episode 582
+CPU Usage 25.08
+Total Memory 23973
+Used Memory 8262
+Free Memory 5505
+Length: 501; Score: 0
+
+Episode 583
+CPU Usage 25.08
+Total Memory 23973
+Used Memory 8260
+Free Memory 5503
+Length: 505; Score: 0
+
+Episode 584
+CPU Usage 25.09
+Total Memory 23973
+Used Memory 8258
+Free Memory 5505
+Length: 332; Score: 0
+
+Episode 585
+CPU Usage 25.09
+Total Memory 23973
+Used Memory 8250
+Free Memory 5518
+Length: 401; Score: -22
+
+Episode 586
+CPU Usage 25.09
+Total Memory 23973
+Used Memory 8247
+Free Memory 5521
+Length: 495; Score: 0
+
+Episode 587
+CPU Usage 25.09
+Total Memory 23973
+Used Memory 8246
+Free Memory 5522
+Length: 390; Score: -15
+
+Episode 588
+CPU Usage 25.09
+Total Memory 23973
+Used Memory 8255
+Free Memory 5511
+Length: 338; Score: 0
+
+Episode 589
+CPU Usage 25.1
+Total Memory 23973
+Used Memory 8246
+Free Memory 5522
+Length: 426; Score: -40
+
+Episode 590
+CPU Usage 25.1
+Total Memory 23973
+Used Memory 8242
+Free Memory 5526
+Length: 608; Score: -26
+
+Episode 591
+CPU Usage 25.1
+Total Memory 23973
+Used Memory 8237
+Free Memory 5531
+Length: 503; Score: 0
+
+Episode 592
+CPU Usage 25.11
+Total Memory 23973
+Used Memory 8236
+Free Memory 5533
+Length: 336; Score: -24
+
+Episode 593
+CPU Usage 25.11
+Total Memory 23973
+Used Memory 8234
+Free Memory 5539
+Length: 1185; Score: 0
+
+Episode 594
+CPU Usage 25.11
+Total Memory 23973
+Used Memory 8224
+Free Memory 5552
+Length: 408; Score: 0
+
+Episode 595
+CPU Usage 25.12
+Total Memory 23973
+Used Memory 8226
+Free Memory 5558
+Length: 1456; Score: -100
+
+Episode 596
+CPU Usage 25.13
+Total Memory 23973
+Used Memory 8212
+Free Memory 5577
+Length: 759; Score: -48
+
+Episode 597
+CPU Usage 25.13
+Total Memory 23973
+Used Memory 8216
+Free Memory 5595
+Length: 915; Score: -47
+
+Episode 598
+CPU Usage 25.13
+Total Memory 23973
+Used Memory 8211
+Free Memory 5602
+Length: 599; Score: -22
+
+Episode 599
+CPU Usage 25.14
+Total Memory 23973
+Used Memory 8218
+Free Memory 5614
+Length: 497; Score: -7
+
+Episode 600
+CPU Usage 25.14
+Total Memory 23973
+Used Memory 8190
+Free Memory 5549
+Length: 584; Score: 0
+
+Episode 601
+CPU Usage 25.14
+Total Memory 23973
+Used Memory 8191
+Free Memory 5515
+Length: 316; Score: 0
+
+Episode 602
+CPU Usage 25.15
+Total Memory 23973
+Used Memory 8190
+Free Memory 5518
+Length: 318; Score: 0
+
+Episode 603
+CPU Usage 25.15
+Total Memory 23973
+Used Memory 8193
+Free Memory 5525
+Length: 420; Score: 0
+
+Episode 604
+CPU Usage 25.15
+Total Memory 23973
+Used Memory 8192
+Free Memory 5518
+Length: 586; Score: -26
+
+Episode 605
+CPU Usage 25.15
+Total Memory 23973
+Used Memory 8195
+Free Memory 5543
+Length: 671; Score: -94
+
+Episode 606
+CPU Usage 25.16
+Total Memory 23973
+Used Memory 8194
+Free Memory 5545
+Length: 550; Score: -41
+
+Episode 607
+CPU Usage 25.16
+Total Memory 23973
+Used Memory 8195
+Free Memory 5566
+Length: 398; Score: 0
+
+Episode 608
+CPU Usage 25.16
+Total Memory 23973
+Used Memory 8195
+Free Memory 5564
+Length: 417; Score: 0
+
+Episode 609
+CPU Usage 25.17
+Total Memory 23973
+Used Memory 8197
+Free Memory 5564
+Length: 407; Score: -42
+
+Episode 610
+CPU Usage 25.17
+Total Memory 23973
+Used Memory 8202
+Free Memory 5581
+Length: 426; Score: 0
+
+Episode 611
+CPU Usage 25.17
+Total Memory 23973
+Used Memory 8198
+Free Memory 5587
+Length: 411; Score: 0
+
+Episode 612
+CPU Usage 25.17
+Total Memory 23973
+Used Memory 8199
+Free Memory 5586
+Length: 334; Score: 0
+
+Episode 613
+CPU Usage 25.17
+Total Memory 23973
+Used Memory 8199
+Free Memory 5587
+Length: 324; Score: 0
+
+Episode 614
+CPU Usage 25.18
+Total Memory 23973
+Used Memory 8200
+Free Memory 5586
+Updating target network...
+Length: 388; Score: 0
+
+Episode 615
+CPU Usage 25.18
+Total Memory 23973
+Used Memory 8202
+Free Memory 5586
+Length: 503; Score: 0
+
+Episode 616
+CPU Usage 25.18
+Total Memory 23973
+Used Memory 8197
+Free Memory 5593
+Length: 943; Score: 0
+
+Episode 617
+CPU Usage 25.19
+Total Memory 23973
+Used Memory 8196
+Free Memory 5597
+Length: 666; Score: 0
+
+Episode 618
+CPU Usage 25.19
+Total Memory 23973
+Used Memory 8194
+Free Memory 5601
+Length: 414; Score: 0
+
+Episode 619
+CPU Usage 25.19
+Total Memory 23973
+Used Memory 8194
+Free Memory 5610
+Length: 676; Score: -2
+
+Episode 620
+CPU Usage 25.2
+Total Memory 23973
+Used Memory 8190
+Free Memory 5619
+Length: 772; Score: -212
+
+Episode 621
+CPU Usage 25.2
+Total Memory 23973
+Used Memory 8187
+Free Memory 5623
+Length: 499; Score: 0
+
+Episode 622
+CPU Usage 25.2
+Total Memory 23973
+Used Memory 8190
+Free Memory 5643
+Length: 595; Score: -77
+
+Episode 623
+CPU Usage 25.21
+Total Memory 23973
+Used Memory 8184
+Free Memory 5649
+Length: 485; Score: -43
+
+Episode 624
+CPU Usage 25.21
+Total Memory 23973
+Used Memory 8182
+Free Memory 5649
+Length: 334; Score: -19
+
+Episode 625
+CPU Usage 25.21
+Total Memory 23973
+Used Memory 8181
+Free Memory 5662
+Length: 511; Score: -9
+
+Episode 626
+CPU Usage 25.21
+Total Memory 23973
+Used Memory 8175
+Free Memory 5669
+Length: 1169; Score: -4
+
+Episode 627
+CPU Usage 25.22
+Total Memory 23973
+Used Memory 8177
+Free Memory 5673
+Length: 434; Score: 0
+
+Episode 628
+CPU Usage 25.22
+Total Memory 23973
+Used Memory 8174
+Free Memory 5671
+Length: 344; Score: -26
+
+Episode 629
+CPU Usage 25.23
+Total Memory 23973
+Used Memory 8168
+Free Memory 5678
+Length: 424; Score: 0
+
+Episode 630
+CPU Usage 25.23
+Total Memory 23973
+Used Memory 8165
+Free Memory 5684
+Length: 518; Score: -41
+
+Episode 631
+CPU Usage 25.23
+Total Memory 23973
+Used Memory 8161
+Free Memory 5691
+Length: 482; Score: 0
+
+Episode 632
+CPU Usage 25.23
+Total Memory 23973
+Used Memory 8158
+Free Memory 5694
+Length: 524; Score: 0
+
+Episode 633
+CPU Usage 25.24
+Total Memory 23973
+Used Memory 8158
+Free Memory 5694
+Length: 347; Score: -13
+
+Episode 634
+CPU Usage 25.24
+Total Memory 23973
+Used Memory 8156
+Free Memory 5696
+Length: 408; Score: -4
+
+Episode 635
+CPU Usage 25.24
+Total Memory 23973
+Used Memory 8181
+Free Memory 5676
+Length: 579; Score: 0
+
+Episode 636
+CPU Usage 25.24
+Total Memory 23973
+Used Memory 8165
+Free Memory 5691
+Length: 426; Score: 0
+
+Episode 637
+CPU Usage 25.25
+Total Memory 23973
+Used Memory 8146
+Free Memory 5682
+Length: 493; Score: 0
+
+Episode 638
+CPU Usage 25.25
+Total Memory 23973
+Used Memory 8147
+Free Memory 5667
+Length: 674; Score: -8
+
+Episode 639
+CPU Usage 25.25
+Total Memory 23973
+Used Memory 8146
+Free Memory 5668
+Length: 410; Score: 0
+
+Episode 640
+CPU Usage 25.25
+Total Memory 23973
+Used Memory 8146
+Free Memory 5674
+Length: 415; Score: 0
+
+Episode 641
+CPU Usage 25.26
+Total Memory 23973
+Used Memory 8145
+Free Memory 5675
+Length: 418; Score: 0
+
+Episode 642
+CPU Usage 25.26
+Total Memory 23973
+Used Memory 8147
+Free Memory 5675
+Length: 739; Score: -32
+
+Episode 643
+CPU Usage 25.26
+Total Memory 23973
+Used Memory 8146
+Free Memory 5678
+Length: 509; Score: 0
+
+Episode 644
+CPU Usage 25.26
+Total Memory 23973
+Used Memory 8145
+Free Memory 5680
+Length: 590; Score: -46
+
+Episode 645
+CPU Usage 25.27
+Total Memory 23973
+Used Memory 8144
+Free Memory 5682
+Length: 504; Score: 0
+
+Episode 646
+CPU Usage 25.27
+Total Memory 23973
+Used Memory 8142
+Free Memory 5692
+Length: 411; Score: 0
+
+Episode 647
+CPU Usage 25.27
+Total Memory 23973
+Used Memory 8140
+Free Memory 5693
+Length: 613; Score: 0
+
+Episode 648
+CPU Usage 25.27
+Total Memory 23973
+Used Memory 8139
+Free Memory 5701
+Length: 323; Score: 0
+
+Episode 649
+CPU Usage 25.28
+Total Memory 23973
+Used Memory 8138
+Free Memory 5703
+Length: 336; Score: -17
+
+Episode 650
+CPU Usage 25.28
+Total Memory 23973
+Used Memory 8105
+Free Memory 5670
+Length: 508; Score: -11
+
+Episode 651
+CPU Usage 25.28
+Total Memory 23973
+Used Memory 8077
+Free Memory 5628
+Length: 339; Score: -22
+
+Episode 652
+CPU Usage 25.28
+Total Memory 23973
+Used Memory 8076
+Free Memory 5630
+Length: 415; Score: 0
+
+Episode 653
+CPU Usage 25.29
+Total Memory 23973
+Used Memory 8076
+Free Memory 5629
+Length: 497; Score: -6
+
+Episode 654
+CPU Usage 25.29
+Total Memory 23973
+Used Memory 8088
+Free Memory 5623
+Length: 664; Score: -15
+
+Episode 655
+CPU Usage 25.29
+Total Memory 23973
+Used Memory 8087
+Free Memory 5615
+Length: 1038; Score: -46
+
+Episode 656
+CPU Usage 25.3
+Total Memory 23973
+Used Memory 8088
+Free Memory 5629
+Length: 412; Score: 0
+
+Episode 657
+CPU Usage 25.3
+Total Memory 23973
+Used Memory 8087
+Free Memory 5629
+Length: 916; Score: -81
+
+Episode 658
+CPU Usage 25.3
+Total Memory 23973
+Used Memory 8087
+Free Memory 5654
+Length: 573; Score: 0
+
+Episode 659
+CPU Usage 25.31
+Total Memory 23973
+Used Memory 8087
+Free Memory 5642
+Length: 942; Score: 0
+
+Episode 660
+CPU Usage 25.31
+Total Memory 23973
+Used Memory 8062
+Free Memory 5657
+Length: 558; Score: 0
+
+Episode 661
+CPU Usage 25.32
+Total Memory 23973
+Used Memory 8062
+Free Memory 5641
+Length: 421; Score: 0
+
+Episode 662
+CPU Usage 25.32
+Total Memory 23973
+Used Memory 8066
+Free Memory 5640
+Length: 688; Score: -88
+
+Episode 663
+CPU Usage 25.32
+Total Memory 23973
+Used Memory 8072
+Free Memory 5630
+Length: 669; Score: 0
+
+Episode 664
+CPU Usage 25.33
+Total Memory 23973
+Used Memory 8078
+Free Memory 5610
+Length: 408; Score: 0
+
+Episode 665
+CPU Usage 25.33
+Total Memory 23973
+Used Memory 8081
+Free Memory 5610
+Length: 324; Score: 0
+
+Episode 666
+CPU Usage 25.33
+Total Memory 23973
+Used Memory 8081
+Free Memory 5616
+Length: 328; Score: 0
+
+Episode 667
+CPU Usage 25.33
+Total Memory 23973
+Used Memory 8083
+Free Memory 5613
+Length: 585; Score: 0
+
+Episode 668
+CPU Usage 25.34
+Total Memory 23973
+Used Memory 8087
+Free Memory 5616
+Length: 829; Score: -52
+
+Episode 669
+CPU Usage 25.34
+Total Memory 23973
+Used Memory 8112
+Free Memory 5599
+Length: 480; Score: -42
+
+Episode 670
+CPU Usage 25.34
+Total Memory 23973
+Used Memory 8111
+Free Memory 5601
+Length: 485; Score: -37
+
+Episode 671
+CPU Usage 25.34
+Total Memory 23973
+Used Memory 8112
+Free Memory 5591
+Length: 659; Score: -22
+
+Episode 672
+CPU Usage 25.35
+Total Memory 23973
+Used Memory 8111
+Free Memory 5612
+Length: 323; Score: 0
+
+Episode 673
+CPU Usage 25.35
+Total Memory 23973
+Used Memory 8109
+Free Memory 5615
+Length: 404; Score: -40
+
+Episode 674
+CPU Usage 25.35
+Total Memory 23973
+Used Memory 8110
+Free Memory 5614
+Length: 418; Score: 0
+
+Episode 675
+CPU Usage 25.35
+Total Memory 23973
+Used Memory 8105
+Free Memory 5620
+Length: 686; Score: 0
+
+Episode 676
+CPU Usage 25.36
+Total Memory 23973
+Used Memory 8113
+Free Memory 5636
+Length: 748; Score: 0
+
+Episode 677
+CPU Usage 25.36
+Total Memory 23973
+Used Memory 8102
+Free Memory 5651
+Length: 755; Score: -22
+
+Episode 678
+CPU Usage 25.37
+Total Memory 23973
+Used Memory 8101
+Free Memory 5654
+Length: 416; Score: -21
+
+Episode 679
+CPU Usage 25.37
+Total Memory 23973
+Used Memory 8104
+Free Memory 5655
+Length: 669; Score: -48
+
+Episode 680
+CPU Usage 25.37
+Total Memory 23973
+Used Memory 8103
+Free Memory 5661
+Length: 411; Score: 0
+
+Episode 681
+CPU Usage 25.37
+Total Memory 23973
+Used Memory 8101
+Free Memory 5659
+Length: 504; Score: -12
+
+Episode 682
+CPU Usage 25.38
+Total Memory 23973
+Used Memory 8099
+Free Memory 5662
+Length: 570; Score: -48
+
+Episode 683
+CPU Usage 25.38
+Total Memory 23973
+Used Memory 8100
+Free Memory 5647
+Length: 586; Score: -22
+
+Episode 684
+CPU Usage 25.38
+Total Memory 23973
+Used Memory 8096
+Free Memory 5653
+Length: 418; Score: 0
+
+Episode 685
+CPU Usage 25.39
+Total Memory 23973
+Used Memory 8095
+Free Memory 5658
+Length: 329; Score: 0
+
+Episode 686
+CPU Usage 25.39
+Total Memory 23973
+Used Memory 8093
+Free Memory 5665
+Length: 419; Score: 0
+
+Episode 687
+CPU Usage 25.39
+Total Memory 23973
+Used Memory 8090
+Free Memory 5675
+Length: 423; Score: 0
+
+Episode 688
+CPU Usage 25.39
+Total Memory 23973
+Used Memory 8087
+Free Memory 5678
+Updating target network...
+Length: 572; Score: 0
+
+Episode 689
+CPU Usage 25.39
+Total Memory 23973
+Used Memory 8085
+Free Memory 5694
+Length: 319; Score: -20
+
+Episode 690
+CPU Usage 25.4
+Total Memory 23973
+Used Memory 8084
+Free Memory 5697
+Length: 428; Score: 0
+
+Episode 691
+CPU Usage 25.4
+Total Memory 23973
+Used Memory 8080
+Free Memory 5705
+Length: 326; Score: 0
+
+Episode 692
+CPU Usage 25.4
+Total Memory 23973
+Used Memory 8077
+Free Memory 5709
+Length: 432; Score: -13
+
+Episode 693
+CPU Usage 25.4
+Total Memory 23973
+Used Memory 8077
+Free Memory 5712
+Length: 496; Score: -37
+
+Episode 694
+CPU Usage 25.41
+Total Memory 23973
+Used Memory 8076
+Free Memory 5714
+Length: 414; Score: 0
+
+Episode 695
+CPU Usage 25.41
+Total Memory 23973
+Used Memory 8077
+Free Memory 5721
+Length: 426; Score: -54
+
+Episode 696
+CPU Usage 25.41
+Total Memory 23973
+Used Memory 8075
+Free Memory 5728
+Length: 408; Score: -9
+
+Episode 697
+CPU Usage 25.41
+Total Memory 23973
+Used Memory 8076
+Free Memory 5728
+Length: 621; Score: -47
+
+Episode 698
+CPU Usage 25.41
+Total Memory 23973
+Used Memory 8076
+Free Memory 5683
+Length: 420; Score: 0
+
+Episode 699
+CPU Usage 25.42
+Total Memory 23973
+Used Memory 8071
+Free Memory 5665
+Length: 321; Score: 0
+
+Episode 700
+CPU Usage 25.42
+Total Memory 23973
+Used Memory 8074
+Free Memory 5657
+Length: 318; Score: 0
+
+Episode 701
+CPU Usage 25.42
+Total Memory 23973
+Used Memory 8072
+Free Memory 5668
+Length: 571; Score: -64
+
+Episode 702
+CPU Usage 25.42
+Total Memory 23973
+Used Memory 8065
+Free Memory 5672
+Length: 424; Score: 0
+
+Episode 703
+CPU Usage 25.43
+Total Memory 23973
+Used Memory 8063
+Free Memory 5668
+Length: 419; Score: -20
+
+Episode 704
+CPU Usage 25.43
+Total Memory 23973
+Used Memory 8062
+Free Memory 5675
+Length: 752; Score: 0
+
+Episode 705
+CPU Usage 25.43
+Total Memory 23973
+Used Memory 8064
+Free Memory 5673
+Length: 488; Score: 0
+
+Episode 706
+CPU Usage 25.44
+Total Memory 23973
+Used Memory 8065
+Free Memory 5675
+Length: 493; Score: -10
+
+Episode 707
+CPU Usage 25.44
+Total Memory 23973
+Used Memory 8062
+Free Memory 5672
+Length: 414; Score: 0
+
+Episode 708
+CPU Usage 25.44
+Total Memory 23973
+Used Memory 8064
+Free Memory 5685
+Length: 590; Score: 0
+
+Episode 709
+CPU Usage 25.44
+Total Memory 23973
+Used Memory 8065
+Free Memory 5684
+Length: 596; Score: -53
+
+Episode 710
+CPU Usage 25.45
+Total Memory 23973
+Used Memory 8067
+Free Memory 5679
+Length: 638; Score: -40
+
+Episode 711
+CPU Usage 25.45
+Total Memory 23973
+Used Memory 8067
+Free Memory 5677
+Length: 409; Score: -13
+
+Episode 712
+CPU Usage 25.45
+Total Memory 23973
+Used Memory 8068
+Free Memory 5681
+Length: 423; Score: 0
+
+Episode 713
+CPU Usage 25.45
+Total Memory 23973
+Used Memory 8070
+Free Memory 5681
+Length: 508; Score: -48
+
+Episode 714
+CPU Usage 25.46
+Total Memory 23973
+Used Memory 8071
+Free Memory 5680
+Length: 590; Score: -48
+
+Episode 715
+CPU Usage 25.46
+Total Memory 23973
+Used Memory 8072
+Free Memory 5702
+Length: 503; Score: 0
+
+Episode 716
+CPU Usage 25.46
+Total Memory 23973
+Used Memory 8071
+Free Memory 5706
+Length: 689; Score: 0
+
+Episode 717
+CPU Usage 25.47
+Total Memory 23973
+Used Memory 8073
+Free Memory 5709
+Length: 420; Score: 0
+
+Episode 718
+CPU Usage 25.47
+Total Memory 23973
+Used Memory 8075
+Free Memory 5711
+Length: 504; Score: -13
+
+Episode 719
+CPU Usage 25.47
+Total Memory 23973
+Used Memory 8075
+Free Memory 5712
+Length: 589; Score: 0
+
+Episode 720
+CPU Usage 25.47
+Total Memory 23973
+Used Memory 8075
+Free Memory 5712
+Length: 513; Score: 0
+
+Episode 721
+CPU Usage 25.48
+Total Memory 23973
+Used Memory 8077
+Free Memory 5715
+Length: 341; Score: 0
+
+Episode 722
+CPU Usage 25.48
+Total Memory 23973
+Used Memory 8077
+Free Memory 5740
+Length: 497; Score: 0
+
+Episode 723
+CPU Usage 25.48
+Total Memory 23973
+Used Memory 8079
+Free Memory 5723
+Length: 516; Score: 0
+
+Episode 724
+CPU Usage 25.48
+Total Memory 23973
+Used Memory 8079
+Free Memory 5723
+Length: 495; Score: 0
+
+Episode 725
+CPU Usage 25.49
+Total Memory 23973
+Used Memory 8077
+Free Memory 5725
+Length: 356; Score: 0
+
+Episode 726
+CPU Usage 25.49
+Total Memory 23973
+Used Memory 8077
+Free Memory 5724
+Length: 426; Score: 0
+
+Episode 727
+CPU Usage 25.49
+Total Memory 23973
+Used Memory 8068
+Free Memory 5750
+Length: 441; Score: -45
+
+Episode 728
+CPU Usage 25.49
+Total Memory 23973
+Used Memory 8066
+Free Memory 5752
+Length: 403; Score: 0
+
+Episode 729
+CPU Usage 25.49
+Total Memory 23973
+Used Memory 8063
+Free Memory 5755
+Length: 491; Score: 0
+
+Episode 730
+CPU Usage 25.5
+Total Memory 23973
+Used Memory 8064
+Free Memory 5756
+Length: 428; Score: 0
+
+Episode 731
+CPU Usage 25.5
+Total Memory 23973
+Used Memory 8061
+Free Memory 5759
+Length: 652; Score: -41
+
+Episode 732
+CPU Usage 25.5
+Total Memory 23973
+Used Memory 8064
+Free Memory 5765
+Length: 432; Score: 0
+
+Episode 733
+CPU Usage 25.5
+Total Memory 23973
+Used Memory 8059
+Free Memory 5774
+Length: 495; Score: 0
+
+Episode 734
+CPU Usage 25.51
+Total Memory 23973
+Used Memory 8057
+Free Memory 5776
+Length: 576; Score: -8
+
+Episode 735
+CPU Usage 25.51
+Total Memory 23973
+Used Memory 8053
+Free Memory 5781
+Length: 354; Score: -7
+
+Episode 736
+CPU Usage 25.51
+Total Memory 23973
+Used Memory 8052
+Free Memory 5783
+Length: 1201; Score: -102
+
+Episode 737
+CPU Usage 25.52
+Total Memory 23973
+Used Memory 8046
+Free Memory 5779
+Length: 323; Score: 0
+
+Episode 738
+CPU Usage 25.52
+Total Memory 23973
+Used Memory 8043
+Free Memory 5781
+Length: 393; Score: -24
+
+Episode 739
+CPU Usage 25.52
+Total Memory 23973
+Used Memory 8043
+Free Memory 5781
+Length: 234; Score: 0
+
+Episode 740
+CPU Usage 25.52
+Total Memory 23973
+Used Memory 8043
+Free Memory 5782
+Length: 636; Score: -242
+
+Episode 741
+CPU Usage 25.53
+Total Memory 23973
+Used Memory 8040
+Free Memory 5784
+Length: 3407; Score: -200
+
+Episode 742
+CPU Usage 25.54
+Total Memory 23973
+Used Memory 8026
+Free Memory 5806
+Length: 2289; Score: -260
+
+Episode 743
+CPU Usage 25.56
+Total Memory 23973
+Used Memory 8034
+Free Memory 5686
+Length: 1627; Score: -234
+
+Episode 744
+CPU Usage 25.57
+Total Memory 23973
+Used Memory 8043
+Free Memory 5694
+Length: 325; Score: -4
+
+Episode 745
+CPU Usage 25.57
+Total Memory 23973
+Used Memory 8041
+Free Memory 5710
+Length: 668; Score: -48
+
+Episode 746
+CPU Usage 25.57
+Total Memory 23973
+Used Memory 8046
+Free Memory 5703
+Length: 911; Score: -46
+
+Episode 747
+CPU Usage 25.58
+Total Memory 23973
+Used Memory 8051
+Free Memory 5708
+Length: 335; Score: -33
+
+Episode 748
+CPU Usage 25.58
+Total Memory 23973
+Used Memory 8051
+Free Memory 5704
+Length: 1632; Score: -107
+
+Episode 749
+CPU Usage 25.59
+Total Memory 23973
+Used Memory 8049
+Free Memory 5649
+Length: 1250; Score: 0
+
+Episode 750
+CPU Usage 25.59
+Total Memory 23973
+Used Memory 8063
+Free Memory 5633
+Updating target network...
+Length: 2619; Score: -351
+
+Episode 751
+CPU Usage 25.61
+Total Memory 23973
+Used Memory 8085
+Free Memory 5621
+Length: 509; Score: -96
+
+Episode 752
+CPU Usage 25.61
+Total Memory 23973
+Used Memory 8088
+Free Memory 5620
+Length: 849; Score: -343
+
+Episode 753
+CPU Usage 25.62
+Total Memory 23973
+Used Memory 8096
+Free Memory 5614
+Length: 2781; Score: 0
+
+Episode 754
+CPU Usage 25.63
+Total Memory 23973
+Used Memory 8121
+Free Memory 5607
+Length: 477; Score: -28
+
+Episode 755
+CPU Usage 25.63
+Total Memory 23973
+Used Memory 8120
+Free Memory 5599
+Length: 332; Score: 0
+
+Episode 756
+CPU Usage 25.63
+Total Memory 23973
+Used Memory 8122
+Free Memory 5596
+Length: 333; Score: -9
+
+Episode 757
+CPU Usage 25.64
+Total Memory 23973
+Used Memory 8123
+Free Memory 5597
+Length: 747; Score: 0
+
+Episode 758
+CPU Usage 25.64
+Total Memory 23973
+Used Memory 8128
+Free Memory 5627
+Length: 4286; Score: -328
+
+Episode 759
+CPU Usage 25.66
+Total Memory 23973
+Used Memory 8161
+Free Memory 5587
+Length: 1658; Score: 0
+
+Episode 760
+CPU Usage 25.67
+Total Memory 23973
+Used Memory 8173
+Free Memory 5577
+Length: 2809; Score: -232
+
+Episode 761
+CPU Usage 25.68
+Total Memory 23973
+Used Memory 8173
+Free Memory 5532
+Length: 1383; Score: -200
+
+Episode 762
+CPU Usage 25.69
+Total Memory 23973
+Used Memory 8187
+Free Memory 5525
+Length: 479; Score: 0
+
+Episode 763
+CPU Usage 25.69
+Total Memory 23973
+Used Memory 8189
+Free Memory 5516
+Length: 2718; Score: -254
+
+Episode 764
+CPU Usage 25.71
+Total Memory 23973
+Used Memory 8213
+Free Memory 5493
+Length: 505; Score: 0
+
+Episode 765
+CPU Usage 25.71
+Total Memory 23973
+Used Memory 8216
+Free Memory 5499
+Length: 255; Score: 0
+
+Episode 766
+CPU Usage 25.71
+Total Memory 23973
+Used Memory 8217
+Free Memory 5495
+Length: 4037; Score: -600
+
+Episode 767
+CPU Usage 25.73
+Total Memory 23973
+Used Memory 8249
+Free Memory 5496
+Length: 495; Score: -19
+
+Episode 768
+CPU Usage 25.73
+Total Memory 23973
+Used Memory 8252
+Free Memory 5502
+Length: 415; Score: -11
+
+Episode 769
+CPU Usage 25.74
+Total Memory 23973
+Used Memory 8255
+Free Memory 5503
+Length: 597; Score: 0
+
+Episode 770
+CPU Usage 25.74
+Total Memory 23973
+Used Memory 8259
+Free Memory 5504
+Length: 2449; Score: -100
+
+Episode 771
+CPU Usage 25.75
+Total Memory 23973
+Used Memory 8275
+Free Memory 5508
+Length: 2334; Score: -1288
+
+Episode 772
+CPU Usage 25.76
+Total Memory 23973
+Used Memory 8292
+Free Memory 5495
+Length: 2532; Score: -200
+
+Episode 773
+CPU Usage 25.77
+Total Memory 23973
+Used Memory 8307
+Free Memory 5487
+Length: 325; Score: -9
+
+Episode 774
+CPU Usage 25.77
+Total Memory 23973
+Used Memory 8309
+Free Memory 5485
+Length: 432; Score: -5
+
+Episode 775
+CPU Usage 25.78
+Total Memory 23973
+Used Memory 8311
+Free Memory 5480
+Length: 2976; Score: -480
+
+Episode 776
+CPU Usage 25.79
+Total Memory 23973
+Used Memory 8329
+Free Memory 5470
+Length: 1619; Score: 0
+
+Episode 777
+CPU Usage 25.8
+Total Memory 23973
+Used Memory 8336
+Free Memory 5466
+Length: 679; Score: -50
+
+Episode 778
+CPU Usage 25.8
+Total Memory 23973
+Used Memory 8339
+Free Memory 5462
+Updating target network...
+Length: 541; Score: 0
+
+Episode 779
+CPU Usage 25.8
+Total Memory 23973
+Used Memory 8343
+Free Memory 5459
+Length: 2098; Score: -1125
+
+Episode 780
+CPU Usage 25.81
+Total Memory 23973
+Used Memory 8354
+Free Memory 5368
+Length: 3275; Score: -200
+
+Episode 781
+CPU Usage 25.83
+Total Memory 23973
+Used Memory 8377
+Free Memory 5383
+Length: 326; Score: 0
+
+Episode 782
+CPU Usage 25.83
+Total Memory 23973
+Used Memory 8379
+Free Memory 5381
+Length: 586; Score: -70
+
+Episode 783
+CPU Usage 25.83
+Total Memory 23973
+Used Memory 8381
+Free Memory 5380
+Length: 321; Score: 0
+
+Episode 784
+CPU Usage 25.83
+Total Memory 23973
+Used Memory 8383
+Free Memory 5377
+Length: 1532; Score: -100
+
+Episode 785
+CPU Usage 25.84
+Total Memory 23973
+Used Memory 8388
+Free Memory 5319
+Length: 922; Score: 0
+
+Episode 786
+CPU Usage 25.84
+Total Memory 23973
+Used Memory 8394
+Free Memory 5310
+Length: 928; Score: -96
+
+Episode 787
+CPU Usage 25.85
+Total Memory 23973
+Used Memory 8402
+Free Memory 5304
+Length: 3104; Score: -308
+
+Episode 788
+CPU Usage 25.86
+Total Memory 23973
+Used Memory 8428
+Free Memory 5275
+Length: 2679; Score: -100
+
+Episode 789
+CPU Usage 25.88
+Total Memory 23973
+Used Memory 8451
+Free Memory 5273
+Length: 497; Score: 0
+
+Episode 790
+CPU Usage 25.88
+Total Memory 23973
+Used Memory 8449
+Free Memory 5276
+Length: 444; Score: -48
+
+Episode 791
+CPU Usage 25.88
+Total Memory 23973
+Used Memory 8448
+Free Memory 5278
+Length: 1785; Score: -325
+
+Episode 792
+CPU Usage 25.89
+Total Memory 23973
+Used Memory 8444
+Free Memory 5290
+Length: 1603; Score: -100
+
+Episode 793
+CPU Usage 25.9
+Total Memory 23973
+Used Memory 8443
+Free Memory 5293
+Length: 1063; Score: -100
+
+Episode 794
+CPU Usage 25.9
+Total Memory 23973
+Used Memory 8444
+Free Memory 5298
+Length: 1559; Score: -226
+
+Episode 795
+CPU Usage 25.91
+Total Memory 23973
+Used Memory 8446
+Free Memory 5312
+Length: 1714; Score: -126
+
+Episode 796
+CPU Usage 25.92
+Total Memory 23973
+Used Memory 8447
+Free Memory 5320
+Length: 831; Score: -74
+
+Episode 797
+CPU Usage 25.92
+Total Memory 23973
+Used Memory 8450
+Free Memory 5321
+Length: 3072; Score: 0
+
+Episode 798
+CPU Usage 25.94
+Total Memory 23973
+Used Memory 8455
+Free Memory 5273
+Length: 428; Score: -20
+
+Episode 799
+CPU Usage 25.94
+Total Memory 23973
+Used Memory 8457
+Free Memory 5284
+Length: 1945; Score: -100
+
+Episode 800
+CPU Usage 25.95
+Total Memory 23973
+Used Memory 8466
+Free Memory 5282
+Length: 413; Score: 0
+
+Episode 801
+CPU Usage 25.95
+Total Memory 23973
+Used Memory 8466
+Free Memory 5281
+Length: 706; Score: -90
+
+Episode 802
+CPU Usage 25.95
+Total Memory 23973
+Used Memory 8469
+Free Memory 5278
+Length: 1099; Score: -26
+
+Episode 803
+CPU Usage 25.96
+Total Memory 23973
+Used Memory 8482
+Free Memory 5283
+Length: 843; Score: -22
+
+Episode 804
+CPU Usage 25.96
+Total Memory 23973
+Used Memory 8472
+Free Memory 5291
+Length: 1815; Score: -100
+
+Episode 805
+CPU Usage 25.97
+Total Memory 23973
+Used Memory 8474
+Free Memory 5295
+Length: 1699; Score: -100
+
+Episode 806
+CPU Usage 25.98
+Total Memory 23973
+Used Memory 8474
+Free Memory 5302
+Length: 578; Score: -64
+
+Episode 807
+CPU Usage 25.98
+Total Memory 23973
+Used Memory 8474
+Free Memory 5310
+Length: 320; Score: -27
+
+Episode 808
+CPU Usage 25.98
+Total Memory 23973
+Used Memory 8474
+Free Memory 5310
+Length: 1589; Score: -224
+
+Episode 809
+CPU Usage 25.99
+Total Memory 23973
+Used Memory 8476
+Free Memory 5322
+Updating target network...
+Length: 268; Score: 0
+
+Episode 810
+CPU Usage 25.99
+Total Memory 23973
+Used Memory 8476
+Free Memory 5325
+Length: 1279; Score: 0
+
+Episode 811
+CPU Usage 25.99
+Total Memory 23973
+Used Memory 8476
+Free Memory 5325
+Length: 2167; Score: -275
+
+Episode 812
+CPU Usage 26.0
+Total Memory 23973
+Used Memory 8468
+Free Memory 5323
+Length: 2726; Score: -100
+
+Episode 813
+CPU Usage 26.01
+Total Memory 23973
+Used Memory 8475
+Free Memory 5317
+Length: 324; Score: 0
+
+Episode 814
+CPU Usage 26.01
+Total Memory 23973
+Used Memory 8470
+Free Memory 5323
+Length: 352; Score: 0
+
+Episode 815
+CPU Usage 26.02
+Total Memory 23973
+Used Memory 8467
+Free Memory 5326
+Length: 495; Score: -46
+
+Episode 816
+CPU Usage 26.02
+Total Memory 23973
+Used Memory 8463
+Free Memory 5334
+Length: 5991; Score: -100
+
+Episode 817
+CPU Usage 26.04
+Total Memory 23973
+Used Memory 8450
+Free Memory 5272
+Length: 2055; Score: -200
+
+Episode 818
+CPU Usage 26.05
+Total Memory 23973
+Used Memory 8456
+Free Memory 5271
+Length: 632; Score: -44
+
+Episode 819
+CPU Usage 26.06
+Total Memory 23973
+Used Memory 8458
+Free Memory 5264
+Length: 418; Score: 0
+
+Episode 820
+CPU Usage 26.06
+Total Memory 23973
+Used Memory 8459
+Free Memory 5261
+Length: 404; Score: -17
+
+Episode 821
+CPU Usage 26.06
+Total Memory 23973
+Used Memory 8463
+Free Memory 5252
+Length: 359; Score: -48
+
+Episode 822
+CPU Usage 26.06
+Total Memory 23973
+Used Memory 8464
+Free Memory 5278
+Length: 2271; Score: -444
+
+Episode 823
+CPU Usage 26.07
+Total Memory 23973
+Used Memory 8472
+Free Memory 5240
+Saving model as model_best.h5
+Length: 2425; Score: -100
+
+Episode 824
+CPU Usage 26.09
+Total Memory 23973
+Used Memory 8479
+Free Memory 5194
+Length: 1596; Score: -200
+
+Episode 825
+CPU Usage 26.09
+Total Memory 23973
+Used Memory 8484
+Free Memory 5209
+Length: 415; Score: 0
+
+Episode 826
+CPU Usage 26.1
+Total Memory 23973
+Used Memory 8485
+Free Memory 5208
+Length: 416; Score: 0
+
+Episode 827
+CPU Usage 26.1
+Total Memory 23973
+Used Memory 8489
+Free Memory 5205
+Length: 3835; Score: -100
+
+Episode 828
+CPU Usage 26.12
+Total Memory 23973
+Used Memory 8513
+Free Memory 5199
+Length: 427; Score: 0
+
+Episode 829
+CPU Usage 26.12
+Total Memory 23973
+Used Memory 8512
+Free Memory 5197
+Length: 333; Score: 0
+
+Episode 830
+CPU Usage 26.12
+Total Memory 23973
+Used Memory 8515
+Free Memory 5200
+Length: 422; Score: 0
+
+Episode 831
+CPU Usage 26.12
+Total Memory 23973
+Used Memory 8516
+Free Memory 5204
+Length: 339; Score: 0
+
+Episode 832
+CPU Usage 26.12
+Total Memory 23973
+Used Memory 8517
+Free Memory 5206
+Length: 2568; Score: -320
+
+Episode 833
+CPU Usage 26.14
+Total Memory 23973
+Used Memory 8537
+Free Memory 5153
+Length: 580; Score: 0
+
+Episode 834
+CPU Usage 26.14
+Total Memory 23973
+Used Memory 8543
+Free Memory 5151
+Length: 920; Score: -100
+
+Episode 835
+CPU Usage 26.14
+Total Memory 23973
+Used Memory 8545
+Free Memory 5143
+Length: 1120; Score: -65
+
+Episode 836
+CPU Usage 26.15
+Total Memory 23973
+Used Memory 8550
+Free Memory 5149
+Length: 329; Score: 0
+
+Episode 837
+CPU Usage 26.15
+Total Memory 23973
+Used Memory 8552
+Free Memory 5147
+Length: 234; Score: 0
+
+Episode 838
+CPU Usage 26.15
+Total Memory 23973
+Used Memory 8553
+Free Memory 5148
+Length: 3905; Score: -100
+
+Episode 839
+CPU Usage 26.17
+Total Memory 23973
+Used Memory 8569
+Free Memory 5174
+Updating target network...
+Length: 923; Score: -124
+
+Episode 840
+CPU Usage 26.17
+Total Memory 23973
+Used Memory 8574
+Free Memory 5177
+Length: 359; Score: 0
+
+Episode 841
+CPU Usage 26.17
+Total Memory 23973
+Used Memory 8572
+Free Memory 5183
+Length: 329; Score: 0
+
+Episode 842
+CPU Usage 26.17
+Total Memory 23973
+Used Memory 8572
+Free Memory 5188
+Length: 1934; Score: -428
+
+Episode 843
+CPU Usage 26.18
+Total Memory 23973
+Used Memory 8576
+Free Memory 5191
+Length: 755; Score: 0
+
+Episode 844
+CPU Usage 26.18
+Total Memory 23973
+Used Memory 8576
+Free Memory 5200
+Length: 322; Score: 0
+
+Episode 845
+CPU Usage 26.19
+Total Memory 23973
+Used Memory 8578
+Free Memory 5201
+Length: 2186; Score: -100
+
+Episode 846
+CPU Usage 26.2
+Total Memory 23973
+Used Memory 8580
+Free Memory 5216
+Length: 1323; Score: -124
+
+Episode 847
+CPU Usage 26.2
+Total Memory 23973
+Used Memory 8579
+Free Memory 5217
+Length: 1632; Score: 0
+
+Episode 848
+CPU Usage 26.21
+Total Memory 23973
+Used Memory 8581
+Free Memory 5215
+Length: 741; Score: -120
+
+Episode 849
+CPU Usage 26.21
+Total Memory 23973
+Used Memory 8582
+Free Memory 5214
+Length: 332; Score: 0
+
+Episode 850
+CPU Usage 26.21
+Total Memory 23973
+Used Memory 8583
+Free Memory 5236
+Length: 498; Score: -35
+
+Episode 851
+CPU Usage 26.21
+Total Memory 23973
+Used Memory 8580
+Free Memory 5228
+Length: 336; Score: -1
+
+Episode 852
+CPU Usage 26.22
+Total Memory 23973
+Used Memory 8586
+Free Memory 5225
+Length: 1410; Score: -228
+
+Episode 853
+CPU Usage 26.22
+Total Memory 23973
+Used Memory 8578
+Free Memory 5235
+Length: 1614; Score: -100
+
+Episode 854
+CPU Usage 26.23
+Total Memory 23973
+Used Memory 8585
+Free Memory 5233
+Length: 590; Score: 0
+
+Episode 855
+CPU Usage 26.23
+Total Memory 23973
+Used Memory 8577
+Free Memory 5242
+Length: 508; Score: 0
+
+Episode 856
+CPU Usage 26.23
+Total Memory 23973
+Used Memory 8579
+Free Memory 5241
+Length: 331; Score: 0
+
+Episode 857
+CPU Usage 26.23
+Total Memory 23973
+Used Memory 8577
+Free Memory 5242
+Length: 591; Score: -22
+
+Episode 858
+CPU Usage 26.24
+Total Memory 23973
+Used Memory 8579
+Free Memory 5240
+Length: 489; Score: -43
+
+Episode 859
+CPU Usage 26.24
+Total Memory 23973
+Used Memory 8584
+Free Memory 5237
+Length: 326; Score: -19
+
+Episode 860
+CPU Usage 26.24
+Total Memory 23973
+Used Memory 8591
+Free Memory 5232
+Length: 415; Score: 0
+
+Episode 861
+CPU Usage 26.24
+Total Memory 23973
+Used Memory 8574
+Free Memory 5193
+Length: 618; Score: -32
+
+Episode 862
+CPU Usage 26.24
+Total Memory 23973
+Used Memory 8571
+Free Memory 5131
+Length: 522; Score: -13
+
+Episode 863
+CPU Usage 26.25
+Total Memory 23973
+Used Memory 8570
+Free Memory 5153
+Length: 428; Score: 0
+
+Episode 864
+CPU Usage 26.25
+Total Memory 23973
+Used Memory 8571
+Free Memory 5158
+Length: 659; Score: 0
+
+Episode 865
+CPU Usage 26.25
+Total Memory 23973
+Used Memory 8575
+Free Memory 5148
+Length: 1407; Score: -100
+
+Episode 866
+CPU Usage 26.26
+Total Memory 23973
+Used Memory 8578
+Free Memory 5151
+Length: 614; Score: -100
+
+Episode 867
+CPU Usage 26.26
+Total Memory 23973
+Used Memory 8579
+Free Memory 5156
+Length: 498; Score: -22
+
+Episode 868
+CPU Usage 26.26
+Total Memory 23973
+Used Memory 8582
+Free Memory 5155
+Length: 506; Score: 0
+
+Episode 869
+CPU Usage 26.26
+Total Memory 23973
+Used Memory 8583
+Free Memory 5158
+Length: 495; Score: 0
+
+Episode 870
+CPU Usage 26.26
+Total Memory 23973
+Used Memory 8582
+Free Memory 5168
+Length: 503; Score: 0
+
+Episode 871
+CPU Usage 26.27
+Total Memory 23973
+Used Memory 8647
+Free Memory 5058
+Length: 681; Score: -24
+
+Episode 872
+CPU Usage 26.27
+Total Memory 23973
+Used Memory 8580
+Free Memory 5068
+Length: 1025; Score: 0
+
+Episode 873
+CPU Usage 26.27
+Total Memory 23973
+Used Memory 8585
+Free Memory 5088
+Length: 336; Score: -17
+
+Episode 874
+CPU Usage 26.28
+Total Memory 23973
+Used Memory 8585
+Free Memory 5090
+Length: 406; Score: 0
+
+Episode 875
+CPU Usage 26.28
+Total Memory 23973
+Used Memory 8588
+Free Memory 5095
+Length: 373; Score: 0
+
+Episode 876
+CPU Usage 26.28
+Total Memory 23973
+Used Memory 8591
+Free Memory 5104
+Length: 884; Score: -100
+
+Episode 877
+CPU Usage 26.28
+Total Memory 23973
+Used Memory 8597
+Free Memory 5097
+Length: 746; Score: -67
+
+Episode 878
+CPU Usage 26.29
+Total Memory 23973
+Used Memory 8601
+Free Memory 5100
+Length: 411; Score: 0
+
+Episode 879
+CPU Usage 26.29
+Total Memory 23973
+Used Memory 8603
+Free Memory 5102
+Length: 323; Score: -27
+
+Episode 880
+CPU Usage 26.29
+Total Memory 23973
+Used Memory 8605
+Free Memory 5096
+Length: 1016; Score: -110
+
+Episode 881
+CPU Usage 26.29
+Total Memory 23973
+Used Memory 8608
+Free Memory 5098
+Length: 342; Score: 0
+
+Episode 882
+CPU Usage 26.29
+Total Memory 23973
+Used Memory 8610
+Free Memory 5105
+Length: 1791; Score: -241
+
+Episode 883
+CPU Usage 26.3
+Total Memory 23973
+Used Memory 8611
+Free Memory 5115
+Length: 318; Score: -37
+
+Episode 884
+CPU Usage 26.3
+Total Memory 23973
+Used Memory 8612
+Free Memory 5112
+Length: 1462; Score: -224
+
+Episode 885
+CPU Usage 26.31
+Total Memory 23973
+Used Memory 8611
+Free Memory 5120
+Length: 600; Score: -100
+
+Episode 886
+CPU Usage 26.31
+Total Memory 23973
+Used Memory 8613
+Free Memory 5133
+Length: 473; Score: 0
+
+Episode 887
+CPU Usage 26.32
+Total Memory 23973
+Used Memory 8856
+Free Memory 4806
+Length: 1452; Score: -100
+
+Episode 888
+CPU Usage 26.33
+Total Memory 23973
+Used Memory 9205
+Free Memory 4169
+Length: 595; Score: -22
+
+Episode 889
+CPU Usage 26.33
+Total Memory 23973
+Used Memory 9201
+Free Memory 4161
+Length: 2501; Score: -100
+
+Episode 890
+CPU Usage 26.35
+Total Memory 23973
+Used Memory 9426
+Free Memory 4086
+Length: 329; Score: -9
+
+Episode 891
+CPU Usage 26.35
+Total Memory 23973
+Used Memory 9438
+Free Memory 4103
+Updating target network...
+Length: 3739; Score: -424
+
+Episode 892
+CPU Usage 26.38
+Total Memory 23973
+Used Memory 9131
+Free Memory 4216
+Length: 414; Score: 0
+
+Episode 893
+CPU Usage 26.38
+Total Memory 23973
+Used Memory 9143
+Free Memory 4173
+Length: 572; Score: -110
+
+Episode 894
+CPU Usage 26.39
+Total Memory 23973
+Used Memory 9123
+Free Memory 4272
+Length: 860; Score: -100
+
+Episode 895
+CPU Usage 26.39
+Total Memory 23973
+Used Memory 9083
+Free Memory 4284
+Length: 675; Score: -126
+
+Episode 896
+CPU Usage 26.4
+Total Memory 23973
+Used Memory 9061
+Free Memory 4216
+Length: 678; Score: -39
+
+Episode 897
+CPU Usage 26.4
+Total Memory 23973
+Used Memory 9163
+Free Memory 4197
+Length: 221; Score: 0
+
+Episode 898
+CPU Usage 26.4
+Total Memory 23973
+Used Memory 9554
+Free Memory 4054
+Length: 497; Score: -17
+
+Episode 899
+CPU Usage 26.4
+Total Memory 23973
+Used Memory 9534
+Free Memory 3995
+Length: 647; Score: 0
+
+Episode 900
+CPU Usage 26.41
+Total Memory 23973
+Used Memory 9464
+Free Memory 4045
+Length: 1075; Score: 0
+
+Episode 901
+CPU Usage 26.41
+Total Memory 23973
+Used Memory 9389
+Free Memory 4193
+Length: 488; Score: 0
+
+Episode 902
+CPU Usage 26.42
+Total Memory 23973
+Used Memory 9387
+Free Memory 4198
+Length: 999; Score: -184
+
+Episode 903
+CPU Usage 26.42
+Total Memory 23973
+Used Memory 9390
+Free Memory 4186
+Length: 755; Score: -11
+
+Episode 904
+CPU Usage 26.43
+Total Memory 23973
+Used Memory 9391
+Free Memory 4199
+Length: 349; Score: -16
+
+Episode 905
+CPU Usage 26.43
+Total Memory 23973
+Used Memory 9424
+Free Memory 4176
+Length: 319; Score: 0
+
+Episode 906
+CPU Usage 26.43
+Total Memory 23973
+Used Memory 9395
+Free Memory 4209
+Length: 767; Score: -100
+
+Episode 907
+CPU Usage 26.43
+Total Memory 23973
+Used Memory 9407
+Free Memory 4210
+Length: 324; Score: -5
+
+Episode 908
+CPU Usage 26.44
+Total Memory 23973
+Used Memory 9412
+Free Memory 4208
+Length: 1169; Score: -24
+
+Episode 909
+CPU Usage 26.44
+Total Memory 23973
+Used Memory 9429
+Free Memory 4164
+Length: 320; Score: -24
+
+Episode 910
+CPU Usage 26.44
+Total Memory 23973
+Used Memory 9672
+Free Memory 3992
+Length: 324; Score: 0
+
+Episode 911
+CPU Usage 26.45
+Total Memory 23973
+Used Memory 9683
+Free Memory 3979
+Length: 326; Score: 0
+
+Episode 912
+CPU Usage 26.45
+Total Memory 23973
+Used Memory 9687
+Free Memory 3998
+Length: 838; Score: 0
+
+Episode 913
+CPU Usage 26.45
+Total Memory 23973
+Used Memory 9576
+Free Memory 4093
+Length: 341; Score: 0
+
+Episode 914
+CPU Usage 26.46
+Total Memory 23973
+Used Memory 9551
+Free Memory 4115
+Length: 409; Score: 0
+
+Episode 915
+CPU Usage 26.46
+Total Memory 23973
+Used Memory 9255
+Free Memory 4413
+Length: 417; Score: 0
+
+Episode 916
+CPU Usage 26.46
+Total Memory 23973
+Used Memory 9272
+Free Memory 4373
+Length: 658; Score: 0
+
+Episode 917
+CPU Usage 26.46
+Total Memory 23973
+Used Memory 9291
+Free Memory 4352
+Length: 324; Score: -36
+
+Episode 918
+CPU Usage 26.47
+Total Memory 23973
+Used Memory 9336
+Free Memory 4247
+Length: 423; Score: 0
+
+Episode 919
+CPU Usage 26.47
+Total Memory 23973
+Used Memory 9349
+Free Memory 4235
+Length: 409; Score: 0
+
+Episode 920
+CPU Usage 26.47
+Total Memory 23973
+Used Memory 9385
+Free Memory 4202
+Length: 426; Score: 0
+
+Episode 921
+CPU Usage 26.48
+Total Memory 23973
+Used Memory 8614
+Free Memory 4759
+Length: 682; Score: -61
+
+Episode 922
+CPU Usage 26.48
+Total Memory 23973
+Used Memory 8891
+Free Memory 4391
+Length: 814; Score: -250
+
+Episode 923
+CPU Usage 26.49
+Total Memory 23973
+Used Memory 9111
+Free Memory 4201
+Length: 2565; Score: -226
+
+Episode 924
+CPU Usage 26.51
+Total Memory 23973
+Used Memory 9145
+Free Memory 4212
+Length: 602; Score: -24
+
+Episode 925
+CPU Usage 26.51
+Total Memory 23973
+Used Memory 9181
+Free Memory 4214
+Length: 345; Score: 0
+
+Episode 926
+CPU Usage 26.51
+Total Memory 23973
+Used Memory 9196
+Free Memory 4221
+Length: 332; Score: -21
+
+Episode 927
+CPU Usage 26.51
+Total Memory 23973
+Used Memory 9207
+Free Memory 4206
+Length: 764; Score: -200
+
+Episode 928
+CPU Usage 26.52
+Total Memory 23973
+Used Memory 9254
+Free Memory 4222
+Length: 597; Score: -33
+
+Episode 929
+CPU Usage 26.52
+Total Memory 23973
+Used Memory 9279
+Free Memory 4229
+Length: 490; Score: -26
+
+Episode 930
+CPU Usage 26.53
+Total Memory 23973
+Used Memory 9298
+Free Memory 4207
+Length: 413; Score: 0
+
+Episode 931
+CPU Usage 26.53
+Total Memory 23973
+Used Memory 9311
+Free Memory 4212
+Length: 455; Score: -26
+
+Episode 932
+CPU Usage 26.53
+Total Memory 23973
+Used Memory 9338
+Free Memory 4202
+Length: 764; Score: -101
+
+Episode 933
+CPU Usage 26.54
+Total Memory 23973
+Used Memory 9358
+Free Memory 4207
+Length: 665; Score: -22
+
+Episode 934
+CPU Usage 26.54
+Total Memory 23973
+Used Memory 9396
+Free Memory 4171
+Length: 679; Score: 0
+
+Episode 935
+CPU Usage 26.54
+Total Memory 23973
+Used Memory 9302
+Free Memory 4180
+Updating target network...
+Length: 24085; Score: -1262
+
+Episode 936
+CPU Usage 26.69
+Total Memory 23973
+Used Memory 9597
+Free Memory 3956
+Length: 2353; Score: -100
+
+Episode 937
+CPU Usage 26.7
+Total Memory 23973
+Used Memory 9641
+Free Memory 3899
+Length: 2000; Score: 0
+
+Episode 938
+CPU Usage 26.71
+Total Memory 23973
+Used Memory 9602
+Free Memory 3954
+Length: 678; Score: -100
+
+Episode 939
+CPU Usage 26.72
+Total Memory 23973
+Used Memory 9607
+Free Memory 3969
+Length: 760; Score: -52
+
+Episode 940
+CPU Usage 26.72
+Total Memory 23973
+Used Memory 9625
+Free Memory 3991
+Length: 1149; Score: -146
+
+Episode 941
+CPU Usage 26.73
+Total Memory 23973
+Used Memory 9623
+Free Memory 4021
+Length: 1822; Score: -100
+
+Episode 942
+CPU Usage 26.74
+Total Memory 23973
+Used Memory 9872
+Free Memory 3680
+Length: 416; Score: 0
+
+Episode 943
+CPU Usage 26.75
+Total Memory 23973
+Used Memory 9845
+Free Memory 3692
+Length: 587; Score: -65
+
+Episode 944
+CPU Usage 26.76
+Total Memory 23973
+Used Memory 9831
+Free Memory 3704
+Length: 2238; Score: -161
+
+Episode 945
+CPU Usage 26.78
+Total Memory 23973
+Used Memory 9837
+Free Memory 3784
+Length: 751; Score: -42
+
+Episode 946
+CPU Usage 26.78
+Total Memory 23973
+Used Memory 9859
+Free Memory 3761
+Length: 406; Score: -50
+
+Episode 947
+CPU Usage 26.78
+Total Memory 23973
+Used Memory 9856
+Free Memory 3775
+Length: 949; Score: -124
+
+Episode 948
+CPU Usage 26.79
+Total Memory 23973
+Used Memory 9884
+Free Memory 3769
+Length: 1758; Score: -100
+
+Episode 949
+CPU Usage 26.8
+Total Memory 23973
+Used Memory 9888
+Free Memory 3799
+Length: 587; Score: -6
+
+Episode 950
+CPU Usage 26.8
+Total Memory 23973
+Used Memory 9884
+Free Memory 3789
+Length: 839; Score: 0
+
+Episode 951
+CPU Usage 26.8
+Total Memory 23973
+Used Memory 9879
+Free Memory 3802
+Length: 585; Score: -18
+
+Episode 952
+CPU Usage 26.81
+Total Memory 23973
+Used Memory 9881
+Free Memory 3817
+Length: 619; Score: 0
+
+Episode 953
+CPU Usage 26.81
+Total Memory 23973
+Used Memory 9881
+Free Memory 3847
+Length: 920; Score: -100
+
+Episode 954
+CPU Usage 26.81
+Total Memory 23973
+Used Memory 9862
+Free Memory 3849
+Length: 1015; Score: 0
+
+Episode 955
+CPU Usage 26.82
+Total Memory 23973
+Used Memory 9862
+Free Memory 3839
+Length: 273; Score: 0
+
+Episode 956
+CPU Usage 26.82
+Total Memory 23973
+Used Memory 9888
+Free Memory 3821
+Length: 678; Score: -60
+
+Episode 957
+CPU Usage 26.82
+Total Memory 23973
+Used Memory 9892
+Free Memory 3782
+Length: 763; Score: -21
+
+Episode 958
+CPU Usage 26.83
+Total Memory 23973
+Used Memory 9887
+Free Memory 3793
+Length: 478; Score: 0
+
+Episode 959
+CPU Usage 26.83
+Total Memory 23973
+Used Memory 9894
+Free Memory 3787
+Length: 1035; Score: -17
+
+Episode 960
+CPU Usage 26.84
+Total Memory 23973
+Used Memory 9917
+Free Memory 3726
+Length: 339; Score: 0
+
+Episode 961
+CPU Usage 26.84
+Total Memory 23973
+Used Memory 9857
+Free Memory 3767
+Length: 705; Score: -100
+
+Episode 962
+CPU Usage 26.84
+Total Memory 23973
+Used Memory 9860
+Free Memory 3786
+Length: 330; Score: 0
+
+Episode 963
+CPU Usage 26.84
+Total Memory 23973
+Used Memory 9864
+Free Memory 3786
+Updating target network...
+Length: 3339; Score: -100
+
+Episode 964
+CPU Usage 26.86
+Total Memory 23973
+Used Memory 9845
+Free Memory 3843
+Length: 2364; Score: -868
+
+Episode 965
+CPU Usage 26.87
+Total Memory 23973
+Used Memory 9893
+Free Memory 3617
+Length: 1776; Score: -505
+
+Episode 966
+CPU Usage 26.88
+Total Memory 23973
+Used Memory 9881
+Free Memory 3621
+Length: 1071; Score: -130
+
+Episode 967
+CPU Usage 26.88
+Total Memory 23973
+Used Memory 9884
+Free Memory 3645
+Length: 590; Score: -40
+
+Episode 968
+CPU Usage 26.89
+Total Memory 23973
+Used Memory 9892
+Free Memory 3682
+Length: 513; Score: -20
+
+Episode 969
+CPU Usage 26.89
+Total Memory 23973
+Used Memory 9885
+Free Memory 3692
+Length: 1010; Score: -66
+
+Episode 970
+CPU Usage 26.89
+Total Memory 23973
+Used Memory 9886
+Free Memory 3717
+Length: 584; Score: -113
+
+Episode 971
+CPU Usage 26.89
+Total Memory 23973
+Used Memory 9910
+Free Memory 3701
+Length: 329; Score: 0
+
+Episode 972
+CPU Usage 26.9
+Total Memory 23973
+Used Memory 9888
+Free Memory 3721
+Length: 327; Score: -4
+
+Episode 973
+CPU Usage 26.9
+Total Memory 23973
+Used Memory 9884
+Free Memory 3728
+Length: 756; Score: -29
+
+Episode 974
+CPU Usage 26.9
+Total Memory 23973
+Used Memory 9870
+Free Memory 3639
+Length: 1415; Score: -124
+
+Episode 975
+CPU Usage 26.91
+Total Memory 23973
+Used Memory 9883
+Free Memory 3678
+Length: 565; Score: 0
+
+Episode 976
+CPU Usage 26.91
+Total Memory 23973
+Used Memory 9878
+Free Memory 3704
+Length: 411; Score: -1
+
+Episode 977
+CPU Usage 26.91
+Total Memory 23973
+Used Memory 9876
+Free Memory 3736
+Length: 555; Score: 0
+
+Episode 978
+CPU Usage 26.91
+Total Memory 23973
+Used Memory 9884
+Free Memory 3737
+Length: 1014; Score: -236
+
+Episode 979
+CPU Usage 26.92
+Total Memory 23973
+Used Memory 9930
+Free Memory 3728
+Length: 3897; Score: -200
+
+Episode 980
+CPU Usage 26.94
+Total Memory 23973
+Used Memory 9365
+Free Memory 4187
+Length: 1161; Score: -119
+
+Episode 981
+CPU Usage 26.95
+Total Memory 23973
+Used Memory 9384
+Free Memory 4140
+Length: 843; Score: -39
+
+Episode 982
+CPU Usage 26.95
+Total Memory 23973
+Used Memory 9393
+Free Memory 4119
+Length: 1209; Score: -200
+
+Episode 983
+CPU Usage 26.96
+Total Memory 23973
+Used Memory 9410
+Free Memory 4097
+Length: 401; Score: -46
+
+Episode 984
+CPU Usage 26.96
+Total Memory 23973
+Used Memory 9433
+Free Memory 4051
+Length: 1371; Score: -419
+
+Episode 985
+CPU Usage 26.97
+Total Memory 23973
+Used Memory 9449
+Free Memory 4061
+Length: 335; Score: 0
+
+Episode 986
+CPU Usage 26.97
+Total Memory 23973
+Used Memory 9454
+Free Memory 4056
+Length: 453; Score: -24
+
+Episode 987
+CPU Usage 26.98
+Total Memory 23973
+Used Memory 9127
+Free Memory 4382
+Length: 385; Score: 0
+
+Episode 988
+CPU Usage 26.98
+Total Memory 23973
+Used Memory 9104
+Free Memory 4381
+Length: 655; Score: -28
+
+Episode 989
+CPU Usage 26.98
+Total Memory 23973
+Used Memory 9091
+Free Memory 4397
+Length: 352; Score: 0
+
+Episode 990
+CPU Usage 26.99
+Total Memory 23973
+Used Memory 9092
+Free Memory 4396
+Length: 498; Score: 0
+
+Episode 991
+CPU Usage 26.99
+Total Memory 23973
+Used Memory 9080
+Free Memory 4405
+Length: 3273; Score: -142
+
+Episode 992
+CPU Usage 27.0
+Total Memory 23973
+Used Memory 9260
+Free Memory 4228
+Length: 664; Score: -100
+
+Episode 993
+CPU Usage 27.01
+Total Memory 23973
+Used Memory 9301
+Free Memory 4230
+Length: 656; Score: 0
+
+Episode 994
+CPU Usage 27.01
+Total Memory 23973
+Used Memory 9325
+Free Memory 4261
+Length: 1799; Score: -100
+
+Episode 995
+CPU Usage 27.02
+Total Memory 23973
+Used Memory 9450
+Free Memory 4222
+Length: 628; Score: -32
+
+Episode 996
+CPU Usage 27.02
+Total Memory 23973
+Used Memory 9481
+Free Memory 4226
+Length: 997; Score: -50
+
+Episode 997
+CPU Usage 27.03
+Total Memory 23973
+Used Memory 9496
+Free Memory 4201
+Length: 582; Score: -100
+
+Episode 998
+CPU Usage 27.03
+Total Memory 23973
+Used Memory 9509
+Free Memory 4196
+Length: 577; Score: -90
+
+Episode 999
+CPU Usage 27.03
+Total Memory 23973
+Used Memory 9516
+Free Memory 4179
+Length: 929; Score: -121
+
+Episode 1000
+CPU Usage 27.03
+Total Memory 23973
+Used Memory 9524
+Free Memory 4179
+Length: 491; Score: -21
+
+Episode 1001
+CPU Usage 27.04
+Total Memory 23973
+Used Memory 9506
+Free Memory 4178
+Length: 1442; Score: 0
+
+Episode 1002
+CPU Usage 27.04
+Total Memory 23973
+Used Memory 9492
+Free Memory 4188
+Length: 291; Score: 0
+
+Episode 1003
+CPU Usage 27.04
+Total Memory 23973
+Used Memory 9490
+Free Memory 4192
+Updating target network...
+Length: 2319; Score: -100
+
+Episode 1004
+CPU Usage 27.06
+Total Memory 23973
+Used Memory 9502
+Free Memory 4195
+Length: 1130; Score: -200
+
+Episode 1005
+CPU Usage 27.06
+Total Memory 23973
+Used Memory 9479
+Free Memory 4195
+Length: 746; Score: 0
+
+Episode 1006
+CPU Usage 27.07
+Total Memory 23973
+Used Memory 9485
+Free Memory 4187
+Length: 430; Score: 0
+
+Episode 1007
+CPU Usage 27.07
+Total Memory 23973
+Used Memory 9462
+Free Memory 4212
+Length: 582; Score: 0
+
+Episode 1008
+CPU Usage 27.07
+Total Memory 23973
+Used Memory 9487
+Free Memory 4194
+Length: 1974; Score: -698
+
+Episode 1009
+CPU Usage 27.08
+Total Memory 23973
+Used Memory 9505
+Free Memory 4184
+Length: 1293; Score: -436
+
+Episode 1010
+CPU Usage 27.09
+Total Memory 23973
+Used Memory 9498
+Free Memory 4211
+Length: 499; Score: -100
+
+Episode 1011
+CPU Usage 27.09
+Total Memory 23973
+Used Memory 9499
+Free Memory 4216
+Length: 328; Score: 0
+
+Episode 1012
+CPU Usage 27.1
+Total Memory 23973
+Used Memory 9505
+Free Memory 4185
+Length: 1857; Score: 0
+
+Episode 1013
+CPU Usage 27.11
+Total Memory 23973
+Used Memory 9513
+Free Memory 4196
+Length: 745; Score: -50
+
+Episode 1014
+CPU Usage 27.11
+Total Memory 23973
+Used Memory 9510
+Free Memory 4215
+Length: 405; Score: -10
+
+Episode 1015
+CPU Usage 27.11
+Total Memory 23973
+Used Memory 9515
+Free Memory 4207
+Length: 341; Score: 0
+
+Episode 1016
+CPU Usage 27.12
+Total Memory 23973
+Used Memory 9527
+Free Memory 4211
+Length: 677; Score: -19
+
+Episode 1017
+CPU Usage 27.12
+Total Memory 23973
+Used Memory 9526
+Free Memory 4210
+Length: 666; Score: 0
+
+Episode 1018
+CPU Usage 27.12
+Total Memory 23973
+Used Memory 9556
+Free Memory 4183
+Length: 1739; Score: -126
+
+Episode 1019
+CPU Usage 27.13
+Total Memory 23973
+Used Memory 9469
+Free Memory 4133
+Length: 971; Score: 0
+
+Episode 1020
+CPU Usage 27.14
+Total Memory 23973
+Used Memory 9437
+Free Memory 4186
+Length: 505; Score: 0
+
+Episode 1021
+CPU Usage 27.14
+Total Memory 23973
+Used Memory 9427
+Free Memory 4185
+Length: 330; Score: 0
+
+Episode 1022
+CPU Usage 27.14
+Total Memory 23973
+Used Memory 9421
+Free Memory 4222
+Length: 407; Score: 0
+
+Episode 1023
+CPU Usage 27.15
+Total Memory 23973
+Used Memory 9437
+Free Memory 4209
+Length: 509; Score: 0
+
+Episode 1024
+CPU Usage 27.15
+Total Memory 23973
+Used Memory 9459
+Free Memory 4208

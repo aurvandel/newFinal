@@ -1,0 +1,30 @@
+Loading weights from file...
+Loading weights from file...
+Action space: 18
+Observation space: (210, 160, 3)
+train: False
+load: output/run20200409-225013_Pitfall-v4/model_best.h5
+video: False
+debug: False
+eval: True
+environment: Pitfall-v4
+minibatch_size: 32
+replay_memory_size: 1000000.0
+target_network_update_freq: 10000.0
+avg_val_computation_freq: 50000.0
+discount_factor: 0.99
+update_freq: 4
+learning_rate: 0.00025
+epsilon: 1
+min_epsilon: 0.1
+epsilon_decrease: 9e-07
+replay_start_size: 50000.0
+initial_random_actions: 30
+dropout: 0.0
+max_episodes: inf
+max_episode_length: inf
+max_frames_number: 50000000.0
+test_freq: 250000
+validation_frames: 135000
+test_states: 30
+Saving model as model_best.h5
