@@ -127,7 +127,7 @@ n_stack = 4
 # Setup
 env = gym.make(args.environment)
 env = gym.wrappers.AtariPreprocessing(env, terminal_on_life_loss=True, scale_obs=False)
-env = gym.wrappers.FrameStack(env, n_stack)
+#env = gym.wrappers.FrameStack(env, n_stack)
 
 #IMG_SIZE = (84, 84)
 #IMG_SIZE = (84, 110)
@@ -171,12 +171,12 @@ if args.train:
         # Start episode
         logger.log("Episode %d" % episode)
         # sent to logger when I was watching memory consumption
-        cpu = utils.get_CPU_pct()
-        logger.log("CPU Usage %s" % cpu)
-        mem_G, mem_T, mem_U, mem_F = utils.get_mem()
-        logger.log("Total Memory %s" % mem_T)
-        logger.log("Used Memory %s" % mem_U)
-        logger.log("Free Memory %s" % mem_F)
+        #cpu = utils.get_CPU_pct()
+        #logger.log("CPU Usage %s" % cpu)
+        #mem_G, mem_T, mem_U, mem_F = utils.get_mem()
+        #logger.log("Total Memory %s" % mem_T)
+        #logger.log("Used Memory %s" % mem_U)
+        #logger.log("Free Memory %s" % mem_F)
         
         score = 0
 
